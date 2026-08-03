@@ -1,0 +1,2501 @@
+patient_id,age,gender,city,department,insurance_type,diagnosis,days_until_appointment,prior_no_shows,wait_time_minutes,appointment_month,no_show
+P00001,26,Male,Woodridge,Primary Care,Private,Back Pain,28,0,27,8,1
+P00001,26,Male,Woodridge,Orthopedics,Private,Allergic Reaction,4,1,47,11,1
+P00001,26,Male,Woodridge,General Surgery,Private,Asthma,52,2,22,6,0
+P00001,26,Male,Woodridge,Pediatrics,Private,Annual Checkup,2,2,30,8,0
+P00001,26,Male,Woodridge,Emergency,Private,Fracture,38,2,42,10,0
+P00001,26,Male,Woodridge,Emergency,Private,Post-Op Follow-up,7,2,36,12,1
+P00002,47,Male,Lombard,Radiology,Medicare,Migraine,19,0,12,2,1
+P00002,47,Male,Lombard,Oncology,Medicare,Routine Screening,20,1,20,5,0
+P00002,47,Male,Lombard,Oncology,Medicare,Annual Checkup,17,1,12,5,0
+P00002,47,Male,Lombard,Orthopedics,Medicare,Skin Rash,4,1,23,7,0
+P00002,47,Male,Lombard,Orthopedics,Medicare,Migraine,11,1,37,8,0
+P00002,47,Male,Lombard,Oncology,Medicare,Annual Checkup,0,1,37,12,0
+P00002,47,Male,Lombard,Emergency,Medicare,Anxiety,0,1,17,1,0
+P00002,47,Male,Lombard,Neurology,Medicare,Post-Op Follow-up,5,1,17,2,0
+P00002,47,Male,Lombard,Neurology,Medicare,Post-Op Follow-up,12,1,11,2,0
+P00002,47,Male,Lombard,Radiology,Medicare,Hypertension,15,1,19,3,0
+P00002,47,Male,Lombard,Orthopedics,Medicare,Minor Injury,1,1,21,4,0
+P00002,47,Male,Lombard,Oncology,Medicare,Anxiety,0,1,24,10,0
+P00002,47,Male,Lombard,Orthopedics,Medicare,Asthma,11,1,27,11,0
+P00002,47,Male,Lombard,Orthopedics,Medicare,Asthma,5,1,38,11,0
+P00002,47,Male,Lombard,General Surgery,Medicare,Hypertension,16,1,22,12,0
+P00003,59,Male,Aurora,Oncology,Medicare,Post-Op Follow-up,24,0,53,6,0
+P00003,59,Male,Aurora,Dermatology,Medicare,Skin Rash,3,0,29,10,0
+P00003,59,Male,Aurora,Neurology,Medicare,Annual Checkup,4,0,52,12,0
+P00003,59,Male,Aurora,Emergency,Medicare,Anxiety,16,0,35,12,0
+P00004,51,Female,Oak Brook,Dermatology,Medicaid,Allergic Reaction,2,0,18,4,0
+P00004,51,Female,Oak Brook,General Surgery,Medicaid,Hypertension,1,0,16,5,0
+P00004,51,Female,Oak Brook,Emergency,Medicaid,Asthma,3,0,33,6,0
+P00004,51,Female,Oak Brook,Orthopedics,Medicaid,Influenza,1,0,4,11,0
+P00004,51,Female,Oak Brook,Cardiology,Medicaid,Skin Rash,2,0,52,7,0
+P00004,51,Female,Oak Brook,Cardiology,Medicaid,Back Pain,2,0,20,10,0
+P00005,32,Male,Aurora,Neurology,Self-Pay,Chest Pain,1,0,25,1,0
+P00005,32,Male,Aurora,Emergency,Self-Pay,Routine Screening,58,0,20,7,0
+P00005,32,Male,Aurora,Primary Care,Self-Pay,Hypertension,54,0,34,11,0
+P00005,32,Male,Aurora,Neurology,Self-Pay,Back Pain,4,0,44,12,0
+P00006,54,Female,Lombard,Neurology,Medicaid,Asthma,0,0,27,1,0
+P00006,54,Female,Lombard,Emergency,Medicaid,Asthma,9,0,23,3,0
+P00006,54,Female,Lombard,Neurology,Medicaid,Hypertension,14,0,34,5,0
+P00006,54,Female,Lombard,Dermatology,Medicaid,Annual Checkup,14,0,24,2,0
+P00006,54,Female,Lombard,Oncology,Medicaid,Asthma,2,0,46,4,0
+P00006,54,Female,Lombard,General Surgery,Medicaid,Type 2 Diabetes,17,0,2,7,0
+P00006,54,Female,Lombard,Oncology,Medicaid,Skin Rash,3,0,31,8,1
+P00007,37,Female,Joliet,Emergency,Medicare,Anxiety,3,0,26,1,0
+P00007,37,Female,Joliet,Radiology,Medicare,Annual Checkup,16,0,28,5,0
+P00007,37,Female,Joliet,Primary Care,Medicare,Annual Checkup,38,0,43,2,0
+P00007,37,Female,Joliet,Orthopedics,Medicare,Routine Screening,3,0,26,10,0
+P00007,37,Female,Joliet,Cardiology,Medicare,Influenza,5,0,16,12,0
+P00008,42,Female,Chicago,Dermatology,Medicaid,Chest Pain,6,0,31,2,1
+P00008,42,Female,Chicago,Pediatrics,Medicaid,Migraine,3,1,26,5,1
+P00008,42,Female,Chicago,Oncology,Medicaid,Migraine,16,2,18,10,1
+P00008,42,Female,Chicago,Radiology,Medicaid,Allergic Reaction,0,3,19,11,0
+P00009,54,Male,Aurora,Pediatrics,Medicare,Chest Pain,9,0,29,1,0
+P00009,54,Male,Aurora,Primary Care,Medicare,Routine Screening,11,0,30,3,0
+P00009,54,Male,Aurora,Orthopedics,Medicare,Annual Checkup,5,0,26,4,0
+P00009,54,Male,Aurora,Primary Care,Medicare,Fracture,18,0,12,6,0
+P00009,54,Male,Aurora,Pediatrics,Medicare,Minor Injury,4,0,26,9,1
+P00009,54,Male,Aurora,General Surgery,Medicare,Back Pain,22,1,38,1,0
+P00009,54,Male,Aurora,Cardiology,Medicare,Asthma,10,1,49,3,0
+P00010,60,Female,Oak Brook,Emergency,Private,Chest Pain,2,0,8,4,0
+P00010,60,Female,Oak Brook,Primary Care,Private,Type 2 Diabetes,8,0,23,5,0
+P00010,60,Female,Oak Brook,Dermatology,Private,Migraine,8,0,35,3,0
+P00010,60,Female,Oak Brook,Orthopedics,Private,Post-Op Follow-up,6,0,40,5,0
+P00010,60,Female,Oak Brook,Orthopedics,Private,Type 2 Diabetes,9,0,7,6,0
+P00010,60,Female,Oak Brook,Radiology,Private,Migraine,17,0,44,9,1
+P00011,56,Male,Naperville,Orthopedics,Medicare,Annual Checkup,10,0,41,6,0
+P00011,56,Male,Naperville,Neurology,Medicare,Chest Pain,71,0,35,7,0
+P00011,56,Male,Naperville,General Surgery,Medicare,Chest Pain,23,0,20,10,0
+P00011,56,Male,Naperville,Neurology,Medicare,Minor Injury,0,0,44,3,1
+P00011,56,Male,Naperville,Primary Care,Medicare,Type 2 Diabetes,8,1,43,8,1
+P00011,56,Male,Naperville,Primary Care,Medicare,Minor Injury,3,2,18,8,0
+P00011,56,Male,Naperville,General Surgery,Medicare,Fracture,1,2,35,9,0
+P00012,40,Female,Aurora,Primary Care,Medicare,Asthma,2,0,32,2,0
+P00012,40,Female,Aurora,Emergency,Medicare,Allergic Reaction,8,0,42,2,1
+P00012,40,Female,Aurora,Pediatrics,Medicare,Anxiety,13,1,20,8,0
+P00012,40,Female,Aurora,Dermatology,Medicare,Annual Checkup,0,1,23,12,0
+P00012,40,Female,Aurora,Emergency,Medicare,Type 2 Diabetes,6,1,49,4,1
+P00012,40,Female,Aurora,Primary Care,Medicare,Skin Rash,9,2,2,5,0
+P00012,40,Female,Aurora,Radiology,Medicare,Anxiety,22,2,45,6,0
+P00012,40,Female,Aurora,Primary Care,Medicare,Annual Checkup,12,2,44,11,1
+P00013,38,Male,Lombard,Pediatrics,Medicare,Routine Screening,0,0,23,7,0
+P00013,38,Male,Lombard,Pediatrics,Medicare,Chest Pain,5,0,22,7,0
+P00013,38,Male,Lombard,General Surgery,Medicare,Influenza,13,0,15,11,0
+P00013,38,Male,Lombard,General Surgery,Medicare,Hypertension,3,0,24,1,0
+P00013,38,Male,Lombard,Neurology,Medicare,Fracture,25,0,47,3,1
+P00013,38,Male,Lombard,Radiology,Medicare,Anxiety,24,1,19,7,1
+P00013,38,Male,Lombard,Orthopedics,Medicare,Hypertension,11,2,15,12,0
+P00014,38,Female,Joliet,Oncology,Medicare,Type 2 Diabetes,18,0,43,2,0
+P00014,38,Female,Joliet,General Surgery,Medicare,Back Pain,6,0,42,4,0
+P00014,38,Female,Joliet,Dermatology,Medicare,Type 2 Diabetes,7,0,31,5,0
+P00014,38,Female,Joliet,Orthopedics,Medicare,Anxiety,2,0,27,8,1
+P00014,38,Female,Joliet,Oncology,Medicare,Minor Injury,8,1,36,9,0
+P00014,38,Female,Joliet,Emergency,Medicare,Hypertension,5,1,40,10,0
+P00014,38,Female,Joliet,General Surgery,Medicare,Chest Pain,4,1,29,12,0
+P00014,38,Female,Joliet,Neurology,Medicare,Influenza,29,1,17,12,0
+P00015,24,Female,Oak Brook,Pediatrics,Private,Migraine,0,0,27,2,1
+P00015,24,Female,Oak Brook,Neurology,Private,Post-Op Follow-up,2,1,22,7,0
+P00016,37,Male,Joliet,Orthopedics,Medicare,Chest Pain,9,0,23,6,0
+P00016,37,Male,Joliet,General Surgery,Medicare,Asthma,5,0,17,10,0
+P00016,37,Male,Joliet,Neurology,Medicare,Routine Screening,0,0,19,10,0
+P00016,37,Male,Joliet,Primary Care,Medicare,Migraine,7,0,24,11,0
+P00017,33,Female,Bolingbrook,Primary Care,Medicaid,Annual Checkup,0,0,24,1,0
+P00017,33,Female,Bolingbrook,Oncology,Medicaid,Hypertension,38,0,36,2,0
+P00017,33,Female,Bolingbrook,Primary Care,Medicaid,Asthma,8,0,18,5,0
+P00017,33,Female,Bolingbrook,Cardiology,Medicaid,Chest Pain,17,0,22,5,0
+P00017,33,Female,Bolingbrook,Dermatology,Medicaid,Influenza,20,0,56,1,0
+P00018,36,Female,Joliet,Pediatrics,Medicaid,Hypertension,17,0,28,3,0
+P00018,36,Female,Joliet,Oncology,Medicaid,Back Pain,26,0,10,5,0
+P00018,36,Female,Joliet,Emergency,Medicaid,Allergic Reaction,3,0,25,5,0
+P00018,36,Female,Joliet,Cardiology,Medicaid,Back Pain,2,0,46,5,1
+P00018,36,Female,Joliet,Orthopedics,Medicaid,Chest Pain,5,1,7,7,0
+P00018,36,Female,Joliet,Primary Care,Medicaid,Migraine,1,1,16,10,0
+P00018,36,Female,Joliet,Pediatrics,Medicaid,Allergic Reaction,2,1,8,12,0
+P00018,36,Female,Joliet,Pediatrics,Medicaid,Post-Op Follow-up,9,1,13,6,1
+P00019,43,Female,Downers Grove,General Surgery,Medicare,Chest Pain,9,0,19,2,0
+P00019,43,Female,Downers Grove,Dermatology,Medicare,Skin Rash,12,0,26,6,0
+P00019,43,Female,Downers Grove,Pediatrics,Medicare,Allergic Reaction,15,0,63,8,0
+P00019,43,Female,Downers Grove,General Surgery,Medicare,Routine Screening,14,0,24,12,0
+P00019,43,Female,Downers Grove,Dermatology,Medicare,Annual Checkup,8,0,41,6,0
+P00019,43,Female,Downers Grove,Primary Care,Medicare,Post-Op Follow-up,25,0,9,11,0
+P00019,43,Female,Downers Grove,Radiology,Medicare,Hypertension,21,0,29,11,0
+P00019,43,Female,Downers Grove,Pediatrics,Medicare,Anxiety,3,0,37,11,0
+P00020,21,Male,Chicago,Orthopedics,Medicaid,Influenza,18,0,16,2,0
+P00020,21,Male,Chicago,Neurology,Medicaid,Anxiety,9,0,19,4,0
+P00020,21,Male,Chicago,Primary Care,Medicaid,Back Pain,11,0,36,7,0
+P00020,21,Male,Chicago,Oncology,Medicaid,Influenza,19,0,27,7,0
+P00020,21,Male,Chicago,Emergency,Medicaid,Chest Pain,1,0,14,9,1
+P00020,21,Male,Chicago,Emergency,Medicaid,Minor Injury,10,1,25,11,0
+P00020,21,Male,Chicago,Radiology,Medicaid,Annual Checkup,12,1,32,11,0
+P00021,68,Male,Naperville,Orthopedics,Medicare,Influenza,21,0,24,1,0
+P00021,68,Male,Naperville,Orthopedics,Medicare,Annual Checkup,24,0,39,11,0
+P00021,68,Male,Naperville,Emergency,Medicare,Fracture,20,0,55,6,1
+P00021,68,Male,Naperville,Pediatrics,Medicare,Minor Injury,3,1,37,8,0
+P00022,27,Male,Bolingbrook,Neurology,Private,Chest Pain,0,0,34,5,0
+P00022,27,Male,Bolingbrook,Neurology,Private,Skin Rash,10,0,32,11,0
+P00022,27,Male,Bolingbrook,General Surgery,Private,Chest Pain,1,0,33,1,0
+P00022,27,Male,Bolingbrook,Primary Care,Private,Post-Op Follow-up,25,0,23,2,0
+P00022,27,Male,Bolingbrook,Pediatrics,Private,Asthma,1,0,41,6,0
+P00022,27,Male,Bolingbrook,Emergency,Private,Routine Screening,7,0,27,12,1
+P00023,49,Female,Aurora,General Surgery,Self-Pay,Skin Rash,20,0,2,3,0
+P00023,49,Female,Aurora,Orthopedics,Self-Pay,Minor Injury,49,0,24,4,0
+P00023,49,Female,Aurora,Pediatrics,Self-Pay,Fracture,18,0,28,8,0
+P00023,49,Female,Aurora,Orthopedics,Self-Pay,Fracture,20,0,48,11,0
+P00023,49,Female,Aurora,Oncology,Self-Pay,Hypertension,21,0,15,2,0
+P00023,49,Female,Aurora,General Surgery,Self-Pay,Annual Checkup,6,0,31,3,0
+P00024,49,Male,Bolingbrook,Emergency,Medicaid,Allergic Reaction,14,0,30,1,0
+P00024,49,Male,Bolingbrook,Dermatology,Medicaid,Fracture,10,0,41,11,0
+P00024,49,Male,Bolingbrook,Dermatology,Medicaid,Influenza,6,0,25,12,1
+P00024,49,Male,Bolingbrook,Radiology,Medicaid,Asthma,5,1,38,3,1
+P00024,49,Male,Bolingbrook,Neurology,Medicaid,Influenza,21,2,38,5,1
+P00025,48,Female,Bolingbrook,Primary Care,Medicare,Asthma,1,0,20,1,0
+P00025,48,Female,Bolingbrook,Neurology,Medicare,Minor Injury,10,0,19,4,1
+P00025,48,Female,Bolingbrook,Orthopedics,Medicare,Type 2 Diabetes,1,1,29,4,0
+P00025,48,Female,Bolingbrook,Dermatology,Medicare,Type 2 Diabetes,1,1,35,9,1
+P00026,71,Male,Elmhurst,Pediatrics,HMO,Skin Rash,10,0,29,2,0
+P00026,71,Male,Elmhurst,Primary Care,HMO,Allergic Reaction,3,0,42,6,0
+P00026,71,Male,Elmhurst,Oncology,HMO,Skin Rash,4,0,32,7,0
+P00026,71,Male,Elmhurst,Oncology,HMO,Back Pain,20,0,18,11,0
+P00027,20,Male,Naperville,Dermatology,PPO,Influenza,38,0,25,1,1
+P00027,20,Male,Naperville,Primary Care,PPO,Chest Pain,18,1,26,2,0
+P00027,20,Male,Naperville,Primary Care,PPO,Skin Rash,24,1,33,3,0
+P00027,20,Male,Naperville,Cardiology,PPO,Hypertension,11,1,22,5,1
+P00027,20,Male,Naperville,Oncology,PPO,Anxiety,12,2,35,8,0
+P00027,20,Male,Naperville,Orthopedics,PPO,Influenza,20,2,36,10,0
+P00027,20,Male,Naperville,General Surgery,PPO,Allergic Reaction,3,2,20,5,0
+P00027,20,Male,Naperville,Dermatology,PPO,Routine Screening,7,2,7,7,0
+P00027,20,Male,Naperville,Orthopedics,PPO,Fracture,7,2,23,9,1
+P00028,50,Female,Naperville,Radiology,Medicare,Allergic Reaction,13,0,36,1,0
+P00028,50,Female,Naperville,General Surgery,Medicare,Fracture,18,0,39,6,0
+P00028,50,Female,Naperville,Emergency,Medicare,Routine Screening,29,0,19,9,0
+P00028,50,Female,Naperville,General Surgery,Medicare,Type 2 Diabetes,16,0,10,9,0
+P00028,50,Female,Naperville,Cardiology,Medicare,Annual Checkup,3,0,45,2,0
+P00029,27,Female,Oak Brook,Cardiology,Medicare,Routine Screening,1,0,27,5,0
+P00029,27,Female,Oak Brook,General Surgery,Medicare,Hypertension,22,0,39,6,1
+P00029,27,Female,Oak Brook,Oncology,Medicare,Influenza,13,1,37,6,0
+P00029,27,Female,Oak Brook,Cardiology,Medicare,Anxiety,5,1,16,7,0
+P00029,27,Female,Oak Brook,Cardiology,Medicare,Minor Injury,12,1,2,12,1
+P00029,27,Female,Oak Brook,Pediatrics,Medicare,Allergic Reaction,0,2,35,6,1
+P00029,27,Female,Oak Brook,Emergency,Medicare,Fracture,0,3,39,9,1
+P00030,33,Female,Chicago,Oncology,HMO,Type 2 Diabetes,5,0,43,4,0
+P00030,33,Female,Chicago,Dermatology,HMO,Skin Rash,4,0,18,4,1
+P00030,33,Female,Chicago,Neurology,HMO,Influenza,0,1,46,5,1
+P00030,33,Female,Chicago,Orthopedics,HMO,Fracture,3,2,30,5,1
+P00030,33,Female,Chicago,Oncology,HMO,Type 2 Diabetes,16,3,26,6,0
+P00030,33,Female,Chicago,Radiology,HMO,Minor Injury,4,3,13,8,0
+P00030,33,Female,Chicago,Dermatology,HMO,Type 2 Diabetes,12,3,34,10,1
+P00030,33,Female,Chicago,Dermatology,HMO,Migraine,26,4,24,12,0
+P00030,33,Female,Chicago,Neurology,HMO,Skin Rash,47,4,12,12,0
+P00031,26,Female,Downers Grove,Dermatology,Private,Anxiety,15,0,6,3,0
+P00031,26,Female,Downers Grove,Radiology,Private,Allergic Reaction,20,0,9,10,0
+P00031,26,Female,Downers Grove,General Surgery,Private,Allergic Reaction,8,0,44,1,0
+P00031,26,Female,Downers Grove,Dermatology,Private,Hypertension,0,0,8,6,0
+P00031,26,Female,Downers Grove,Neurology,Private,Migraine,7,0,2,12,0
+P00032,76,Male,Chicago,Emergency,HMO,Skin Rash,0,0,13,2,0
+P00032,76,Male,Chicago,Emergency,HMO,Routine Screening,0,0,7,6,0
+P00032,76,Male,Chicago,Orthopedics,HMO,Back Pain,11,0,19,10,0
+P00032,76,Male,Chicago,Neurology,HMO,Asthma,3,0,2,1,0
+P00032,76,Male,Chicago,Dermatology,HMO,Hypertension,9,0,22,5,0
+P00032,76,Male,Chicago,Orthopedics,HMO,Post-Op Follow-up,6,0,36,7,0
+P00032,76,Male,Chicago,Primary Care,HMO,Skin Rash,21,0,13,8,1
+P00032,76,Male,Chicago,Dermatology,HMO,Skin Rash,14,1,40,10,0
+P00033,27,Male,Lombard,General Surgery,Self-Pay,Anxiety,50,0,33,3,0
+P00033,27,Male,Lombard,Primary Care,Self-Pay,Anxiety,7,0,42,10,1
+P00033,27,Male,Lombard,Primary Care,Self-Pay,Skin Rash,14,1,31,3,1
+P00034,28,Male,Downers Grove,Orthopedics,Medicare,Anxiety,19,0,46,2,0
+P00034,28,Male,Downers Grove,General Surgery,Medicare,Asthma,3,0,30,3,0
+P00034,28,Male,Downers Grove,Orthopedics,Medicare,Minor Injury,1,0,19,5,0
+P00034,28,Male,Downers Grove,Cardiology,Medicare,Type 2 Diabetes,8,0,49,6,0
+P00034,28,Male,Downers Grove,Cardiology,Medicare,Annual Checkup,13,0,44,1,0
+P00034,28,Male,Downers Grove,Emergency,Medicare,Skin Rash,6,0,17,10,0
+P00034,28,Male,Downers Grove,General Surgery,Medicare,Routine Screening,36,0,13,11,1
+P00034,28,Male,Downers Grove,Pediatrics,Medicare,Chest Pain,20,1,56,11,0
+P00035,33,Female,Lombard,Dermatology,Medicare,Minor Injury,26,0,30,4,1
+P00036,48,Male,Oak Brook,Orthopedics,HMO,Post-Op Follow-up,15,0,49,1,0
+P00036,48,Male,Oak Brook,Pediatrics,HMO,Anxiety,9,0,18,2,0
+P00036,48,Male,Oak Brook,Oncology,HMO,Fracture,5,0,18,7,0
+P00036,48,Male,Oak Brook,Oncology,HMO,Hypertension,20,0,23,8,0
+P00036,48,Male,Oak Brook,Cardiology,HMO,Influenza,21,0,21,12,0
+P00036,48,Male,Oak Brook,Radiology,HMO,Influenza,9,0,51,3,0
+P00036,48,Male,Oak Brook,Pediatrics,HMO,Fracture,23,0,33,8,1
+P00037,68,Male,Chicago,Primary Care,Medicare,Hypertension,7,0,2,2,0
+P00037,68,Male,Chicago,Radiology,Medicare,Influenza,6,0,47,11,0
+P00037,68,Male,Chicago,General Surgery,Medicare,Chest Pain,4,0,24,2,0
+P00037,68,Male,Chicago,Orthopedics,Medicare,Fracture,0,0,19,2,0
+P00037,68,Male,Chicago,Emergency,Medicare,Chest Pain,20,0,50,5,0
+P00037,68,Male,Chicago,Dermatology,Medicare,Routine Screening,4,0,40,6,0
+P00037,68,Male,Chicago,Pediatrics,Medicare,Post-Op Follow-up,2,0,7,11,1
+P00038,72,Female,Woodridge,Pediatrics,Private,Allergic Reaction,5,0,32,1,0
+P00038,72,Female,Woodridge,Oncology,Private,Allergic Reaction,18,0,25,10,0
+P00039,76,Female,Elmhurst,Emergency,Medicaid,Routine Screening,16,0,43,3,0
+P00039,76,Female,Elmhurst,Radiology,Medicaid,Chest Pain,3,0,57,9,0
+P00039,76,Female,Elmhurst,Cardiology,Medicaid,Allergic Reaction,11,0,16,12,0
+P00039,76,Female,Elmhurst,Radiology,Medicaid,Routine Screening,10,0,21,3,0
+P00039,76,Female,Elmhurst,General Surgery,Medicaid,Anxiety,32,0,34,8,0
+P00040,70,Female,Joliet,Pediatrics,PPO,Back Pain,0,0,23,9,0
+P00040,70,Female,Joliet,Pediatrics,PPO,Type 2 Diabetes,5,0,13,4,0
+P00040,70,Female,Joliet,Cardiology,PPO,Annual Checkup,11,0,16,9,0
+P00041,42,Female,Bolingbrook,Primary Care,Private,Hypertension,11,0,38,2,0
+P00041,42,Female,Bolingbrook,Primary Care,Private,Allergic Reaction,1,0,14,4,0
+P00041,42,Female,Bolingbrook,Neurology,Private,Fracture,3,0,35,12,0
+P00042,8,Female,Joliet,Neurology,Medicaid,Annual Checkup,3,0,41,3,1
+P00042,8,Female,Joliet,Neurology,Medicaid,Fracture,7,1,24,10,1
+P00042,8,Female,Joliet,Radiology,Medicaid,Asthma,35,2,2,10,0
+P00042,8,Female,Joliet,Primary Care,Medicaid,Chest Pain,27,2,14,5,0
+P00042,8,Female,Joliet,Primary Care,Medicaid,Type 2 Diabetes,1,2,32,7,0
+P00042,8,Female,Joliet,Dermatology,Medicaid,Back Pain,0,2,35,9,0
+P00042,8,Female,Joliet,Orthopedics,Medicaid,Minor Injury,19,2,23,11,0
+P00043,38,Male,Woodridge,Pediatrics,Private,Back Pain,2,0,6,6,0
+P00043,38,Male,Woodridge,Cardiology,Private,Allergic Reaction,0,0,21,10,0
+P00044,53,Female,Joliet,Emergency,Medicare,Asthma,7,0,61,7,0
+P00044,53,Female,Joliet,Orthopedics,Medicare,Hypertension,1,0,37,8,0
+P00044,53,Female,Joliet,Primary Care,Medicare,Anxiety,0,0,26,5,0
+P00044,53,Female,Joliet,Orthopedics,Medicare,Asthma,16,0,27,7,0
+P00044,53,Female,Joliet,Radiology,Medicare,Minor Injury,9,0,7,8,0
+P00045,69,Female,Joliet,Emergency,Private,Minor Injury,4,0,19,1,0
+P00045,69,Female,Joliet,Cardiology,Private,Influenza,20,0,13,1,0
+P00045,69,Female,Joliet,Cardiology,Private,Anxiety,52,0,38,8,1
+P00045,69,Female,Joliet,Dermatology,Private,Anxiety,1,1,55,11,0
+P00045,69,Female,Joliet,Cardiology,Private,Allergic Reaction,10,1,22,1,0
+P00045,69,Female,Joliet,Pediatrics,Private,Skin Rash,13,1,2,2,0
+P00045,69,Female,Joliet,Orthopedics,Private,Allergic Reaction,9,1,26,4,1
+P00045,69,Female,Joliet,Orthopedics,Private,Influenza,11,2,32,5,0
+P00045,69,Female,Joliet,Dermatology,Private,Routine Screening,16,2,41,9,1
+P00046,48,Female,Elmhurst,Cardiology,Medicare,Minor Injury,8,0,43,10,0
+P00046,48,Female,Elmhurst,Radiology,Medicare,Influenza,35,0,56,5,0
+P00046,48,Female,Elmhurst,Cardiology,Medicare,Fracture,16,0,43,7,0
+P00047,78,Male,Elmhurst,Emergency,Medicare,Asthma,10,0,30,9,0
+P00047,78,Male,Elmhurst,General Surgery,Medicare,Post-Op Follow-up,22,0,35,11,1
+P00047,78,Male,Elmhurst,Neurology,Medicare,Skin Rash,5,1,19,11,1
+P00048,50,Female,Naperville,Emergency,Self-Pay,Annual Checkup,7,0,4,9,0
+P00048,50,Female,Naperville,Emergency,Self-Pay,Allergic Reaction,16,0,34,9,1
+P00048,50,Female,Naperville,Emergency,Self-Pay,Allergic Reaction,3,1,36,10,1
+P00048,50,Female,Naperville,Emergency,Self-Pay,Back Pain,28,2,27,4,1
+P00048,50,Female,Naperville,Oncology,Self-Pay,Annual Checkup,8,3,42,6,0
+P00048,50,Female,Naperville,Cardiology,Self-Pay,Skin Rash,2,3,30,7,0
+P00048,50,Female,Naperville,Pediatrics,Self-Pay,Annual Checkup,3,3,19,12,0
+P00049,42,Male,Joliet,General Surgery,Medicaid,Chest Pain,3,0,40,6,0
+P00049,42,Male,Joliet,Pediatrics,Medicaid,Routine Screening,3,0,42,8,0
+P00049,42,Male,Joliet,General Surgery,Medicaid,Minor Injury,72,0,49,8,1
+P00049,42,Male,Joliet,General Surgery,Medicaid,Asthma,4,1,20,11,1
+P00050,29,Male,Joliet,General Surgery,Medicare,Allergic Reaction,5,0,29,7,0
+P00050,29,Male,Joliet,Orthopedics,Medicare,Asthma,13,0,8,10,0
+P00051,21,Male,Oak Brook,Oncology,Private,Routine Screening,26,0,31,6,1
+P00051,21,Male,Oak Brook,Emergency,Private,Anxiety,13,1,2,11,0
+P00051,21,Male,Oak Brook,Emergency,Private,Fracture,22,1,21,12,0
+P00051,21,Male,Oak Brook,Cardiology,Private,Migraine,21,1,45,2,1
+P00051,21,Male,Oak Brook,Cardiology,Private,Anxiety,6,2,11,4,0
+P00052,38,Female,Bolingbrook,Pediatrics,Private,Anxiety,8,0,30,3,1
+P00052,38,Female,Bolingbrook,Neurology,Private,Skin Rash,10,1,37,5,0
+P00052,38,Female,Bolingbrook,Oncology,Private,Influenza,9,1,11,7,0
+P00052,38,Female,Bolingbrook,Radiology,Private,Minor Injury,7,1,15,9,0
+P00052,38,Female,Bolingbrook,Orthopedics,Private,Hypertension,2,1,39,10,0
+P00052,38,Female,Bolingbrook,Radiology,Private,Hypertension,3,1,43,12,0
+P00052,38,Female,Bolingbrook,Orthopedics,Private,Minor Injury,22,1,39,9,0
+P00053,58,Female,Bolingbrook,Primary Care,Private,Allergic Reaction,56,0,62,4,0
+P00053,58,Female,Bolingbrook,Primary Care,Private,Minor Injury,3,0,20,6,0
+P00053,58,Female,Bolingbrook,Neurology,Private,Skin Rash,2,0,2,12,0
+P00053,58,Female,Bolingbrook,Pediatrics,Private,Asthma,3,0,55,6,0
+P00054,40,Female,Bolingbrook,Neurology,Private,Type 2 Diabetes,2,0,30,2,0
+P00054,40,Female,Bolingbrook,Radiology,Private,Minor Injury,4,0,35,12,0
+P00054,40,Female,Bolingbrook,Emergency,Private,Skin Rash,8,0,33,5,0
+P00055,63,Female,Oak Brook,Pediatrics,Medicare,Post-Op Follow-up,18,0,20,5,0
+P00055,63,Female,Oak Brook,Emergency,Medicare,Minor Injury,13,0,53,10,1
+P00055,63,Female,Oak Brook,General Surgery,Medicare,Asthma,5,1,28,11,0
+P00055,63,Female,Oak Brook,Primary Care,Medicare,Migraine,11,1,24,2,0
+P00055,63,Female,Oak Brook,Orthopedics,Medicare,Type 2 Diabetes,19,1,25,5,0
+P00055,63,Female,Oak Brook,General Surgery,Medicare,Anxiety,16,1,49,7,0
+P00055,63,Female,Oak Brook,Orthopedics,Medicare,Allergic Reaction,2,1,25,12,0
+P00056,32,Female,Aurora,Pediatrics,Private,Back Pain,4,0,40,1,0
+P00056,32,Female,Aurora,Neurology,Private,Routine Screening,13,0,30,3,0
+P00056,32,Female,Aurora,Radiology,Private,Back Pain,25,0,40,6,1
+P00056,32,Female,Aurora,Neurology,Private,Back Pain,4,1,11,7,0
+P00056,32,Female,Aurora,General Surgery,Private,Hypertension,2,1,22,8,0
+P00056,32,Female,Aurora,General Surgery,Private,Chest Pain,0,1,15,3,0
+P00056,32,Female,Aurora,General Surgery,Private,Chest Pain,13,1,31,5,1
+P00056,32,Female,Aurora,Radiology,Private,Anxiety,20,2,8,6,1
+P00057,73,Female,Naperville,Orthopedics,Medicare,Hypertension,4,0,31,3,0
+P00057,73,Female,Naperville,Radiology,Medicare,Hypertension,14,0,33,7,0
+P00057,73,Female,Naperville,General Surgery,Medicare,Skin Rash,25,0,8,9,0
+P00057,73,Female,Naperville,General Surgery,Medicare,Chest Pain,33,0,37,1,0
+P00057,73,Female,Naperville,Orthopedics,Medicare,Hypertension,11,0,13,6,0
+P00057,73,Female,Naperville,Neurology,Medicare,Skin Rash,3,0,18,8,0
+P00057,73,Female,Naperville,Orthopedics,Medicare,Allergic Reaction,9,0,33,8,1
+P00058,24,Male,Bolingbrook,Dermatology,HMO,Anxiety,20,0,37,2,0
+P00058,24,Male,Bolingbrook,Orthopedics,HMO,Routine Screening,9,0,13,3,0
+P00058,24,Male,Bolingbrook,Orthopedics,HMO,Skin Rash,3,0,31,1,0
+P00058,24,Male,Bolingbrook,Emergency,HMO,Routine Screening,13,0,24,3,0
+P00059,61,Male,Naperville,Radiology,Self-Pay,Asthma,9,0,2,8,0
+P00059,61,Male,Naperville,Dermatology,Self-Pay,Minor Injury,15,0,44,8,0
+P00059,61,Male,Naperville,Oncology,Self-Pay,Annual Checkup,6,0,39,10,0
+P00059,61,Male,Naperville,Orthopedics,Self-Pay,Asthma,3,0,24,1,0
+P00059,61,Male,Naperville,Orthopedics,Self-Pay,Back Pain,4,0,6,9,0
+P00060,45,Male,Elmhurst,Cardiology,Medicare,Routine Screening,1,0,20,1,0
+P00060,45,Male,Elmhurst,Primary Care,Medicare,Annual Checkup,30,0,32,6,0
+P00060,45,Male,Elmhurst,Dermatology,Medicare,Migraine,5,0,15,9,0
+P00060,45,Male,Elmhurst,Oncology,Medicare,Type 2 Diabetes,3,0,12,7,0
+P00060,45,Male,Elmhurst,Primary Care,Medicare,Fracture,0,0,37,9,0
+P00061,71,Female,Elmhurst,Primary Care,Medicaid,Allergic Reaction,11,0,25,8,1
+P00061,71,Female,Elmhurst,Primary Care,Medicaid,Annual Checkup,7,1,28,9,1
+P00061,71,Female,Elmhurst,Pediatrics,Medicaid,Post-Op Follow-up,4,2,27,8,0
+P00062,38,Female,Bolingbrook,Dermatology,Private,Type 2 Diabetes,38,0,23,7,0
+P00062,38,Female,Bolingbrook,General Surgery,Private,Chest Pain,5,0,47,8,0
+P00062,38,Female,Bolingbrook,Pediatrics,Private,Asthma,2,0,32,9,0
+P00062,38,Female,Bolingbrook,Cardiology,Private,Influenza,55,0,21,12,0
+P00062,38,Female,Bolingbrook,Emergency,Private,Hypertension,3,0,41,12,0
+P00062,38,Female,Bolingbrook,Cardiology,Private,Back Pain,61,0,30,9,1
+P00062,38,Female,Bolingbrook,Pediatrics,Private,Routine Screening,31,1,32,10,1
+P00062,38,Female,Bolingbrook,General Surgery,Private,Skin Rash,4,2,34,11,0
+P00063,60,Female,Aurora,Pediatrics,Medicaid,Asthma,13,0,43,9,0
+P00064,68,Male,Oak Brook,Primary Care,Medicare,Skin Rash,2,0,17,3,0
+P00064,68,Male,Oak Brook,Cardiology,Medicare,Migraine,8,0,33,12,0
+P00064,68,Male,Oak Brook,Radiology,Medicare,Routine Screening,3,0,35,12,0
+P00064,68,Male,Oak Brook,Pediatrics,Medicare,Influenza,13,0,34,12,0
+P00064,68,Male,Oak Brook,Pediatrics,Medicare,Annual Checkup,30,0,5,8,1
+P00065,76,Male,Naperville,Emergency,Medicare,Routine Screening,39,0,11,4,0
+P00065,76,Male,Naperville,Pediatrics,Medicare,Allergic Reaction,2,0,41,6,0
+P00065,76,Male,Naperville,Pediatrics,Medicare,Anxiety,10,0,36,9,0
+P00066,32,Male,Woodridge,Cardiology,Medicaid,Migraine,28,0,38,5,0
+P00066,32,Male,Woodridge,Oncology,Medicaid,Migraine,33,0,28,6,0
+P00066,32,Male,Woodridge,Radiology,Medicaid,Asthma,17,0,54,7,1
+P00066,32,Male,Woodridge,Emergency,Medicaid,Back Pain,4,1,34,10,1
+P00066,32,Male,Woodridge,Radiology,Medicaid,Fracture,2,2,39,4,1
+P00066,32,Male,Woodridge,Primary Care,Medicaid,Routine Screening,15,3,41,9,1
+P00066,32,Male,Woodridge,Dermatology,Medicaid,Fracture,3,4,32,12,0
+P00067,46,Male,Downers Grove,Dermatology,Medicaid,Back Pain,1,0,16,5,0
+P00067,46,Male,Downers Grove,General Surgery,Medicaid,Migraine,0,0,6,10,0
+P00067,46,Male,Downers Grove,Emergency,Medicaid,Asthma,0,0,4,3,1
+P00067,46,Male,Downers Grove,Oncology,Medicaid,Asthma,10,1,23,3,0
+P00067,46,Male,Downers Grove,Pediatrics,Medicaid,Migraine,0,1,40,6,0
+P00067,46,Male,Downers Grove,Pediatrics,Medicaid,Skin Rash,3,1,27,6,0
+P00067,46,Male,Downers Grove,General Surgery,Medicaid,Influenza,21,1,48,11,0
+P00067,46,Male,Downers Grove,Neurology,Medicaid,Hypertension,17,1,50,11,0
+P00068,16,Female,Joliet,Radiology,Self-Pay,Allergic Reaction,23,0,34,1,0
+P00068,16,Female,Joliet,General Surgery,Self-Pay,Fracture,13,0,2,5,0
+P00068,16,Female,Joliet,Emergency,Self-Pay,Fracture,0,0,26,6,0
+P00068,16,Female,Joliet,Neurology,Self-Pay,Type 2 Diabetes,23,0,20,7,0
+P00068,16,Female,Joliet,Primary Care,Self-Pay,Asthma,26,0,41,4,0
+P00068,16,Female,Joliet,General Surgery,Self-Pay,Type 2 Diabetes,15,0,49,5,0
+P00068,16,Female,Joliet,Orthopedics,Self-Pay,Allergic Reaction,0,0,66,8,0
+P00068,16,Female,Joliet,Oncology,Self-Pay,Minor Injury,3,0,5,8,0
+P00069,56,Male,Joliet,General Surgery,Private,Fracture,24,0,25,5,0
+P00069,56,Male,Joliet,Neurology,Private,Minor Injury,1,0,30,10,0
+P00069,56,Male,Joliet,Emergency,Private,Influenza,4,0,54,10,0
+P00069,56,Male,Joliet,General Surgery,Private,Migraine,3,0,10,9,0
+P00070,32,Male,Bolingbrook,Orthopedics,Medicaid,Back Pain,4,0,31,12,0
+P00070,32,Male,Bolingbrook,Emergency,Medicaid,Routine Screening,4,0,50,1,0
+P00070,32,Male,Bolingbrook,Radiology,Medicaid,Minor Injury,14,0,49,5,1
+P00070,32,Male,Bolingbrook,Radiology,Medicaid,Anxiety,3,1,26,5,1
+P00070,32,Male,Bolingbrook,Neurology,Medicaid,Asthma,11,2,24,8,0
+P00070,32,Male,Bolingbrook,Radiology,Medicaid,Anxiety,20,2,27,9,0
+P00071,3,Male,Elmhurst,Orthopedics,Self-Pay,Hypertension,10,0,43,3,0
+P00071,3,Male,Elmhurst,Radiology,Self-Pay,Back Pain,1,0,53,5,0
+P00071,3,Male,Elmhurst,Radiology,Self-Pay,Type 2 Diabetes,3,0,22,6,0
+P00071,3,Male,Elmhurst,Neurology,Self-Pay,Post-Op Follow-up,17,0,39,9,0
+P00071,3,Male,Elmhurst,Cardiology,Self-Pay,Type 2 Diabetes,5,0,53,10,0
+P00071,3,Male,Elmhurst,Cardiology,Self-Pay,Fracture,14,0,31,11,0
+P00072,7,Male,Oak Brook,Pediatrics,Private,Annual Checkup,14,0,17,3,0
+P00072,7,Male,Oak Brook,Orthopedics,Private,Allergic Reaction,11,0,17,3,0
+P00072,7,Male,Oak Brook,Neurology,Private,Back Pain,16,0,36,12,0
+P00073,51,Female,Joliet,Oncology,Medicaid,Post-Op Follow-up,7,0,9,4,0
+P00073,51,Female,Joliet,Cardiology,Medicaid,Back Pain,0,0,15,8,0
+P00073,51,Female,Joliet,Cardiology,Medicaid,Annual Checkup,3,0,45,12,0
+P00073,51,Female,Joliet,General Surgery,Medicaid,Skin Rash,1,0,27,3,0
+P00073,51,Female,Joliet,Oncology,Medicaid,Post-Op Follow-up,8,0,9,5,0
+P00074,49,Male,Downers Grove,Dermatology,Medicare,Minor Injury,10,0,10,3,0
+P00074,49,Male,Downers Grove,Primary Care,Medicare,Allergic Reaction,1,0,18,6,0
+P00074,49,Male,Downers Grove,Dermatology,Medicare,Hypertension,17,0,29,1,0
+P00074,49,Male,Downers Grove,Emergency,Medicare,Post-Op Follow-up,6,0,28,2,0
+P00074,49,Male,Downers Grove,Orthopedics,Medicare,Fracture,16,0,18,5,0
+P00075,42,Female,Woodridge,Emergency,Medicare,Fracture,17,0,42,7,1
+P00075,42,Female,Woodridge,Neurology,Medicare,Back Pain,1,1,26,10,0
+P00075,42,Female,Woodridge,Neurology,Medicare,Skin Rash,1,1,21,6,0
+P00075,42,Female,Woodridge,General Surgery,Medicare,Fracture,4,1,18,10,0
+P00076,71,Male,Joliet,General Surgery,Self-Pay,Anxiety,15,0,29,6,0
+P00076,71,Male,Joliet,Oncology,Self-Pay,Allergic Reaction,5,0,23,1,0
+P00076,71,Male,Joliet,Emergency,Self-Pay,Back Pain,18,0,19,1,0
+P00076,71,Male,Joliet,Orthopedics,Self-Pay,Anxiety,10,0,22,5,0
+P00076,71,Male,Joliet,Pediatrics,Self-Pay,Skin Rash,22,0,27,8,1
+P00077,45,Other,Woodridge,Emergency,PPO,Post-Op Follow-up,20,0,12,1,0
+P00077,45,Other,Woodridge,Oncology,PPO,Chest Pain,22,0,25,8,0
+P00077,45,Other,Woodridge,Orthopedics,PPO,Post-Op Follow-up,4,0,30,1,1
+P00078,86,Male,Bolingbrook,Neurology,Medicaid,Routine Screening,3,0,34,1,1
+P00078,86,Male,Bolingbrook,Radiology,Medicaid,Minor Injury,13,1,26,8,0
+P00078,86,Male,Bolingbrook,Orthopedics,Medicaid,Asthma,7,1,33,1,1
+P00078,86,Male,Bolingbrook,Neurology,Medicaid,Routine Screening,2,2,9,1,0
+P00078,86,Male,Bolingbrook,Neurology,Medicaid,Type 2 Diabetes,20,2,23,10,0
+P00079,46,Female,Elmhurst,Radiology,Private,Routine Screening,4,0,14,3,0
+P00079,46,Female,Elmhurst,Radiology,Private,Influenza,5,0,31,8,0
+P00079,46,Female,Elmhurst,Cardiology,Private,Asthma,9,0,4,5,1
+P00079,46,Female,Elmhurst,Radiology,Private,Type 2 Diabetes,0,1,44,7,0
+P00079,46,Female,Elmhurst,Dermatology,Private,Asthma,12,1,44,9,0
+P00080,30,Female,Lombard,Dermatology,Self-Pay,Back Pain,6,0,43,2,0
+P00080,30,Female,Lombard,Neurology,Self-Pay,Skin Rash,21,0,12,6,1
+P00080,30,Female,Lombard,Pediatrics,Self-Pay,Minor Injury,2,1,32,11,0
+P00081,3,Male,Downers Grove,Neurology,Self-Pay,Post-Op Follow-up,4,0,17,9,0
+P00082,47,Female,Downers Grove,Neurology,Private,Fracture,8,0,15,2,0
+P00082,47,Female,Downers Grove,Emergency,Private,Annual Checkup,8,0,25,6,0
+P00082,47,Female,Downers Grove,Neurology,Private,Routine Screening,9,0,32,8,0
+P00082,47,Female,Downers Grove,Pediatrics,Private,Migraine,3,0,20,8,0
+P00082,47,Female,Downers Grove,Dermatology,Private,Influenza,20,0,45,10,0
+P00082,47,Female,Downers Grove,Neurology,Private,Type 2 Diabetes,0,0,24,12,0
+P00083,41,Male,Oak Brook,Emergency,HMO,Anxiety,19,0,12,7,0
+P00083,41,Male,Oak Brook,Emergency,HMO,Influenza,25,0,26,10,0
+P00083,41,Male,Oak Brook,Neurology,HMO,Asthma,15,0,16,11,0
+P00083,41,Male,Oak Brook,Cardiology,HMO,Routine Screening,4,0,14,12,0
+P00083,41,Male,Oak Brook,Radiology,HMO,Influenza,7,0,37,1,0
+P00083,41,Male,Oak Brook,Neurology,HMO,Asthma,1,0,2,2,0
+P00083,41,Male,Oak Brook,General Surgery,HMO,Chest Pain,38,0,7,4,0
+P00083,41,Male,Oak Brook,Orthopedics,HMO,Fracture,26,0,21,12,0
+P00084,40,Female,Bolingbrook,Pediatrics,Medicaid,Skin Rash,2,0,29,3,0
+P00084,40,Female,Bolingbrook,Pediatrics,Medicaid,Anxiety,2,0,13,4,0
+P00084,40,Female,Bolingbrook,Oncology,Medicaid,Fracture,3,0,37,4,1
+P00084,40,Female,Bolingbrook,Radiology,Medicaid,Annual Checkup,43,1,13,4,0
+P00084,40,Female,Bolingbrook,Primary Care,Medicaid,Anxiety,12,1,34,7,0
+P00084,40,Female,Bolingbrook,Emergency,Medicaid,Anxiety,3,1,23,9,0
+P00084,40,Female,Bolingbrook,General Surgery,Medicaid,Fracture,23,1,50,11,1
+P00084,40,Female,Bolingbrook,Cardiology,Medicaid,Minor Injury,15,2,3,12,0
+P00084,40,Female,Bolingbrook,General Surgery,Medicaid,Anxiety,8,2,30,4,0
+P00084,40,Female,Bolingbrook,Cardiology,Medicaid,Routine Screening,5,2,34,5,0
+P00084,40,Female,Bolingbrook,Cardiology,Medicaid,Asthma,2,2,37,6,0
+P00085,18,Male,Naperville,Orthopedics,Self-Pay,Minor Injury,8,0,49,2,1
+P00085,18,Male,Naperville,Primary Care,Self-Pay,Migraine,5,1,31,10,0
+P00085,18,Male,Naperville,Neurology,Self-Pay,Fracture,4,1,52,3,0
+P00085,18,Male,Naperville,Emergency,Self-Pay,Influenza,22,1,12,3,0
+P00085,18,Male,Naperville,Pediatrics,Self-Pay,Post-Op Follow-up,19,1,37,3,0
+P00085,18,Male,Naperville,General Surgery,Self-Pay,Routine Screening,16,1,49,9,0
+P00085,18,Male,Naperville,Dermatology,Self-Pay,Anxiety,11,1,34,12,0
+P00086,48,Male,Oak Brook,Dermatology,Private,Influenza,6,0,45,11,1
+P00086,48,Male,Oak Brook,Emergency,Private,Minor Injury,3,1,34,4,0
+P00086,48,Male,Oak Brook,Orthopedics,Private,Minor Injury,5,1,14,11,0
+P00087,69,Male,Woodridge,General Surgery,Private,Post-Op Follow-up,12,0,38,4,0
+P00087,69,Male,Woodridge,Pediatrics,Private,Allergic Reaction,5,0,34,6,0
+P00087,69,Male,Woodridge,Neurology,Private,Influenza,23,0,39,3,1
+P00087,69,Male,Woodridge,General Surgery,Private,Anxiety,17,1,35,11,0
+P00088,29,Female,Woodridge,Emergency,PPO,Post-Op Follow-up,23,0,42,8,0
+P00088,29,Female,Woodridge,Radiology,PPO,Fracture,13,0,31,9,0
+P00088,29,Female,Woodridge,Radiology,PPO,Routine Screening,13,0,32,9,0
+P00088,29,Female,Woodridge,Pediatrics,PPO,Hypertension,17,0,24,3,0
+P00088,29,Female,Woodridge,Radiology,PPO,Chest Pain,14,0,2,6,0
+P00088,29,Female,Woodridge,Radiology,PPO,Routine Screening,5,0,29,9,0
+P00089,52,Male,Woodridge,Neurology,HMO,Chest Pain,0,0,10,1,0
+P00089,52,Male,Woodridge,Dermatology,HMO,Migraine,12,0,18,8,0
+P00089,52,Male,Woodridge,Orthopedics,HMO,Anxiety,1,0,51,4,0
+P00089,52,Male,Woodridge,Radiology,HMO,Skin Rash,6,0,33,8,1
+P00089,52,Male,Woodridge,Oncology,HMO,Skin Rash,10,1,42,8,0
+P00089,52,Male,Woodridge,Pediatrics,HMO,Post-Op Follow-up,5,1,31,9,0
+P00090,61,Female,Elmhurst,General Surgery,PPO,Type 2 Diabetes,28,0,13,11,1
+P00090,61,Female,Elmhurst,Radiology,PPO,Allergic Reaction,7,1,31,1,0
+P00090,61,Female,Elmhurst,Orthopedics,PPO,Minor Injury,14,1,25,8,0
+P00091,52,Male,Oak Brook,Orthopedics,Private,Back Pain,10,0,12,1,0
+P00091,52,Male,Oak Brook,Cardiology,Private,Post-Op Follow-up,32,0,20,2,0
+P00091,52,Male,Oak Brook,Primary Care,Private,Post-Op Follow-up,7,0,31,5,1
+P00091,52,Male,Oak Brook,Emergency,Private,Migraine,0,1,46,2,0
+P00091,52,Male,Oak Brook,Dermatology,Private,Skin Rash,22,1,33,2,1
+P00091,52,Male,Oak Brook,Neurology,Private,Minor Injury,7,2,16,5,1
+P00091,52,Male,Oak Brook,Cardiology,Private,Type 2 Diabetes,21,3,30,12,1
+P00092,38,Male,Lombard,Cardiology,Medicaid,Type 2 Diabetes,0,0,17,10,0
+P00092,38,Male,Lombard,Emergency,Medicaid,Minor Injury,26,0,30,11,0
+P00092,38,Male,Lombard,Orthopedics,Medicaid,Minor Injury,4,0,41,3,0
+P00092,38,Male,Lombard,Cardiology,Medicaid,Hypertension,16,0,29,9,0
+P00093,51,Female,Downers Grove,General Surgery,Medicare,Migraine,3,0,29,3,1
+P00094,46,Female,Woodridge,Emergency,Medicare,Skin Rash,7,0,38,6,0
+P00094,46,Female,Woodridge,Emergency,Medicare,Allergic Reaction,25,0,40,4,1
+P00094,46,Female,Woodridge,Orthopedics,Medicare,Chest Pain,0,1,37,5,1
+P00094,46,Female,Woodridge,Primary Care,Medicare,Minor Injury,17,2,42,5,1
+P00094,46,Female,Woodridge,Orthopedics,Medicare,Post-Op Follow-up,1,3,45,12,1
+P00095,44,Female,Bolingbrook,Primary Care,Private,Anxiety,0,0,13,4,0
+P00095,44,Female,Bolingbrook,Neurology,Private,Influenza,3,0,46,6,0
+P00095,44,Female,Bolingbrook,Primary Care,Private,Asthma,3,0,21,7,0
+P00095,44,Female,Bolingbrook,General Surgery,Private,Routine Screening,26,0,33,10,0
+P00095,44,Female,Bolingbrook,Cardiology,Private,Back Pain,13,0,25,12,0
+P00096,24,Female,Naperville,Radiology,Medicare,Annual Checkup,11,0,19,6,0
+P00096,24,Female,Naperville,Neurology,Medicare,Allergic Reaction,1,0,49,11,1
+P00097,27,Male,Lombard,Oncology,Medicaid,Influenza,1,0,28,1,0
+P00097,27,Male,Lombard,Cardiology,Medicaid,Migraine,6,0,41,6,1
+P00097,27,Male,Lombard,Orthopedics,Medicaid,Annual Checkup,4,1,60,10,1
+P00097,27,Male,Lombard,Primary Care,Medicaid,Asthma,5,2,16,7,0
+P00097,27,Male,Lombard,Orthopedics,Medicaid,Back Pain,38,2,4,12,0
+P00098,56,Male,Chicago,Radiology,Medicare,Routine Screening,11,0,32,2,0
+P00098,56,Male,Chicago,Oncology,Medicare,Influenza,47,0,22,8,0
+P00098,56,Male,Chicago,Dermatology,Medicare,Migraine,7,0,30,9,0
+P00098,56,Male,Chicago,Primary Care,Medicare,Fracture,6,0,3,12,0
+P00098,56,Male,Chicago,Pediatrics,Medicare,Anxiety,16,0,23,1,1
+P00098,56,Male,Chicago,Emergency,Medicare,Fracture,29,1,27,6,0
+P00099,91,Male,Oak Brook,Cardiology,HMO,Chest Pain,17,0,21,5,0
+P00099,91,Male,Oak Brook,Primary Care,HMO,Allergic Reaction,2,0,34,8,0
+P00099,91,Male,Oak Brook,Primary Care,HMO,Skin Rash,1,0,35,1,0
+P00099,91,Male,Oak Brook,General Surgery,HMO,Back Pain,9,0,25,2,0
+P00099,91,Male,Oak Brook,Emergency,HMO,Type 2 Diabetes,8,0,45,8,0
+P00100,43,Male,Naperville,Emergency,Private,Type 2 Diabetes,13,0,31,12,0
+P00100,43,Male,Naperville,Neurology,Private,Type 2 Diabetes,0,0,18,5,0
+P00100,43,Male,Naperville,Primary Care,Private,Type 2 Diabetes,0,0,41,5,0
+P00100,43,Male,Naperville,Pediatrics,Private,Minor Injury,15,0,33,11,0
+P00101,56,Male,Oak Brook,Primary Care,Private,Routine Screening,18,0,30,1,0
+P00101,56,Male,Oak Brook,Pediatrics,Private,Influenza,26,0,26,5,0
+P00101,56,Male,Oak Brook,Neurology,Private,Annual Checkup,47,0,15,8,0
+P00101,56,Male,Oak Brook,Primary Care,Private,Routine Screening,13,0,14,10,0
+P00101,56,Male,Oak Brook,Pediatrics,Private,Chest Pain,4,0,27,10,0
+P00101,56,Male,Oak Brook,Neurology,Private,Skin Rash,4,0,12,7,0
+P00101,56,Male,Oak Brook,Pediatrics,Private,Back Pain,11,0,39,10,1
+P00101,56,Male,Oak Brook,Pediatrics,Private,Migraine,18,1,25,10,0
+P00101,56,Male,Oak Brook,Emergency,Private,Skin Rash,9,1,30,12,1
+P00101,56,Male,Oak Brook,Pediatrics,Private,Minor Injury,26,2,21,12,1
+P00102,39,Female,Woodridge,General Surgery,Private,Back Pain,10,0,33,1,0
+P00102,39,Female,Woodridge,General Surgery,Private,Migraine,8,0,11,3,0
+P00102,39,Female,Woodridge,Pediatrics,Private,Hypertension,29,0,32,4,0
+P00102,39,Female,Woodridge,Dermatology,Private,Hypertension,23,0,14,11,0
+P00102,39,Female,Woodridge,Oncology,Private,Annual Checkup,1,0,18,10,0
+P00103,18,Female,Elmhurst,Neurology,Medicaid,Fracture,3,0,17,6,0
+P00103,18,Female,Elmhurst,Emergency,Medicaid,Back Pain,11,0,17,11,0
+P00103,18,Female,Elmhurst,Emergency,Medicaid,Minor Injury,18,0,42,2,0
+P00103,18,Female,Elmhurst,Dermatology,Medicaid,Routine Screening,14,0,9,5,0
+P00103,18,Female,Elmhurst,General Surgery,Medicaid,Fracture,21,0,30,6,0
+P00103,18,Female,Elmhurst,Emergency,Medicaid,Routine Screening,26,0,11,7,0
+P00104,1,Male,Woodridge,Oncology,Self-Pay,Asthma,26,0,21,10,0
+P00105,53,Male,Elmhurst,Primary Care,Medicaid,Allergic Reaction,1,0,27,2,0
+P00105,53,Male,Elmhurst,Oncology,Medicaid,Fracture,9,0,23,3,0
+P00105,53,Male,Elmhurst,Dermatology,Medicaid,Influenza,1,0,50,6,0
+P00105,53,Male,Elmhurst,Cardiology,Medicaid,Allergic Reaction,4,0,23,8,0
+P00105,53,Male,Elmhurst,Oncology,Medicaid,Allergic Reaction,11,0,13,11,0
+P00105,53,Male,Elmhurst,Emergency,Medicaid,Routine Screening,3,0,9,2,0
+P00105,53,Male,Elmhurst,Neurology,Medicaid,Anxiety,14,0,28,8,0
+P00105,53,Male,Elmhurst,Cardiology,Medicaid,Anxiety,5,0,29,10,0
+P00106,59,Male,Aurora,Pediatrics,Private,Back Pain,8,0,12,9,1
+P00106,59,Male,Aurora,Oncology,Private,Annual Checkup,9,1,26,10,0
+P00107,74,Male,Naperville,Emergency,PPO,Fracture,5,0,41,1,0
+P00107,74,Male,Naperville,Neurology,PPO,Skin Rash,11,0,20,1,0
+P00107,74,Male,Naperville,Primary Care,PPO,Fracture,18,0,39,1,0
+P00108,70,Female,Chicago,Emergency,Self-Pay,Asthma,2,0,36,3,0
+P00108,70,Female,Chicago,General Surgery,Self-Pay,Influenza,29,0,27,4,0
+P00108,70,Female,Chicago,Emergency,Self-Pay,Skin Rash,0,0,2,4,0
+P00108,70,Female,Chicago,Neurology,Self-Pay,Hypertension,0,0,21,6,0
+P00108,70,Female,Chicago,Dermatology,Self-Pay,Hypertension,4,0,30,8,0
+P00109,73,Female,Chicago,Emergency,HMO,Back Pain,26,0,39,10,0
+P00109,73,Female,Chicago,Pediatrics,HMO,Influenza,8,0,29,1,0
+P00109,73,Female,Chicago,Orthopedics,HMO,Skin Rash,19,0,8,5,0
+P00109,73,Female,Chicago,Oncology,HMO,Chest Pain,11,0,40,9,1
+P00109,73,Female,Chicago,Oncology,HMO,Asthma,1,1,38,9,0
+P00110,16,Female,Bolingbrook,Cardiology,Medicaid,Chest Pain,13,0,8,6,0
+P00110,16,Female,Bolingbrook,Orthopedics,Medicaid,Allergic Reaction,50,0,18,2,0
+P00110,16,Female,Bolingbrook,Emergency,Medicaid,Minor Injury,0,0,21,3,0
+P00110,16,Female,Bolingbrook,Orthopedics,Medicaid,Chest Pain,19,0,21,8,0
+P00111,30,Female,Oak Brook,Pediatrics,Medicaid,Migraine,3,0,27,1,0
+P00111,30,Female,Oak Brook,Primary Care,Medicaid,Routine Screening,1,0,35,1,1
+P00111,30,Female,Oak Brook,Emergency,Medicaid,Influenza,9,1,40,3,0
+P00111,30,Female,Oak Brook,Orthopedics,Medicaid,Type 2 Diabetes,2,1,36,6,0
+P00111,30,Female,Oak Brook,Neurology,Medicaid,Post-Op Follow-up,9,1,40,12,1
+P00111,30,Female,Oak Brook,General Surgery,Medicaid,Back Pain,12,2,37,6,0
+P00111,30,Female,Oak Brook,Neurology,Medicaid,Post-Op Follow-up,44,2,31,7,1
+P00111,30,Female,Oak Brook,Emergency,Medicaid,Hypertension,3,3,5,11,0
+P00112,40,Male,Downers Grove,Pediatrics,Medicare,Influenza,22,0,4,5,0
+P00112,40,Male,Downers Grove,Neurology,Medicare,Minor Injury,40,0,26,2,0
+P00112,40,Male,Downers Grove,Cardiology,Medicare,Type 2 Diabetes,1,0,20,3,1
+P00112,40,Male,Downers Grove,Pediatrics,Medicare,Anxiety,16,1,12,7,0
+P00112,40,Male,Downers Grove,Primary Care,Medicare,Fracture,1,1,34,8,1
+P00112,40,Male,Downers Grove,Emergency,Medicare,Migraine,30,2,16,12,1
+P00113,56,Male,Chicago,Cardiology,Self-Pay,Hypertension,23,0,37,10,0
+P00113,56,Male,Chicago,Radiology,Self-Pay,Back Pain,9,0,17,7,0
+P00113,56,Male,Chicago,Primary Care,Self-Pay,Fracture,17,0,35,12,0
+P00114,43,Male,Chicago,Primary Care,HMO,Annual Checkup,1,0,33,2,0
+P00114,43,Male,Chicago,Oncology,HMO,Post-Op Follow-up,20,0,32,6,0
+P00114,43,Male,Chicago,Oncology,HMO,Minor Injury,13,0,38,11,0
+P00114,43,Male,Chicago,Pediatrics,HMO,Anxiety,10,0,38,1,1
+P00115,29,Female,Joliet,Orthopedics,Medicaid,Minor Injury,18,0,43,1,0
+P00115,29,Female,Joliet,Cardiology,Medicaid,Back Pain,1,0,26,6,0
+P00115,29,Female,Joliet,Radiology,Medicaid,Back Pain,2,0,29,8,0
+P00115,29,Female,Joliet,Primary Care,Medicaid,Migraine,5,0,11,10,0
+P00116,61,Female,Naperville,Primary Care,HMO,Annual Checkup,9,0,28,2,0
+P00116,61,Female,Naperville,Cardiology,HMO,Post-Op Follow-up,8,0,37,8,0
+P00116,61,Female,Naperville,Emergency,HMO,Asthma,2,0,13,8,0
+P00117,48,Male,Lombard,Primary Care,Private,Influenza,0,0,30,1,0
+P00117,48,Male,Lombard,General Surgery,Private,Back Pain,3,0,11,4,1
+P00117,48,Male,Lombard,Emergency,Private,Influenza,20,1,55,4,0
+P00117,48,Male,Lombard,Primary Care,Private,Chest Pain,77,1,45,10,1
+P00118,48,Other,Oak Brook,Cardiology,Medicare,Hypertension,19,0,19,2,0
+P00118,48,Other,Oak Brook,Dermatology,Medicare,Allergic Reaction,2,0,45,10,0
+P00118,48,Other,Oak Brook,Neurology,Medicare,Migraine,19,0,23,7,0
+P00119,51,Male,Naperville,Dermatology,Self-Pay,Anxiety,2,0,2,5,0
+P00119,51,Male,Naperville,Neurology,Self-Pay,Chest Pain,6,0,19,11,0
+P00119,51,Male,Naperville,Cardiology,Self-Pay,Migraine,0,0,15,1,0
+P00119,51,Male,Naperville,Orthopedics,Self-Pay,Hypertension,7,0,18,1,0
+P00119,51,Male,Naperville,General Surgery,Self-Pay,Post-Op Follow-up,1,0,25,3,0
+P00119,51,Male,Naperville,Primary Care,Self-Pay,Annual Checkup,0,0,44,11,0
+P00120,57,Male,Oak Brook,Primary Care,Medicare,Routine Screening,34,0,41,4,0
+P00120,57,Male,Oak Brook,Oncology,Medicare,Minor Injury,9,0,28,5,0
+P00120,57,Male,Oak Brook,Oncology,Medicare,Anxiety,18,0,47,10,0
+P00120,57,Male,Oak Brook,Emergency,Medicare,Influenza,4,0,16,11,0
+P00121,74,Other,Bolingbrook,Neurology,Medicaid,Routine Screening,17,0,16,3,0
+P00121,74,Other,Bolingbrook,Pediatrics,Medicaid,Fracture,45,0,24,5,0
+P00122,37,Female,Naperville,Primary Care,Self-Pay,Influenza,1,0,14,2,1
+P00122,37,Female,Naperville,Oncology,Self-Pay,Routine Screening,15,1,23,9,1
+P00122,37,Female,Naperville,Radiology,Self-Pay,Influenza,26,2,20,3,0
+P00122,37,Female,Naperville,Oncology,Self-Pay,Annual Checkup,5,2,28,4,1
+P00122,37,Female,Naperville,Cardiology,Self-Pay,Allergic Reaction,7,3,48,6,0
+P00123,59,Female,Chicago,Oncology,Medicare,Fracture,10,0,38,2,0
+P00123,59,Female,Chicago,Neurology,Medicare,Asthma,1,0,31,9,0
+P00123,59,Female,Chicago,Pediatrics,Medicare,Allergic Reaction,1,0,56,12,0
+P00123,59,Female,Chicago,General Surgery,Medicare,Anxiety,4,0,38,12,0
+P00123,59,Female,Chicago,Primary Care,Medicare,Asthma,2,0,30,5,1
+P00123,59,Female,Chicago,General Surgery,Medicare,Migraine,22,1,54,10,0
+P00124,67,Male,Lombard,Oncology,HMO,Hypertension,1,0,33,5,1
+P00124,67,Male,Lombard,Pediatrics,HMO,Hypertension,8,1,22,6,1
+P00124,67,Male,Lombard,Radiology,HMO,Hypertension,14,2,37,6,1
+P00124,67,Male,Lombard,Pediatrics,HMO,Minor Injury,20,3,38,9,0
+P00124,67,Male,Lombard,Radiology,HMO,Migraine,3,3,26,10,0
+P00124,67,Male,Lombard,Dermatology,HMO,Fracture,35,3,29,1,0
+P00124,67,Male,Lombard,Emergency,HMO,Skin Rash,11,3,31,10,0
+P00125,53,Female,Joliet,Neurology,Private,Migraine,2,0,36,10,0
+P00125,53,Female,Joliet,Dermatology,Private,Allergic Reaction,9,0,8,2,0
+P00125,53,Female,Joliet,Radiology,Private,Back Pain,1,0,15,5,1
+P00125,53,Female,Joliet,Cardiology,Private,Asthma,7,1,19,12,0
+P00126,19,Male,Woodridge,General Surgery,Medicaid,Chest Pain,7,0,10,8,0
+P00126,19,Male,Woodridge,Emergency,Medicaid,Chest Pain,5,0,36,1,0
+P00126,19,Male,Woodridge,Primary Care,Medicaid,Anxiety,36,0,28,2,1
+P00126,19,Male,Woodridge,Pediatrics,Medicaid,Back Pain,6,1,34,7,0
+P00126,19,Male,Woodridge,General Surgery,Medicaid,Post-Op Follow-up,12,1,44,7,1
+P00127,49,Female,Bolingbrook,Primary Care,HMO,Hypertension,8,0,20,9,0
+P00127,49,Female,Bolingbrook,Cardiology,HMO,Type 2 Diabetes,26,0,45,10,0
+P00127,49,Female,Bolingbrook,Emergency,HMO,Skin Rash,8,0,33,11,0
+P00127,49,Female,Bolingbrook,General Surgery,HMO,Asthma,12,0,24,11,0
+P00127,49,Female,Bolingbrook,Oncology,HMO,Routine Screening,27,0,22,12,0
+P00127,49,Female,Bolingbrook,Cardiology,HMO,Chest Pain,3,0,2,8,1
+P00127,49,Female,Bolingbrook,Neurology,HMO,Type 2 Diabetes,38,1,44,12,0
+P00128,49,Male,Lombard,Neurology,Medicare,Skin Rash,23,0,37,10,0
+P00128,49,Male,Lombard,Emergency,Medicare,Chest Pain,6,0,38,3,0
+P00128,49,Male,Lombard,Primary Care,Medicare,Routine Screening,6,0,27,6,0
+P00128,49,Male,Lombard,Pediatrics,Medicare,Influenza,2,0,29,6,0
+P00129,69,Female,Aurora,Primary Care,Medicare,Hypertension,22,0,7,5,0
+P00129,69,Female,Aurora,Cardiology,Medicare,Fracture,5,0,21,8,0
+P00129,69,Female,Aurora,General Surgery,Medicare,Skin Rash,8,0,35,1,0
+P00129,69,Female,Aurora,Dermatology,Medicare,Allergic Reaction,18,0,27,9,1
+P00129,69,Female,Aurora,Oncology,Medicare,Influenza,0,1,14,12,1
+P00130,37,Male,Aurora,General Surgery,Private,Back Pain,21,0,38,2,0
+P00130,37,Male,Aurora,General Surgery,Private,Annual Checkup,14,0,30,6,0
+P00130,37,Male,Aurora,Orthopedics,Private,Skin Rash,1,0,20,12,0
+P00131,24,Female,Downers Grove,General Surgery,Medicaid,Anxiety,5,0,31,1,1
+P00131,24,Female,Downers Grove,Orthopedics,Medicaid,Minor Injury,10,1,27,3,0
+P00131,24,Female,Downers Grove,Radiology,Medicaid,Routine Screening,4,1,28,6,0
+P00131,24,Female,Downers Grove,Orthopedics,Medicaid,Annual Checkup,11,1,18,2,0
+P00131,24,Female,Downers Grove,General Surgery,Medicaid,Allergic Reaction,1,1,2,5,0
+P00131,24,Female,Downers Grove,General Surgery,Medicaid,Asthma,10,1,52,10,1
+P00132,81,Female,Elmhurst,Pediatrics,Private,Annual Checkup,1,0,39,1,0
+P00132,81,Female,Elmhurst,Radiology,Private,Minor Injury,25,0,47,4,0
+P00132,81,Female,Elmhurst,Radiology,Private,Migraine,4,0,16,10,1
+P00132,81,Female,Elmhurst,Radiology,Private,Anxiety,1,1,19,9,0
+P00132,81,Female,Elmhurst,Pediatrics,Private,Hypertension,3,1,16,11,0
+P00133,13,Female,Aurora,Oncology,Medicare,Back Pain,24,0,30,5,0
+P00133,13,Female,Aurora,Primary Care,Medicare,Hypertension,6,0,22,6,0
+P00133,13,Female,Aurora,Oncology,Medicare,Annual Checkup,12,0,13,6,1
+P00133,13,Female,Aurora,Dermatology,Medicare,Allergic Reaction,10,1,21,6,0
+P00133,13,Female,Aurora,Neurology,Medicare,Routine Screening,0,1,39,7,0
+P00134,75,Female,Chicago,Neurology,Private,Routine Screening,21,0,25,3,0
+P00134,75,Female,Chicago,Pediatrics,Private,Fracture,6,0,27,3,1
+P00134,75,Female,Chicago,Dermatology,Private,Influenza,0,1,37,11,0
+P00134,75,Female,Chicago,Neurology,Private,Anxiety,2,1,30,11,0
+P00135,48,Female,Aurora,Oncology,PPO,Fracture,21,0,2,2,0
+P00135,48,Female,Aurora,Orthopedics,PPO,Type 2 Diabetes,13,0,10,3,0
+P00135,48,Female,Aurora,Neurology,PPO,Asthma,21,0,48,4,0
+P00135,48,Female,Aurora,Emergency,PPO,Anxiety,6,0,37,6,0
+P00135,48,Female,Aurora,Neurology,PPO,Allergic Reaction,17,0,55,2,0
+P00135,48,Female,Aurora,Orthopedics,PPO,Fracture,12,0,13,4,1
+P00135,48,Female,Aurora,Neurology,PPO,Fracture,10,1,48,8,0
+P00136,28,Female,Chicago,General Surgery,Private,Chest Pain,2,0,19,1,0
+P00136,28,Female,Chicago,Oncology,Private,Type 2 Diabetes,15,0,42,12,0
+P00136,28,Female,Chicago,Primary Care,Private,Asthma,8,0,14,6,0
+P00136,28,Female,Chicago,Dermatology,Private,Back Pain,9,0,25,6,0
+P00136,28,Female,Chicago,Pediatrics,Private,Back Pain,0,0,44,6,1
+P00137,53,Male,Joliet,Orthopedics,Medicaid,Minor Injury,13,0,30,8,0
+P00137,53,Male,Joliet,General Surgery,Medicaid,Skin Rash,7,0,35,11,0
+P00137,53,Male,Joliet,Orthopedics,Medicaid,Annual Checkup,0,0,46,3,0
+P00137,53,Male,Joliet,Oncology,Medicaid,Fracture,15,0,32,4,0
+P00138,32,Female,Naperville,Pediatrics,Private,Migraine,10,0,23,1,0
+P00138,32,Female,Naperville,Pediatrics,Private,Fracture,13,0,11,8,0
+P00138,32,Female,Naperville,Dermatology,Private,Back Pain,0,0,16,9,0
+P00138,32,Female,Naperville,Cardiology,Private,Anxiety,1,0,43,2,1
+P00138,32,Female,Naperville,General Surgery,Private,Anxiety,6,1,31,12,0
+P00139,51,Male,Naperville,Dermatology,Self-Pay,Hypertension,2,0,19,1,0
+P00139,51,Male,Naperville,Primary Care,Self-Pay,Influenza,10,0,26,1,0
+P00139,51,Male,Naperville,Orthopedics,Self-Pay,Back Pain,38,0,11,1,0
+P00139,51,Male,Naperville,Oncology,Self-Pay,Hypertension,10,0,32,9,0
+P00139,51,Male,Naperville,Dermatology,Self-Pay,Migraine,11,0,26,9,0
+P00140,56,Other,Lombard,Pediatrics,Self-Pay,Anxiety,1,0,29,3,1
+P00140,56,Other,Lombard,Pediatrics,Self-Pay,Asthma,7,1,31,5,0
+P00140,56,Other,Lombard,Radiology,Self-Pay,Skin Rash,3,1,31,6,0
+P00140,56,Other,Lombard,Cardiology,Self-Pay,Back Pain,15,1,32,10,0
+P00140,56,Other,Lombard,Orthopedics,Self-Pay,Skin Rash,8,1,33,5,0
+P00140,56,Other,Lombard,Primary Care,Self-Pay,Type 2 Diabetes,6,1,27,6,0
+P00140,56,Other,Lombard,Dermatology,Self-Pay,Anxiety,7,1,25,9,1
+P00141,37,Female,Bolingbrook,Orthopedics,Private,Minor Injury,6,0,12,4,0
+P00141,37,Female,Bolingbrook,Emergency,Private,Allergic Reaction,11,0,30,4,0
+P00141,37,Female,Bolingbrook,Orthopedics,Private,Routine Screening,1,0,30,4,0
+P00141,37,Female,Bolingbrook,Emergency,Private,Annual Checkup,0,0,32,4,0
+P00141,37,Female,Bolingbrook,Primary Care,Private,Influenza,3,0,9,5,0
+P00141,37,Female,Bolingbrook,Cardiology,Private,Minor Injury,4,0,28,7,0
+P00142,37,Male,Joliet,Pediatrics,Private,Anxiety,3,0,43,5,0
+P00142,37,Male,Joliet,General Surgery,Private,Allergic Reaction,16,0,29,7,0
+P00142,37,Male,Joliet,Pediatrics,Private,Influenza,19,0,17,12,0
+P00142,37,Male,Joliet,Dermatology,Private,Annual Checkup,32,0,31,12,0
+P00142,37,Male,Joliet,Orthopedics,Private,Back Pain,55,0,36,9,0
+P00142,37,Male,Joliet,Pediatrics,Private,Chest Pain,7,0,2,11,0
+P00143,30,Female,Woodridge,Primary Care,Private,Type 2 Diabetes,0,0,36,1,0
+P00143,30,Female,Woodridge,Pediatrics,Private,Back Pain,0,0,10,7,0
+P00143,30,Female,Woodridge,Cardiology,Private,Minor Injury,10,0,22,7,1
+P00143,30,Female,Woodridge,Orthopedics,Private,Asthma,0,1,25,8,0
+P00144,41,Female,Woodridge,Emergency,Private,Asthma,4,0,30,7,0
+P00144,41,Female,Woodridge,Oncology,Private,Back Pain,10,0,28,9,0
+P00144,41,Female,Woodridge,Orthopedics,Private,Routine Screening,7,0,37,11,0
+P00144,41,Female,Woodridge,Pediatrics,Private,Post-Op Follow-up,1,0,43,5,0
+P00145,63,Male,Aurora,Pediatrics,Private,Annual Checkup,9,0,38,7,0
+P00145,63,Male,Aurora,Neurology,Private,Asthma,25,0,33,9,0
+P00145,63,Male,Aurora,Primary Care,Private,Minor Injury,3,0,26,9,0
+P00145,63,Male,Aurora,General Surgery,Private,Skin Rash,30,0,20,10,1
+P00146,56,Female,Naperville,Neurology,HMO,Asthma,15,0,27,3,0
+P00146,56,Female,Naperville,Primary Care,HMO,Routine Screening,28,0,30,6,0
+P00146,56,Female,Naperville,Pediatrics,HMO,Back Pain,5,0,71,2,0
+P00146,56,Female,Naperville,Pediatrics,HMO,Chest Pain,8,0,14,12,0
+P00147,41,Female,Woodridge,Cardiology,Medicare,Migraine,7,0,26,3,0
+P00147,41,Female,Woodridge,Oncology,Medicare,Anxiety,1,0,31,3,0
+P00147,41,Female,Woodridge,Orthopedics,Medicare,Chest Pain,8,0,42,3,1
+P00147,41,Female,Woodridge,Radiology,Medicare,Annual Checkup,6,1,30,5,0
+P00147,41,Female,Woodridge,General Surgery,Medicare,Skin Rash,90,1,52,9,1
+P00147,41,Female,Woodridge,Neurology,Medicare,Skin Rash,37,2,11,9,1
+P00147,41,Female,Woodridge,Cardiology,Medicare,Hypertension,7,3,38,12,1
+P00147,41,Female,Woodridge,Emergency,Medicare,Routine Screening,17,4,28,3,0
+P00147,41,Female,Woodridge,Cardiology,Medicare,Anxiety,34,4,43,4,1
+P00147,41,Female,Woodridge,Orthopedics,Medicare,Migraine,2,5,17,8,0
+P00147,41,Female,Woodridge,Emergency,Medicare,Annual Checkup,2,5,27,9,1
+P00147,41,Female,Woodridge,Radiology,Medicare,Type 2 Diabetes,37,6,50,9,1
+P00148,26,Female,Naperville,Primary Care,Private,Annual Checkup,1,0,15,1,0
+P00148,26,Female,Naperville,Neurology,Private,Anxiety,13,0,32,2,0
+P00148,26,Female,Naperville,Pediatrics,Private,Chest Pain,2,0,24,5,0
+P00149,28,Female,Elmhurst,Primary Care,PPO,Chest Pain,24,0,28,4,0
+P00149,28,Female,Elmhurst,Neurology,PPO,Migraine,21,0,34,9,0
+P00149,28,Female,Elmhurst,Emergency,PPO,Post-Op Follow-up,1,0,37,11,0
+P00149,28,Female,Elmhurst,Emergency,PPO,Influenza,2,0,21,2,0
+P00149,28,Female,Elmhurst,Oncology,PPO,Hypertension,28,0,30,3,0
+P00149,28,Female,Elmhurst,Oncology,PPO,Hypertension,9,0,35,6,0
+P00150,24,Male,Bolingbrook,Radiology,Private,Back Pain,17,0,55,4,0
+P00150,24,Male,Bolingbrook,Dermatology,Private,Fracture,17,0,23,5,0
+P00150,24,Male,Bolingbrook,Emergency,Private,Allergic Reaction,18,0,42,7,0
+P00150,24,Male,Bolingbrook,Neurology,Private,Fracture,18,0,45,10,0
+P00151,50,Female,Joliet,Pediatrics,Private,Back Pain,0,0,17,4,0
+P00151,50,Female,Joliet,Orthopedics,Private,Type 2 Diabetes,27,0,34,5,0
+P00152,4,Female,Woodridge,Primary Care,Medicaid,Anxiety,7,0,30,2,1
+P00152,4,Female,Woodridge,Dermatology,Medicaid,Anxiety,24,1,24,5,0
+P00153,46,Male,Lombard,Cardiology,Private,Minor Injury,23,0,40,2,0
+P00153,46,Male,Lombard,Cardiology,Private,Anxiety,12,0,30,3,0
+P00153,46,Male,Lombard,Pediatrics,Private,Allergic Reaction,6,0,33,3,0
+P00153,46,Male,Lombard,General Surgery,Private,Post-Op Follow-up,3,0,36,7,0
+P00153,46,Male,Lombard,Dermatology,Private,Post-Op Follow-up,17,0,26,10,0
+P00153,46,Male,Lombard,General Surgery,Private,Skin Rash,2,0,17,12,0
+P00154,28,Female,Naperville,Oncology,Medicare,Fracture,17,0,26,5,0
+P00154,28,Female,Naperville,Emergency,Medicare,Type 2 Diabetes,8,0,25,12,1
+P00154,28,Female,Naperville,Cardiology,Medicare,Asthma,36,1,35,8,1
+P00155,77,Female,Elmhurst,Radiology,Private,Influenza,2,0,44,1,1
+P00155,77,Female,Elmhurst,Cardiology,Private,Allergic Reaction,2,1,41,10,0
+P00156,52,Female,Lombard,Emergency,Private,Back Pain,2,0,38,7,0
+P00156,52,Female,Lombard,Cardiology,Private,Back Pain,4,0,22,10,0
+P00156,52,Female,Lombard,Cardiology,Private,Minor Injury,0,0,44,11,0
+P00156,52,Female,Lombard,General Surgery,Private,Asthma,29,0,47,6,0
+P00156,52,Female,Lombard,Oncology,Private,Hypertension,3,0,30,7,0
+P00156,52,Female,Lombard,Primary Care,Private,Back Pain,16,0,15,8,0
+P00156,52,Female,Lombard,Neurology,Private,Annual Checkup,19,0,43,12,1
+P00157,51,Female,Chicago,Orthopedics,Private,Skin Rash,19,0,20,3,0
+P00157,51,Female,Chicago,Pediatrics,Private,Post-Op Follow-up,17,0,28,5,0
+P00157,51,Female,Chicago,Radiology,Private,Back Pain,56,0,47,5,0
+P00157,51,Female,Chicago,Neurology,Private,Routine Screening,14,0,7,5,0
+P00157,51,Female,Chicago,Emergency,Private,Chest Pain,40,0,8,7,0
+P00157,51,Female,Chicago,Dermatology,Private,Annual Checkup,0,0,57,10,0
+P00157,51,Female,Chicago,Radiology,Private,Post-Op Follow-up,20,0,23,10,0
+P00158,75,Male,Oak Brook,Cardiology,HMO,Chest Pain,9,0,50,3,0
+P00158,75,Male,Oak Brook,Orthopedics,HMO,Allergic Reaction,0,0,32,6,0
+P00158,75,Male,Oak Brook,Oncology,HMO,Routine Screening,14,0,11,7,1
+P00158,75,Male,Oak Brook,Radiology,HMO,Asthma,44,1,38,9,0
+P00159,45,Female,Downers Grove,Primary Care,Private,Back Pain,1,0,38,4,1
+P00159,45,Female,Downers Grove,Cardiology,Private,Annual Checkup,3,1,6,9,0
+P00159,45,Female,Downers Grove,Orthopedics,Private,Anxiety,3,1,29,12,0
+P00159,45,Female,Downers Grove,Oncology,Private,Fracture,11,1,16,12,0
+P00159,45,Female,Downers Grove,Primary Care,Private,Routine Screening,28,1,14,1,1
+P00159,45,Female,Downers Grove,Cardiology,Private,Back Pain,9,2,36,5,0
+P00159,45,Female,Downers Grove,Emergency,Private,Allergic Reaction,13,2,23,11,1
+P00159,45,Female,Downers Grove,Orthopedics,Private,Asthma,2,3,35,12,1
+P00160,21,Female,Joliet,Cardiology,PPO,Hypertension,3,0,18,1,0
+P00160,21,Female,Joliet,Orthopedics,PPO,Influenza,0,0,49,1,0
+P00160,21,Female,Joliet,General Surgery,PPO,Routine Screening,7,0,45,4,1
+P00160,21,Female,Joliet,Dermatology,PPO,Influenza,12,1,2,7,0
+P00160,21,Female,Joliet,Oncology,PPO,Annual Checkup,8,1,35,11,0
+P00160,21,Female,Joliet,Primary Care,PPO,Type 2 Diabetes,12,1,56,8,0
+P00161,45,Male,Woodridge,Emergency,Medicare,Fracture,66,0,38,2,0
+P00161,45,Male,Woodridge,Primary Care,Medicare,Annual Checkup,1,0,43,5,0
+P00161,45,Male,Woodridge,Pediatrics,Medicare,Skin Rash,0,0,12,6,0
+P00161,45,Male,Woodridge,Neurology,Medicare,Influenza,6,0,23,7,0
+P00161,45,Male,Woodridge,Primary Care,Medicare,Hypertension,6,0,20,5,0
+P00161,45,Male,Woodridge,Primary Care,Medicare,Minor Injury,2,0,14,10,0
+P00162,42,Female,Aurora,Dermatology,Private,Routine Screening,18,0,26,2,1
+P00162,42,Female,Aurora,Dermatology,Private,Influenza,22,1,15,8,0
+P00163,12,Female,Woodridge,Orthopedics,Private,Anxiety,10,0,34,3,0
+P00163,12,Female,Woodridge,Radiology,Private,Chest Pain,2,0,23,7,0
+P00163,12,Female,Woodridge,General Surgery,Private,Chest Pain,0,0,4,10,0
+P00163,12,Female,Woodridge,Emergency,Private,Chest Pain,8,0,3,8,0
+P00163,12,Female,Woodridge,Orthopedics,Private,Influenza,7,0,25,12,0
+P00164,45,Male,Bolingbrook,Dermatology,Medicare,Asthma,2,0,14,2,0
+P00164,45,Male,Bolingbrook,Cardiology,Medicare,Back Pain,9,0,16,11,0
+P00164,45,Male,Bolingbrook,Radiology,Medicare,Chest Pain,5,0,35,3,0
+P00164,45,Male,Bolingbrook,Dermatology,Medicare,Fracture,8,0,29,6,0
+P00164,45,Male,Bolingbrook,Dermatology,Medicare,Skin Rash,12,0,40,7,1
+P00164,45,Male,Bolingbrook,Emergency,Medicare,Back Pain,12,1,39,10,1
+P00165,68,Male,Naperville,Dermatology,PPO,Routine Screening,15,0,28,5,0
+P00165,68,Male,Naperville,Pediatrics,PPO,Allergic Reaction,4,0,35,5,0
+P00165,68,Male,Naperville,Pediatrics,PPO,Hypertension,30,0,25,8,1
+P00165,68,Male,Naperville,Neurology,PPO,Post-Op Follow-up,46,1,24,9,0
+P00166,48,Female,Woodridge,Primary Care,Medicare,Migraine,0,0,7,1,0
+P00166,48,Female,Woodridge,Primary Care,Medicare,Hypertension,9,0,25,3,0
+P00166,48,Female,Woodridge,Pediatrics,Medicare,Hypertension,22,0,32,8,0
+P00166,48,Female,Woodridge,Emergency,Medicare,Back Pain,11,0,4,10,1
+P00167,33,Male,Downers Grove,Primary Care,Medicaid,Chest Pain,14,0,34,9,0
+P00167,33,Male,Downers Grove,Primary Care,Medicaid,Hypertension,9,0,10,12,1
+P00167,33,Male,Downers Grove,Oncology,Medicaid,Asthma,3,1,23,2,0
+P00167,33,Male,Downers Grove,Emergency,Medicaid,Routine Screening,6,1,34,8,0
+P00167,33,Male,Downers Grove,Pediatrics,Medicaid,Routine Screening,1,1,44,10,0
+P00167,33,Male,Downers Grove,General Surgery,Medicaid,Skin Rash,35,1,8,12,1
+P00168,24,Female,Downers Grove,Emergency,HMO,Allergic Reaction,0,0,21,7,0
+P00168,24,Female,Downers Grove,Cardiology,HMO,Back Pain,5,0,30,2,0
+P00168,24,Female,Downers Grove,General Surgery,HMO,Back Pain,8,0,25,8,0
+P00168,24,Female,Downers Grove,Neurology,HMO,Type 2 Diabetes,4,0,28,8,0
+P00168,24,Female,Downers Grove,Emergency,HMO,Post-Op Follow-up,24,0,44,9,0
+P00168,24,Female,Downers Grove,Cardiology,HMO,Allergic Reaction,5,0,22,9,0
+P00168,24,Female,Downers Grove,Radiology,HMO,Allergic Reaction,4,0,31,10,0
+P00168,24,Female,Downers Grove,Neurology,HMO,Asthma,16,0,41,10,1
+P00168,24,Female,Downers Grove,Radiology,HMO,Fracture,4,1,58,11,0
+P00169,24,Female,Oak Brook,Orthopedics,HMO,Allergic Reaction,5,0,26,4,0
+P00169,24,Female,Oak Brook,Radiology,HMO,Migraine,1,0,39,8,0
+P00169,24,Female,Oak Brook,General Surgery,HMO,Anxiety,8,0,28,8,1
+P00169,24,Female,Oak Brook,Pediatrics,HMO,Minor Injury,6,1,31,4,0
+P00169,24,Female,Oak Brook,Dermatology,HMO,Type 2 Diabetes,8,1,9,4,0
+P00169,24,Female,Oak Brook,Primary Care,HMO,Routine Screening,6,1,31,12,1
+P00170,42,Male,Downers Grove,Cardiology,Self-Pay,Type 2 Diabetes,32,0,24,1,1
+P00170,42,Male,Downers Grove,Orthopedics,Self-Pay,Hypertension,8,1,22,10,0
+P00171,24,Male,Downers Grove,Oncology,Self-Pay,Post-Op Follow-up,2,0,42,10,0
+P00171,24,Male,Downers Grove,General Surgery,Self-Pay,Asthma,3,0,33,2,1
+P00171,24,Male,Downers Grove,Cardiology,Self-Pay,Back Pain,0,1,34,2,1
+P00171,24,Male,Downers Grove,Cardiology,Self-Pay,Chest Pain,7,2,2,5,0
+P00171,24,Male,Downers Grove,Dermatology,Self-Pay,Anxiety,6,2,17,6,0
+P00171,24,Male,Downers Grove,Oncology,Self-Pay,Skin Rash,1,2,46,10,1
+P00171,24,Male,Downers Grove,Oncology,Self-Pay,Back Pain,19,3,18,10,1
+P00171,24,Male,Downers Grove,General Surgery,Self-Pay,Allergic Reaction,2,4,5,11,0
+P00171,24,Male,Downers Grove,Neurology,Self-Pay,Type 2 Diabetes,14,4,15,11,1
+P00172,70,Male,Aurora,Radiology,PPO,Skin Rash,0,0,29,8,1
+P00172,70,Male,Aurora,Radiology,PPO,Annual Checkup,10,1,36,8,0
+P00172,70,Male,Aurora,Dermatology,PPO,Routine Screening,5,1,15,9,0
+P00172,70,Male,Aurora,Emergency,PPO,Influenza,24,1,49,3,0
+P00172,70,Male,Aurora,Orthopedics,PPO,Asthma,32,1,30,10,1
+P00172,70,Male,Aurora,Cardiology,PPO,Asthma,2,2,23,12,0
+P00173,76,Male,Downers Grove,General Surgery,Private,Allergic Reaction,17,0,3,7,0
+P00173,76,Male,Downers Grove,Pediatrics,Private,Allergic Reaction,12,0,23,2,1
+P00173,76,Male,Downers Grove,Pediatrics,Private,Annual Checkup,2,1,57,3,1
+P00173,76,Male,Downers Grove,Primary Care,Private,Post-Op Follow-up,42,2,37,8,1
+P00173,76,Male,Downers Grove,Cardiology,Private,Anxiety,1,3,25,8,1
+P00173,76,Male,Downers Grove,Dermatology,Private,Fracture,3,4,22,9,0
+P00174,60,Female,Woodridge,Radiology,PPO,Influenza,11,0,28,1,0
+P00174,60,Female,Woodridge,Dermatology,PPO,Post-Op Follow-up,9,0,24,2,0
+P00174,60,Female,Woodridge,General Surgery,PPO,Influenza,0,0,35,3,0
+P00174,60,Female,Woodridge,General Surgery,PPO,Allergic Reaction,29,0,24,8,1
+P00175,61,Female,Chicago,Primary Care,Private,Post-Op Follow-up,45,0,30,2,0
+P00175,61,Female,Chicago,Neurology,Private,Fracture,13,0,41,3,0
+P00175,61,Female,Chicago,Cardiology,Private,Routine Screening,1,0,22,4,0
+P00175,61,Female,Chicago,Emergency,Private,Minor Injury,3,0,31,3,0
+P00175,61,Female,Chicago,Oncology,Private,Skin Rash,3,0,8,11,0
+P00176,52,Female,Woodridge,Primary Care,Private,Annual Checkup,4,0,48,7,0
+P00176,52,Female,Woodridge,Dermatology,Private,Asthma,10,0,2,8,0
+P00176,52,Female,Woodridge,Radiology,Private,Hypertension,14,0,22,7,0
+P00176,52,Female,Woodridge,Emergency,Private,Influenza,30,0,7,8,1
+P00176,52,Female,Woodridge,Dermatology,Private,Minor Injury,1,1,43,10,0
+P00177,43,Male,Chicago,Emergency,Private,Asthma,22,0,46,8,0
+P00177,43,Male,Chicago,Pediatrics,Private,Influenza,16,0,21,12,0
+P00177,43,Male,Chicago,Primary Care,Private,Routine Screening,1,0,30,1,1
+P00177,43,Male,Chicago,Orthopedics,Private,Migraine,1,1,13,4,0
+P00177,43,Male,Chicago,Neurology,Private,Annual Checkup,11,1,29,11,0
+P00178,37,Female,Aurora,Cardiology,Private,Routine Screening,18,0,22,5,0
+P00178,37,Female,Aurora,Pediatrics,Private,Type 2 Diabetes,3,0,51,6,0
+P00178,37,Female,Aurora,Oncology,Private,Hypertension,18,0,19,11,0
+P00178,37,Female,Aurora,Emergency,Private,Asthma,0,0,32,8,0
+P00178,37,Female,Aurora,Oncology,Private,Fracture,9,0,28,10,0
+P00178,37,Female,Aurora,Orthopedics,Private,Allergic Reaction,5,0,24,12,0
+P00179,58,Male,Downers Grove,Cardiology,Private,Hypertension,8,0,2,5,0
+P00179,58,Male,Downers Grove,Radiology,Private,Minor Injury,4,0,19,6,0
+P00179,58,Male,Downers Grove,Neurology,Private,Skin Rash,4,0,32,10,0
+P00179,58,Male,Downers Grove,Radiology,Private,Annual Checkup,10,0,26,10,1
+P00179,58,Male,Downers Grove,Pediatrics,Private,Annual Checkup,5,1,48,2,0
+P00179,58,Male,Downers Grove,Neurology,Private,Anxiety,2,1,2,12,0
+P00180,41,Male,Chicago,Emergency,HMO,Chest Pain,1,0,19,9,0
+P00180,41,Male,Chicago,Oncology,HMO,Allergic Reaction,6,0,26,10,0
+P00180,41,Male,Chicago,Pediatrics,HMO,Anxiety,20,0,24,12,0
+P00181,25,Male,Lombard,General Surgery,Private,Fracture,13,0,48,6,0
+P00181,25,Male,Lombard,Orthopedics,Private,Annual Checkup,3,0,17,6,0
+P00181,25,Male,Lombard,Dermatology,Private,Annual Checkup,4,0,34,10,0
+P00181,25,Male,Lombard,Primary Care,Private,Annual Checkup,18,0,48,3,0
+P00181,25,Male,Lombard,Radiology,Private,Asthma,4,0,18,3,0
+P00181,25,Male,Lombard,Emergency,Private,Minor Injury,73,0,10,4,0
+P00181,25,Male,Lombard,General Surgery,Private,Chest Pain,3,0,13,4,0
+P00182,37,Female,Oak Brook,Radiology,Medicaid,Fracture,3,0,27,4,0
+P00182,37,Female,Oak Brook,Neurology,Medicaid,Annual Checkup,5,0,13,9,0
+P00183,37,Female,Aurora,General Surgery,HMO,Routine Screening,7,0,21,11,0
+P00183,37,Female,Aurora,Cardiology,HMO,Anxiety,18,0,21,10,0
+P00184,29,Female,Oak Brook,Emergency,Medicare,Back Pain,22,0,32,1,0
+P00184,29,Female,Oak Brook,Radiology,Medicare,Post-Op Follow-up,0,0,2,2,0
+P00184,29,Female,Oak Brook,Radiology,Medicare,Chest Pain,5,0,50,5,0
+P00185,42,Female,Downers Grove,Dermatology,Private,Type 2 Diabetes,8,0,10,5,0
+P00185,42,Female,Downers Grove,Pediatrics,Private,Hypertension,10,0,28,7,0
+P00185,42,Female,Downers Grove,Neurology,Private,Hypertension,33,0,18,10,0
+P00185,42,Female,Downers Grove,Pediatrics,Private,Minor Injury,5,0,22,1,0
+P00185,42,Female,Downers Grove,Neurology,Private,Anxiety,22,0,22,1,0
+P00185,42,Female,Downers Grove,Radiology,Private,Asthma,1,0,40,4,0
+P00186,22,Female,Bolingbrook,General Surgery,Private,Annual Checkup,6,0,45,3,0
+P00186,22,Female,Bolingbrook,Cardiology,Private,Anxiety,8,0,33,6,0
+P00186,22,Female,Bolingbrook,Emergency,Private,Skin Rash,0,0,25,6,0
+P00186,22,Female,Bolingbrook,Cardiology,Private,Fracture,7,0,43,11,0
+P00186,22,Female,Bolingbrook,General Surgery,Private,Migraine,17,0,24,4,0
+P00186,22,Female,Bolingbrook,Dermatology,Private,Fracture,7,0,32,7,0
+P00187,55,Female,Oak Brook,Neurology,HMO,Migraine,7,0,18,2,0
+P00187,55,Female,Oak Brook,Neurology,HMO,Type 2 Diabetes,17,0,32,8,0
+P00187,55,Female,Oak Brook,Pediatrics,HMO,Chest Pain,1,0,37,6,0
+P00187,55,Female,Oak Brook,Oncology,HMO,Post-Op Follow-up,8,0,2,11,0
+P00188,27,Male,Elmhurst,Primary Care,Private,Minor Injury,3,0,5,3,0
+P00189,29,Male,Woodridge,Neurology,Medicare,Fracture,3,0,2,2,1
+P00189,29,Male,Woodridge,Dermatology,Medicare,Routine Screening,32,1,37,6,0
+P00189,29,Male,Woodridge,Primary Care,Medicare,Skin Rash,3,1,27,7,1
+P00189,29,Male,Woodridge,Orthopedics,Medicare,Allergic Reaction,17,2,24,11,1
+P00189,29,Male,Woodridge,Orthopedics,Medicare,Migraine,7,3,32,6,1
+P00189,29,Male,Woodridge,Neurology,Medicare,Migraine,39,4,38,9,1
+P00190,41,Male,Oak Brook,Oncology,Private,Allergic Reaction,2,0,36,1,1
+P00190,41,Male,Oak Brook,Radiology,Private,Influenza,1,1,31,1,0
+P00190,41,Male,Oak Brook,Neurology,Private,Allergic Reaction,10,1,23,3,0
+P00190,41,Male,Oak Brook,Neurology,Private,Asthma,8,1,42,5,1
+P00190,41,Male,Oak Brook,Primary Care,Private,Skin Rash,8,2,13,11,0
+P00190,41,Male,Oak Brook,Emergency,Private,Chest Pain,1,2,10,2,0
+P00190,41,Male,Oak Brook,General Surgery,Private,Anxiety,0,2,22,11,0
+P00190,41,Male,Oak Brook,Pediatrics,Private,Chest Pain,2,2,12,12,0
+P00191,53,Female,Oak Brook,General Surgery,Private,Influenza,20,0,70,1,0
+P00191,53,Female,Oak Brook,Dermatology,Private,Skin Rash,0,0,20,2,0
+P00191,53,Female,Oak Brook,Orthopedics,Private,Type 2 Diabetes,7,0,23,5,0
+P00192,24,Female,Oak Brook,Orthopedics,Private,Back Pain,3,0,36,10,0
+P00192,24,Female,Oak Brook,Orthopedics,Private,Migraine,5,0,7,2,0
+P00192,24,Female,Oak Brook,Neurology,Private,Influenza,1,0,52,11,0
+P00192,24,Female,Oak Brook,Pediatrics,Private,Routine Screening,12,0,56,12,1
+P00193,60,Male,Woodridge,Cardiology,Medicare,Annual Checkup,15,0,27,5,0
+P00193,60,Male,Woodridge,Cardiology,Medicare,Allergic Reaction,5,0,14,4,0
+P00194,51,Other,Bolingbrook,Neurology,Self-Pay,Type 2 Diabetes,10,0,36,4,0
+P00194,51,Other,Bolingbrook,Oncology,Self-Pay,Hypertension,16,0,20,6,0
+P00194,51,Other,Bolingbrook,General Surgery,Self-Pay,Influenza,6,0,43,11,1
+P00195,53,Male,Downers Grove,Emergency,Private,Allergic Reaction,0,0,27,5,0
+P00195,53,Male,Downers Grove,Oncology,Private,Chest Pain,4,0,22,3,0
+P00195,53,Male,Downers Grove,Cardiology,Private,Type 2 Diabetes,7,0,2,4,0
+P00195,53,Male,Downers Grove,Neurology,Private,Skin Rash,5,0,34,5,0
+P00195,53,Male,Downers Grove,Pediatrics,Private,Minor Injury,7,0,28,8,0
+P00195,53,Male,Downers Grove,Neurology,Private,Anxiety,4,0,41,8,0
+P00195,53,Male,Downers Grove,Oncology,Private,Routine Screening,24,0,10,9,0
+P00196,36,Male,Woodridge,Oncology,Self-Pay,Influenza,0,0,35,2,0
+P00196,36,Male,Woodridge,Pediatrics,Self-Pay,Hypertension,9,0,20,4,0
+P00196,36,Male,Woodridge,Oncology,Self-Pay,Post-Op Follow-up,63,0,21,5,0
+P00196,36,Male,Woodridge,Dermatology,Self-Pay,Anxiety,17,0,11,10,0
+P00196,36,Male,Woodridge,Dermatology,Self-Pay,Chest Pain,4,0,25,12,0
+P00196,36,Male,Woodridge,Dermatology,Self-Pay,Influenza,13,0,46,12,0
+P00197,47,Female,Naperville,Primary Care,Private,Minor Injury,12,0,13,12,0
+P00197,47,Female,Naperville,Pediatrics,Private,Back Pain,22,0,22,4,0
+P00197,47,Female,Naperville,Cardiology,Private,Anxiety,3,0,30,7,0
+P00197,47,Female,Naperville,Cardiology,Private,Migraine,27,0,26,8,0
+P00197,47,Female,Naperville,Emergency,Private,Routine Screening,2,0,22,9,0
+P00197,47,Female,Naperville,Pediatrics,Private,Routine Screening,9,0,11,12,0
+P00197,47,Female,Naperville,Neurology,Private,Chest Pain,1,0,30,12,0
+P00198,40,Female,Chicago,Orthopedics,Private,Allergic Reaction,22,0,20,8,0
+P00198,40,Female,Chicago,Radiology,Private,Allergic Reaction,9,0,31,9,1
+P00198,40,Female,Chicago,Oncology,Private,Asthma,66,1,39,10,0
+P00198,40,Female,Chicago,Neurology,Private,Routine Screening,1,1,19,11,0
+P00198,40,Female,Chicago,Orthopedics,Private,Post-Op Follow-up,13,1,23,2,0
+P00198,40,Female,Chicago,General Surgery,Private,Skin Rash,7,1,35,3,0
+P00199,43,Female,Bolingbrook,Radiology,Private,Migraine,1,0,31,3,0
+P00199,43,Female,Bolingbrook,Neurology,Private,Allergic Reaction,11,0,42,7,0
+P00199,43,Female,Bolingbrook,Emergency,Private,Anxiety,0,0,7,9,0
+P00199,43,Female,Bolingbrook,Cardiology,Private,Hypertension,6,0,19,5,0
+P00200,64,Male,Downers Grove,Oncology,Medicare,Post-Op Follow-up,4,0,36,4,0
+P00200,64,Male,Downers Grove,General Surgery,Medicare,Fracture,0,0,11,11,0
+P00200,64,Male,Downers Grove,Orthopedics,Medicare,Fracture,33,0,18,3,0
+P00200,64,Male,Downers Grove,Dermatology,Medicare,Migraine,6,0,18,3,0
+P00200,64,Male,Downers Grove,General Surgery,Medicare,Allergic Reaction,3,0,51,8,1
+P00200,64,Male,Downers Grove,Cardiology,Medicare,Migraine,11,1,19,9,0
+P00201,17,Female,Woodridge,Neurology,HMO,Post-Op Follow-up,9,0,23,4,1
+P00202,19,Male,Elmhurst,General Surgery,PPO,Type 2 Diabetes,10,0,11,1,0
+P00202,19,Male,Elmhurst,Orthopedics,PPO,Influenza,6,0,12,2,0
+P00202,19,Male,Elmhurst,Primary Care,PPO,Influenza,24,0,11,5,0
+P00202,19,Male,Elmhurst,Emergency,PPO,Annual Checkup,28,0,29,3,0
+P00202,19,Male,Elmhurst,Neurology,PPO,Fracture,9,0,31,7,1
+P00203,36,Female,Chicago,Emergency,Medicare,Hypertension,13,0,10,3,0
+P00203,36,Female,Chicago,Radiology,Medicare,Skin Rash,17,0,4,11,0
+P00204,43,Male,Bolingbrook,Dermatology,Medicare,Allergic Reaction,1,0,19,10,0
+P00205,59,Male,Aurora,Cardiology,Medicare,Allergic Reaction,9,0,29,4,0
+P00205,59,Male,Aurora,Radiology,Medicare,Back Pain,3,0,35,6,0
+P00205,59,Male,Aurora,Dermatology,Medicare,Post-Op Follow-up,13,0,32,6,0
+P00206,45,Female,Chicago,Oncology,Medicaid,Fracture,0,0,36,3,0
+P00206,45,Female,Chicago,Radiology,Medicaid,Minor Injury,3,0,20,7,0
+P00206,45,Female,Chicago,Neurology,Medicaid,Skin Rash,3,0,12,12,0
+P00207,51,Female,Oak Brook,Neurology,Self-Pay,Asthma,0,0,11,2,0
+P00207,51,Female,Oak Brook,Emergency,Self-Pay,Skin Rash,1,0,4,6,0
+P00207,51,Female,Oak Brook,Neurology,Self-Pay,Routine Screening,10,0,44,1,0
+P00207,51,Female,Oak Brook,Cardiology,Self-Pay,Minor Injury,6,0,29,2,0
+P00207,51,Female,Oak Brook,Orthopedics,Self-Pay,Back Pain,0,0,14,6,1
+P00208,26,Male,Bolingbrook,Emergency,Private,Skin Rash,12,0,28,8,0
+P00208,26,Male,Bolingbrook,Cardiology,Private,Asthma,8,0,43,10,0
+P00208,26,Male,Bolingbrook,Emergency,Private,Skin Rash,1,0,24,1,0
+P00208,26,Male,Bolingbrook,Radiology,Private,Post-Op Follow-up,7,0,40,2,0
+P00208,26,Male,Bolingbrook,Oncology,Private,Post-Op Follow-up,8,0,38,4,0
+P00208,26,Male,Bolingbrook,Orthopedics,Private,Post-Op Follow-up,6,0,32,4,0
+P00208,26,Male,Bolingbrook,Cardiology,Private,Allergic Reaction,13,0,18,7,0
+P00208,26,Male,Bolingbrook,Radiology,Private,Minor Injury,7,0,49,11,0
+P00209,56,Male,Joliet,Radiology,Private,Fracture,9,0,15,2,1
+P00209,56,Male,Joliet,General Surgery,Private,Chest Pain,3,1,5,9,0
+P00209,56,Male,Joliet,Radiology,Private,Influenza,4,1,29,10,0
+P00209,56,Male,Joliet,Pediatrics,Private,Anxiety,14,1,23,12,0
+P00209,56,Male,Joliet,Cardiology,Private,Fracture,15,1,12,6,0
+P00209,56,Male,Joliet,Radiology,Private,Post-Op Follow-up,0,1,22,11,0
+P00210,7,Male,Lombard,Orthopedics,Private,Asthma,6,0,27,2,0
+P00210,7,Male,Lombard,Emergency,Private,Migraine,12,0,26,9,0
+P00210,7,Male,Lombard,Dermatology,Private,Hypertension,2,0,8,10,0
+P00210,7,Male,Lombard,Oncology,Private,Routine Screening,4,0,29,1,0
+P00210,7,Male,Lombard,Oncology,Private,Allergic Reaction,8,0,13,1,0
+P00210,7,Male,Lombard,Dermatology,Private,Chest Pain,7,0,28,4,1
+P00210,7,Male,Lombard,General Surgery,Private,Minor Injury,17,1,36,5,1
+P00210,7,Male,Lombard,Pediatrics,Private,Skin Rash,22,2,32,12,0
+P00211,63,Male,Lombard,Primary Care,Medicaid,Minor Injury,17,0,42,1,0
+P00211,63,Male,Lombard,Orthopedics,Medicaid,Chest Pain,24,0,25,1,0
+P00211,63,Male,Lombard,General Surgery,Medicaid,Influenza,6,0,23,2,0
+P00211,63,Male,Lombard,Emergency,Medicaid,Post-Op Follow-up,6,0,35,10,1
+P00211,63,Male,Lombard,Dermatology,Medicaid,Influenza,2,1,2,7,0
+P00211,63,Male,Lombard,Neurology,Medicaid,Anxiety,32,1,45,12,1
+P00212,35,Male,Joliet,Neurology,Medicare,Back Pain,18,0,24,9,0
+P00212,35,Male,Joliet,Oncology,Medicare,Asthma,14,0,15,9,0
+P00212,35,Male,Joliet,Primary Care,Medicare,Allergic Reaction,10,0,29,10,0
+P00212,35,Male,Joliet,Emergency,Medicare,Type 2 Diabetes,3,0,40,10,0
+P00212,35,Male,Joliet,Radiology,Medicare,Routine Screening,24,0,34,11,0
+P00212,35,Male,Joliet,Pediatrics,Medicare,Migraine,1,0,2,12,1
+P00213,57,Female,Oak Brook,Oncology,Medicare,Skin Rash,3,0,47,3,0
+P00213,57,Female,Oak Brook,Dermatology,Medicare,Fracture,46,0,29,10,0
+P00213,57,Female,Oak Brook,Neurology,Medicare,Annual Checkup,29,0,31,1,0
+P00213,57,Female,Oak Brook,Oncology,Medicare,Annual Checkup,6,0,30,11,0
+P00213,57,Female,Oak Brook,Pediatrics,Medicare,Influenza,21,0,30,12,0
+P00214,31,Female,Aurora,Pediatrics,HMO,Fracture,2,0,27,2,0
+P00214,31,Female,Aurora,Primary Care,HMO,Post-Op Follow-up,46,0,43,7,0
+P00214,31,Female,Aurora,Orthopedics,HMO,Chest Pain,7,0,30,9,0
+P00214,31,Female,Aurora,General Surgery,HMO,Back Pain,27,0,43,10,1
+P00214,31,Female,Aurora,Radiology,HMO,Routine Screening,2,1,25,10,0
+P00214,31,Female,Aurora,Neurology,HMO,Migraine,5,1,23,6,0
+P00214,31,Female,Aurora,Neurology,HMO,Post-Op Follow-up,0,1,21,8,0
+P00214,31,Female,Aurora,Dermatology,HMO,Type 2 Diabetes,14,1,28,9,0
+P00215,52,Male,Joliet,Primary Care,Self-Pay,Migraine,0,0,15,2,1
+P00215,52,Male,Joliet,Primary Care,Self-Pay,Routine Screening,21,1,39,2,1
+P00215,52,Male,Joliet,Radiology,Self-Pay,Chest Pain,9,2,45,5,1
+P00215,52,Male,Joliet,Emergency,Self-Pay,Influenza,0,3,33,5,0
+P00215,52,Male,Joliet,Emergency,Self-Pay,Skin Rash,35,3,44,7,0
+P00215,52,Male,Joliet,General Surgery,Self-Pay,Minor Injury,9,3,34,8,1
+P00215,52,Male,Joliet,Primary Care,Self-Pay,Routine Screening,11,4,17,12,1
+P00215,52,Male,Joliet,Radiology,Self-Pay,Fracture,25,5,27,2,1
+P00215,52,Male,Joliet,Radiology,Self-Pay,Asthma,20,6,46,5,1
+P00215,52,Male,Joliet,Pediatrics,Self-Pay,Annual Checkup,2,7,47,5,0
+P00215,52,Male,Joliet,Oncology,Self-Pay,Influenza,33,7,17,6,1
+P00215,52,Male,Joliet,Emergency,Self-Pay,Routine Screening,4,8,16,6,1
+P00215,52,Male,Joliet,General Surgery,Self-Pay,Annual Checkup,9,9,18,11,1
+P00216,20,Female,Downers Grove,Pediatrics,Private,Annual Checkup,6,0,33,2,0
+P00216,20,Female,Downers Grove,General Surgery,Private,Routine Screening,0,0,19,5,1
+P00216,20,Female,Downers Grove,Orthopedics,Private,Routine Screening,2,1,48,7,0
+P00216,20,Female,Downers Grove,Emergency,Private,Chest Pain,20,1,35,8,1
+P00216,20,Female,Downers Grove,Orthopedics,Private,Post-Op Follow-up,18,2,23,12,0
+P00216,20,Female,Downers Grove,Oncology,Private,Post-Op Follow-up,4,2,35,4,0
+P00216,20,Female,Downers Grove,General Surgery,Private,Chest Pain,9,2,18,5,0
+P00216,20,Female,Downers Grove,Dermatology,Private,Chest Pain,1,2,37,7,0
+P00216,20,Female,Downers Grove,Orthopedics,Private,Fracture,0,2,12,8,0
+P00216,20,Female,Downers Grove,Pediatrics,Private,Influenza,1,2,12,9,0
+P00216,20,Female,Downers Grove,Oncology,Private,Minor Injury,2,2,30,11,0
+P00217,53,Female,Naperville,Pediatrics,Self-Pay,Allergic Reaction,28,0,27,12,0
+P00217,53,Female,Naperville,Neurology,Self-Pay,Type 2 Diabetes,11,0,28,2,0
+P00217,53,Female,Naperville,Dermatology,Self-Pay,Anxiety,3,0,15,3,0
+P00217,53,Female,Naperville,Dermatology,Self-Pay,Routine Screening,27,0,24,11,0
+P00217,53,Female,Naperville,Orthopedics,Self-Pay,Hypertension,7,0,54,11,0
+P00217,53,Female,Naperville,Radiology,Self-Pay,Chest Pain,1,0,27,12,0
+P00218,33,Female,Woodridge,Primary Care,Self-Pay,Influenza,3,0,47,2,0
+P00218,33,Female,Woodridge,Cardiology,Self-Pay,Anxiety,0,0,47,2,0
+P00218,33,Female,Woodridge,Radiology,Self-Pay,Migraine,4,0,24,5,1
+P00219,43,Male,Downers Grove,Pediatrics,Medicare,Skin Rash,12,0,7,1,0
+P00219,43,Male,Downers Grove,Pediatrics,Medicare,Fracture,21,0,2,2,0
+P00219,43,Male,Downers Grove,Orthopedics,Medicare,Skin Rash,0,0,48,7,0
+P00219,43,Male,Downers Grove,Pediatrics,Medicare,Hypertension,1,0,39,8,0
+P00219,43,Male,Downers Grove,Radiology,Medicare,Asthma,31,0,34,1,1
+P00220,28,Female,Woodridge,Neurology,Medicaid,Migraine,5,0,24,11,0
+P00220,28,Female,Woodridge,Pediatrics,Medicaid,Migraine,29,0,44,4,0
+P00220,28,Female,Woodridge,Emergency,Medicaid,Allergic Reaction,5,0,8,5,0
+P00220,28,Female,Woodridge,Dermatology,Medicaid,Anxiety,28,0,44,5,0
+P00220,28,Female,Woodridge,General Surgery,Medicaid,Routine Screening,4,0,14,11,0
+P00220,28,Female,Woodridge,Orthopedics,Medicaid,Hypertension,12,0,11,12,0
+P00221,70,Female,Joliet,Radiology,Self-Pay,Chest Pain,0,0,9,4,0
+P00221,70,Female,Joliet,General Surgery,Self-Pay,Minor Injury,2,0,2,7,0
+P00221,70,Female,Joliet,Dermatology,Self-Pay,Annual Checkup,15,0,42,11,0
+P00221,70,Female,Joliet,Cardiology,Self-Pay,Hypertension,0,0,15,3,0
+P00221,70,Female,Joliet,Neurology,Self-Pay,Influenza,5,0,36,3,0
+P00221,70,Female,Joliet,Pediatrics,Self-Pay,Back Pain,5,0,43,5,0
+P00222,46,Male,Aurora,Radiology,Self-Pay,Skin Rash,3,0,35,9,0
+P00223,40,Male,Naperville,Oncology,Medicaid,Fracture,11,0,22,4,0
+P00223,40,Male,Naperville,General Surgery,Medicaid,Post-Op Follow-up,5,0,27,1,0
+P00223,40,Male,Naperville,Pediatrics,Medicaid,Chest Pain,7,0,32,2,0
+P00223,40,Male,Naperville,General Surgery,Medicaid,Anxiety,30,0,20,3,0
+P00224,33,Other,Woodridge,Emergency,Private,Skin Rash,3,0,2,3,1
+P00224,33,Other,Woodridge,Primary Care,Private,Minor Injury,1,1,45,9,0
+P00224,33,Other,Woodridge,Neurology,Private,Fracture,24,1,28,2,0
+P00224,33,Other,Woodridge,Radiology,Private,Routine Screening,1,1,26,5,0
+P00225,62,Female,Naperville,General Surgery,Medicare,Chest Pain,6,0,30,1,0
+P00225,62,Female,Naperville,Primary Care,Medicare,Allergic Reaction,7,0,14,3,0
+P00225,62,Female,Naperville,Pediatrics,Medicare,Annual Checkup,2,0,31,8,0
+P00225,62,Female,Naperville,Neurology,Medicare,Allergic Reaction,33,0,23,12,0
+P00225,62,Female,Naperville,Emergency,Medicare,Anxiety,5,0,16,1,0
+P00225,62,Female,Naperville,Emergency,Medicare,Type 2 Diabetes,1,0,28,4,0
+P00225,62,Female,Naperville,Pediatrics,Medicare,Routine Screening,31,0,16,11,1
+P00226,54,Female,Chicago,Neurology,Self-Pay,Anxiety,7,0,22,9,0
+P00226,54,Female,Chicago,Oncology,Self-Pay,Anxiety,50,0,2,11,0
+P00226,54,Female,Chicago,Primary Care,Self-Pay,Post-Op Follow-up,14,0,6,5,0
+P00227,68,Female,Naperville,General Surgery,Self-Pay,Asthma,6,0,34,3,0
+P00227,68,Female,Naperville,Pediatrics,Self-Pay,Back Pain,3,0,54,10,0
+P00227,68,Female,Naperville,Emergency,Self-Pay,Minor Injury,15,0,20,10,0
+P00228,40,Female,Lombard,Orthopedics,Private,Fracture,9,0,44,4,0
+P00228,40,Female,Lombard,Cardiology,Private,Anxiety,3,0,39,8,0
+P00228,40,Female,Lombard,Orthopedics,Private,Post-Op Follow-up,15,0,37,4,0
+P00228,40,Female,Lombard,Pediatrics,Private,Minor Injury,3,0,36,4,0
+P00229,51,Female,Lombard,Oncology,Private,Annual Checkup,10,0,34,2,1
+P00229,51,Female,Lombard,Primary Care,Private,Routine Screening,4,1,28,3,0
+P00229,51,Female,Lombard,Oncology,Private,Post-Op Follow-up,5,1,2,5,0
+P00230,40,Female,Chicago,Primary Care,Self-Pay,Asthma,2,0,34,2,0
+P00230,40,Female,Chicago,Orthopedics,Self-Pay,Fracture,4,0,31,8,0
+P00230,40,Female,Chicago,Orthopedics,Self-Pay,Asthma,14,0,32,9,0
+P00230,40,Female,Chicago,Radiology,Self-Pay,Annual Checkup,7,0,40,9,1
+P00230,40,Female,Chicago,Oncology,Self-Pay,Routine Screening,21,1,30,11,0
+P00230,40,Female,Chicago,Dermatology,Self-Pay,Post-Op Follow-up,17,1,21,1,0
+P00230,40,Female,Chicago,Emergency,Self-Pay,Anxiety,10,1,19,12,1
+P00231,40,Male,Naperville,Dermatology,Medicare,Asthma,4,0,38,9,0
+P00231,40,Male,Naperville,Primary Care,Medicare,Chest Pain,2,0,27,10,0
+P00231,40,Male,Naperville,Oncology,Medicare,Type 2 Diabetes,5,0,36,2,0
+P00231,40,Male,Naperville,Oncology,Medicare,Hypertension,4,0,51,6,0
+P00231,40,Male,Naperville,Cardiology,Medicare,Asthma,31,0,27,9,0
+P00231,40,Male,Naperville,Primary Care,Medicare,Chest Pain,6,0,27,9,0
+P00232,69,Female,Lombard,Oncology,Private,Type 2 Diabetes,24,0,45,5,0
+P00232,69,Female,Lombard,Orthopedics,Private,Anxiety,1,0,37,6,0
+P00232,69,Female,Lombard,Neurology,Private,Fracture,6,0,2,8,0
+P00232,69,Female,Lombard,Dermatology,Private,Routine Screening,21,0,27,10,0
+P00232,69,Female,Lombard,General Surgery,Private,Type 2 Diabetes,14,0,40,12,0
+P00233,43,Male,Elmhurst,Oncology,Medicare,Chest Pain,1,0,30,1,0
+P00233,43,Male,Elmhurst,Primary Care,Medicare,Chest Pain,27,0,31,6,0
+P00233,43,Male,Elmhurst,Neurology,Medicare,Migraine,0,0,23,8,0
+P00233,43,Male,Elmhurst,Pediatrics,Medicare,Back Pain,14,0,37,9,0
+P00233,43,Male,Elmhurst,Neurology,Medicare,Hypertension,1,0,15,2,0
+P00233,43,Male,Elmhurst,Dermatology,Medicare,Post-Op Follow-up,10,0,52,8,0
+P00233,43,Male,Elmhurst,Neurology,Medicare,Anxiety,18,0,25,9,0
+P00234,35,Male,Joliet,Neurology,Private,Routine Screening,25,0,11,2,0
+P00234,35,Male,Joliet,Radiology,Private,Asthma,3,0,22,4,0
+P00234,35,Male,Joliet,Cardiology,Private,Post-Op Follow-up,8,0,27,7,0
+P00234,35,Male,Joliet,Primary Care,Private,Skin Rash,0,0,2,10,0
+P00234,35,Male,Joliet,Orthopedics,Private,Migraine,8,0,42,11,0
+P00235,63,Male,Woodridge,Primary Care,PPO,Influenza,6,0,18,7,0
+P00235,63,Male,Woodridge,Orthopedics,PPO,Back Pain,0,0,23,9,0
+P00235,63,Male,Woodridge,Primary Care,PPO,Hypertension,4,0,15,10,0
+P00235,63,Male,Woodridge,Neurology,PPO,Post-Op Follow-up,19,0,38,12,0
+P00235,63,Male,Woodridge,Primary Care,PPO,Skin Rash,6,0,12,2,0
+P00236,34,Female,Joliet,Orthopedics,HMO,Minor Injury,17,0,48,1,1
+P00236,34,Female,Joliet,Primary Care,HMO,Migraine,3,1,27,2,0
+P00236,34,Female,Joliet,Primary Care,HMO,Chest Pain,10,1,21,2,0
+P00236,34,Female,Joliet,Orthopedics,HMO,Asthma,25,1,20,6,0
+P00236,34,Female,Joliet,Orthopedics,HMO,Post-Op Follow-up,0,1,18,7,1
+P00237,1,Female,Downers Grove,Neurology,Medicaid,Chest Pain,26,0,47,4,1
+P00237,1,Female,Downers Grove,Primary Care,Medicaid,Allergic Reaction,8,1,13,6,1
+P00237,1,Female,Downers Grove,Pediatrics,Medicaid,Chest Pain,14,2,35,10,0
+P00237,1,Female,Downers Grove,Orthopedics,Medicaid,Hypertension,1,2,20,11,1
+P00238,17,Male,Elmhurst,General Surgery,Self-Pay,Back Pain,10,0,37,5,1
+P00238,17,Male,Elmhurst,Emergency,Self-Pay,Routine Screening,27,1,26,10,0
+P00239,37,Female,Joliet,Dermatology,Medicare,Minor Injury,64,0,15,2,0
+P00239,37,Female,Joliet,Pediatrics,Medicare,Fracture,13,0,28,4,0
+P00239,37,Female,Joliet,Orthopedics,Medicare,Type 2 Diabetes,37,0,34,5,0
+P00239,37,Female,Joliet,General Surgery,Medicare,Minor Injury,7,0,20,10,0
+P00240,27,Male,Bolingbrook,Oncology,Medicaid,Chest Pain,17,0,31,2,0
+P00240,27,Male,Bolingbrook,Neurology,Medicaid,Migraine,16,0,24,3,0
+P00240,27,Male,Bolingbrook,Primary Care,Medicaid,Allergic Reaction,10,0,53,6,0
+P00240,27,Male,Bolingbrook,Orthopedics,Medicaid,Asthma,3,0,48,9,0
+P00240,27,Male,Bolingbrook,Pediatrics,Medicaid,Influenza,1,0,27,1,0
+P00240,27,Male,Bolingbrook,Emergency,Medicaid,Minor Injury,20,0,13,1,1
+P00240,27,Male,Bolingbrook,Pediatrics,Medicaid,Chest Pain,2,1,30,11,0
+P00241,51,Male,Bolingbrook,General Surgery,Medicaid,Skin Rash,8,0,12,3,0
+P00241,51,Male,Bolingbrook,Dermatology,Medicaid,Migraine,13,0,25,5,1
+P00241,51,Male,Bolingbrook,Cardiology,Medicaid,Migraine,19,1,2,6,1
+P00241,51,Male,Bolingbrook,Dermatology,Medicaid,Minor Injury,14,2,39,11,0
+P00241,51,Male,Bolingbrook,Orthopedics,Medicaid,Anxiety,28,2,16,7,1
+P00241,51,Male,Bolingbrook,Pediatrics,Medicaid,Fracture,1,3,44,10,0
+P00242,56,Female,Woodridge,Dermatology,HMO,Hypertension,9,0,37,9,0
+P00243,56,Male,Woodridge,Orthopedics,Medicare,Type 2 Diabetes,5,0,23,7,0
+P00243,56,Male,Woodridge,Oncology,Medicare,Back Pain,9,0,25,7,0
+P00243,56,Male,Woodridge,Dermatology,Medicare,Post-Op Follow-up,16,0,30,6,0
+P00244,58,Female,Aurora,General Surgery,Private,Minor Injury,9,0,65,3,0
+P00244,58,Female,Aurora,Dermatology,Private,Asthma,17,0,23,8,0
+P00245,71,Female,Aurora,Pediatrics,Medicare,Chest Pain,14,0,2,1,0
+P00245,71,Female,Aurora,Pediatrics,Medicare,Allergic Reaction,5,0,44,8,0
+P00245,71,Female,Aurora,Pediatrics,Medicare,Post-Op Follow-up,4,0,2,6,0
+P00245,71,Female,Aurora,Orthopedics,Medicare,Allergic Reaction,5,0,18,10,0
+P00246,43,Male,Bolingbrook,Primary Care,Medicare,Post-Op Follow-up,3,0,24,1,0
+P00246,43,Male,Bolingbrook,Dermatology,Medicare,Type 2 Diabetes,14,0,30,2,0
+P00246,43,Male,Bolingbrook,Primary Care,Medicare,Hypertension,10,0,36,11,0
+P00246,43,Male,Bolingbrook,Neurology,Medicare,Type 2 Diabetes,9,0,24,1,1
+P00246,43,Male,Bolingbrook,Emergency,Medicare,Post-Op Follow-up,4,1,14,3,0
+P00246,43,Male,Bolingbrook,Primary Care,Medicare,Routine Screening,7,1,20,3,0
+P00246,43,Male,Bolingbrook,General Surgery,Medicare,Chest Pain,7,1,29,6,0
+P00246,43,Male,Bolingbrook,Cardiology,Medicare,Migraine,6,1,21,9,0
+P00247,86,Female,Joliet,Oncology,Private,Migraine,29,0,10,1,0
+P00247,86,Female,Joliet,Cardiology,Private,Chest Pain,8,0,48,4,0
+P00247,86,Female,Joliet,Pediatrics,Private,Anxiety,12,0,48,3,0
+P00248,32,Female,Elmhurst,Emergency,Private,Post-Op Follow-up,0,0,33,4,0
+P00248,32,Female,Elmhurst,Cardiology,Private,Skin Rash,0,0,35,7,1
+P00248,32,Female,Elmhurst,Emergency,Private,Post-Op Follow-up,7,1,31,8,0
+P00249,23,Male,Joliet,Oncology,Self-Pay,Minor Injury,0,0,5,1,1
+P00249,23,Male,Joliet,Cardiology,Self-Pay,Post-Op Follow-up,4,1,27,1,1
+P00249,23,Male,Joliet,Emergency,Self-Pay,Allergic Reaction,0,2,22,11,1
+P00249,23,Male,Joliet,General Surgery,Self-Pay,Fracture,8,3,23,11,0
+P00250,59,Female,Naperville,Emergency,Medicare,Hypertension,10,0,20,1,0
+P00250,59,Female,Naperville,Orthopedics,Medicare,Allergic Reaction,8,0,11,2,0
+P00250,59,Female,Naperville,Radiology,Medicare,Post-Op Follow-up,8,0,62,3,0
+P00250,59,Female,Naperville,Orthopedics,Medicare,Migraine,19,0,25,4,0
+P00250,59,Female,Naperville,Oncology,Medicare,Fracture,1,0,24,7,0
+P00250,59,Female,Naperville,Neurology,Medicare,Annual Checkup,12,0,47,8,0
+P00250,59,Female,Naperville,Emergency,Medicare,Routine Screening,0,0,21,5,0
+P00251,55,Male,Joliet,Oncology,PPO,Skin Rash,7,0,33,5,0
+P00251,55,Male,Joliet,Pediatrics,PPO,Post-Op Follow-up,3,0,12,8,0
+P00251,55,Male,Joliet,Cardiology,PPO,Migraine,24,0,29,9,0
+P00251,55,Male,Joliet,Radiology,PPO,Migraine,1,0,36,11,1
+P00251,55,Male,Joliet,Emergency,PPO,Allergic Reaction,32,1,25,6,0
+P00251,55,Male,Joliet,Radiology,PPO,Skin Rash,8,1,61,10,0
+P00251,55,Male,Joliet,Neurology,PPO,Type 2 Diabetes,10,1,22,12,0
+P00252,46,Female,Elmhurst,Emergency,Private,Annual Checkup,0,0,59,8,0
+P00252,46,Female,Elmhurst,Dermatology,Private,Back Pain,34,0,30,1,1
+P00252,46,Female,Elmhurst,Emergency,Private,Post-Op Follow-up,11,1,45,1,0
+P00252,46,Female,Elmhurst,Primary Care,Private,Back Pain,0,1,17,12,0
+P00253,56,Female,Elmhurst,General Surgery,Medicaid,Migraine,7,0,29,8,0
+P00253,56,Female,Elmhurst,Orthopedics,Medicaid,Annual Checkup,1,0,38,9,1
+P00253,56,Female,Elmhurst,Oncology,Medicaid,Allergic Reaction,33,1,30,9,0
+P00254,35,Female,Oak Brook,Neurology,HMO,Chest Pain,28,0,32,5,0
+P00254,35,Female,Oak Brook,Orthopedics,HMO,Influenza,15,0,32,6,0
+P00254,35,Female,Oak Brook,Oncology,HMO,Hypertension,6,0,53,2,0
+P00254,35,Female,Oak Brook,Cardiology,HMO,Chest Pain,10,0,33,7,1
+P00254,35,Female,Oak Brook,Orthopedics,HMO,Annual Checkup,7,1,25,12,0
+P00255,41,Female,Naperville,Cardiology,Medicaid,Anxiety,3,0,49,1,0
+P00255,41,Female,Naperville,Orthopedics,Medicaid,Post-Op Follow-up,7,0,18,5,0
+P00255,41,Female,Naperville,Cardiology,Medicaid,Influenza,8,0,11,6,1
+P00255,41,Female,Naperville,Emergency,Medicaid,Allergic Reaction,17,1,33,5,0
+P00256,50,Male,Chicago,Orthopedics,Medicare,Type 2 Diabetes,26,0,28,1,0
+P00256,50,Male,Chicago,Cardiology,Medicare,Annual Checkup,34,0,66,11,1
+P00256,50,Male,Chicago,Emergency,Medicare,Type 2 Diabetes,6,1,28,1,0
+P00256,50,Male,Chicago,Neurology,Medicare,Allergic Reaction,10,1,21,5,0
+P00256,50,Male,Chicago,Primary Care,Medicare,Fracture,8,1,23,8,0
+P00256,50,Male,Chicago,Dermatology,Medicare,Influenza,21,1,35,11,0
+P00256,50,Male,Chicago,General Surgery,Medicare,Back Pain,20,1,45,12,0
+P00256,50,Male,Chicago,Orthopedics,Medicare,Allergic Reaction,21,1,6,12,1
+P00257,76,Female,Lombard,Oncology,Medicare,Minor Injury,0,0,25,1,0
+P00257,76,Female,Lombard,Neurology,Medicare,Allergic Reaction,15,0,21,1,0
+P00257,76,Female,Lombard,Oncology,Medicare,Back Pain,0,0,26,1,0
+P00257,76,Female,Lombard,General Surgery,Medicare,Anxiety,12,0,30,12,1
+P00258,36,Male,Lombard,Orthopedics,Self-Pay,Anxiety,17,0,22,2,0
+P00258,36,Male,Lombard,Oncology,Self-Pay,Chest Pain,25,0,22,6,0
+P00258,36,Male,Lombard,Neurology,Self-Pay,Influenza,5,0,27,1,0
+P00258,36,Male,Lombard,Emergency,Self-Pay,Influenza,1,0,32,3,0
+P00258,36,Male,Lombard,Oncology,Self-Pay,Hypertension,7,0,9,3,0
+P00258,36,Male,Lombard,Cardiology,Self-Pay,Chest Pain,23,0,11,6,0
+P00259,56,Male,Joliet,Neurology,PPO,Fracture,1,0,28,9,0
+P00259,56,Male,Joliet,Dermatology,PPO,Skin Rash,3,0,2,10,0
+P00259,56,Male,Joliet,Neurology,PPO,Influenza,8,0,17,11,0
+P00259,56,Male,Joliet,Cardiology,PPO,Minor Injury,10,0,11,11,1
+P00259,56,Male,Joliet,Primary Care,PPO,Skin Rash,25,1,18,8,0
+P00260,51,Male,Joliet,Pediatrics,Private,Skin Rash,16,0,18,4,0
+P00260,51,Male,Joliet,Radiology,Private,Type 2 Diabetes,6,0,45,4,0
+P00260,51,Male,Joliet,Cardiology,Private,Influenza,9,0,35,5,0
+P00260,51,Male,Joliet,Radiology,Private,Hypertension,27,0,27,7,0
+P00260,51,Male,Joliet,General Surgery,Private,Type 2 Diabetes,3,0,21,5,0
+P00261,51,Female,Chicago,Oncology,HMO,Influenza,4,0,39,6,0
+P00261,51,Female,Chicago,Pediatrics,HMO,Minor Injury,24,0,15,8,1
+P00261,51,Female,Chicago,Neurology,HMO,Allergic Reaction,4,1,24,9,0
+P00261,51,Female,Chicago,Orthopedics,HMO,Asthma,38,1,44,10,0
+P00261,51,Female,Chicago,Emergency,HMO,Anxiety,6,1,24,7,0
+P00261,51,Female,Chicago,Orthopedics,HMO,Hypertension,13,1,52,7,0
+P00261,51,Female,Chicago,Cardiology,HMO,Back Pain,16,1,43,9,1
+P00261,51,Female,Chicago,Orthopedics,HMO,Influenza,3,2,42,12,0
+P00262,59,Female,Lombard,General Surgery,Medicare,Minor Injury,10,0,32,4,0
+P00262,59,Female,Lombard,Pediatrics,Medicare,Hypertension,13,0,8,7,0
+P00262,59,Female,Lombard,Primary Care,Medicare,Anxiety,40,0,50,9,0
+P00262,59,Female,Lombard,Dermatology,Medicare,Allergic Reaction,31,0,22,2,0
+P00262,59,Female,Lombard,Orthopedics,Medicare,Migraine,8,0,38,2,0
+P00262,59,Female,Lombard,Pediatrics,Medicare,Fracture,11,0,34,3,0
+P00262,59,Female,Lombard,Orthopedics,Medicare,Anxiety,19,0,20,10,0
+P00263,81,Male,Woodridge,Cardiology,Private,Asthma,5,0,31,4,0
+P00263,81,Male,Woodridge,General Surgery,Private,Asthma,7,0,19,10,0
+P00263,81,Male,Woodridge,Oncology,Private,Routine Screening,13,0,17,3,0
+P00263,81,Male,Woodridge,General Surgery,Private,Type 2 Diabetes,7,0,33,4,0
+P00263,81,Male,Woodridge,General Surgery,Private,Annual Checkup,6,0,25,7,1
+P00263,81,Male,Woodridge,Emergency,Private,Annual Checkup,12,1,37,9,0
+P00263,81,Male,Woodridge,Primary Care,Private,Fracture,1,1,36,10,0
+P00263,81,Male,Woodridge,Pediatrics,Private,Skin Rash,12,1,13,12,0
+P00264,6,Male,Naperville,General Surgery,PPO,Minor Injury,12,0,31,6,0
+P00264,6,Male,Naperville,Dermatology,PPO,Migraine,19,0,37,8,1
+P00264,6,Male,Naperville,Orthopedics,PPO,Influenza,13,1,17,9,0
+P00264,6,Male,Naperville,Orthopedics,PPO,Routine Screening,1,1,24,11,1
+P00264,6,Male,Naperville,General Surgery,PPO,Back Pain,21,2,33,3,1
+P00264,6,Male,Naperville,Emergency,PPO,Allergic Reaction,14,3,20,9,0
+P00264,6,Male,Naperville,Oncology,PPO,Chest Pain,0,3,71,11,1
+P00265,24,Male,Joliet,Pediatrics,Medicare,Allergic Reaction,20,0,33,5,0
+P00265,24,Male,Joliet,General Surgery,Medicare,Allergic Reaction,19,0,40,8,1
+P00265,24,Male,Joliet,Pediatrics,Medicare,Back Pain,14,1,11,6,0
+P00265,24,Male,Joliet,Emergency,Medicare,Asthma,2,1,31,6,0
+P00265,24,Male,Joliet,Cardiology,Medicare,Post-Op Follow-up,10,1,35,6,0
+P00266,56,Female,Naperville,Neurology,PPO,Migraine,0,0,36,2,0
+P00266,56,Female,Naperville,Radiology,PPO,Skin Rash,4,0,23,6,0
+P00266,56,Female,Naperville,Dermatology,PPO,Annual Checkup,0,0,26,7,0
+P00266,56,Female,Naperville,Emergency,PPO,Anxiety,13,0,41,4,1
+P00267,67,Female,Bolingbrook,Neurology,Private,Anxiety,2,0,14,3,0
+P00267,67,Female,Bolingbrook,Cardiology,Private,Allergic Reaction,5,0,25,9,0
+P00267,67,Female,Bolingbrook,Radiology,Private,Minor Injury,13,0,28,8,0
+P00267,67,Female,Bolingbrook,Radiology,Private,Influenza,5,0,27,8,0
+P00267,67,Female,Bolingbrook,Cardiology,Private,Type 2 Diabetes,18,0,14,12,0
+P00268,32,Female,Elmhurst,Oncology,HMO,Allergic Reaction,25,0,53,2,0
+P00268,32,Female,Elmhurst,Neurology,HMO,Type 2 Diabetes,21,0,33,3,0
+P00268,32,Female,Elmhurst,Pediatrics,HMO,Allergic Reaction,3,0,13,4,0
+P00268,32,Female,Elmhurst,Pediatrics,HMO,Allergic Reaction,10,0,38,9,0
+P00269,51,Female,Aurora,Cardiology,Private,Back Pain,7,0,16,1,1
+P00269,51,Female,Aurora,Emergency,Private,Type 2 Diabetes,29,1,39,2,0
+P00269,51,Female,Aurora,Radiology,Private,Minor Injury,11,1,14,5,0
+P00269,51,Female,Aurora,Orthopedics,Private,Routine Screening,4,1,22,6,0
+P00269,51,Female,Aurora,Pediatrics,Private,Minor Injury,1,1,22,8,0
+P00269,51,Female,Aurora,Pediatrics,Private,Type 2 Diabetes,25,1,24,10,1
+P00269,51,Female,Aurora,Pediatrics,Private,Minor Injury,24,2,10,1,0
+P00269,51,Female,Aurora,Primary Care,Private,Fracture,7,2,36,4,1
+P00269,51,Female,Aurora,Cardiology,Private,Minor Injury,0,3,33,8,0
+P00270,44,Male,Bolingbrook,Oncology,Medicare,Annual Checkup,2,0,20,5,0
+P00270,44,Male,Bolingbrook,Radiology,Medicare,Migraine,13,0,17,7,0
+P00270,44,Male,Bolingbrook,Oncology,Medicare,Fracture,4,0,42,11,0
+P00270,44,Male,Bolingbrook,Emergency,Medicare,Annual Checkup,21,0,27,5,1
+P00271,16,Female,Lombard,Orthopedics,Medicare,Chest Pain,4,0,18,2,0
+P00271,16,Female,Lombard,Dermatology,Medicare,Type 2 Diabetes,20,0,56,3,0
+P00271,16,Female,Lombard,General Surgery,Medicare,Fracture,32,0,32,1,0
+P00272,60,Female,Naperville,Pediatrics,PPO,Influenza,24,0,8,4,0
+P00272,60,Female,Naperville,Dermatology,PPO,Anxiety,0,0,19,5,0
+P00272,60,Female,Naperville,Neurology,PPO,Type 2 Diabetes,2,0,24,8,0
+P00272,60,Female,Naperville,Radiology,PPO,Chest Pain,11,0,16,10,0
+P00272,60,Female,Naperville,Oncology,PPO,Minor Injury,27,0,10,3,0
+P00272,60,Female,Naperville,Pediatrics,PPO,Fracture,38,0,24,7,1
+P00273,56,Male,Oak Brook,Oncology,Medicare,Anxiety,5,0,18,4,0
+P00273,56,Male,Oak Brook,Cardiology,Medicare,Hypertension,25,0,5,6,0
+P00274,52,Male,Chicago,Oncology,PPO,Post-Op Follow-up,5,0,34,5,0
+P00274,52,Male,Chicago,Dermatology,PPO,Skin Rash,2,0,32,8,1
+P00274,52,Male,Chicago,Pediatrics,PPO,Migraine,5,1,8,9,0
+P00274,52,Male,Chicago,Emergency,PPO,Influenza,0,1,44,9,0
+P00274,52,Male,Chicago,Pediatrics,PPO,Hypertension,19,1,47,10,0
+P00274,52,Male,Chicago,Orthopedics,PPO,Migraine,2,1,44,11,0
+P00274,52,Male,Chicago,Oncology,PPO,Hypertension,1,1,43,12,0
+P00274,52,Male,Chicago,Radiology,PPO,Hypertension,5,1,2,9,0
+P00275,31,Female,Lombard,Emergency,Private,Routine Screening,4,0,42,1,0
+P00275,31,Female,Lombard,Radiology,Private,Skin Rash,5,0,30,4,0
+P00275,31,Female,Lombard,Orthopedics,Private,Anxiety,1,0,29,7,0
+P00275,31,Female,Lombard,General Surgery,Private,Influenza,6,0,17,8,0
+P00275,31,Female,Lombard,Radiology,Private,Hypertension,4,0,13,10,0
+P00275,31,Female,Lombard,Pediatrics,Private,Minor Injury,8,0,23,4,0
+P00275,31,Female,Lombard,Emergency,Private,Post-Op Follow-up,6,0,27,6,1
+P00275,31,Female,Lombard,Cardiology,Private,Anxiety,12,1,40,8,1
+P00276,21,Female,Naperville,Cardiology,Self-Pay,Post-Op Follow-up,48,0,30,3,1
+P00276,21,Female,Naperville,Pediatrics,Self-Pay,Chest Pain,18,1,38,7,0
+P00276,21,Female,Naperville,General Surgery,Self-Pay,Routine Screening,0,1,26,5,0
+P00277,38,Male,Oak Brook,General Surgery,Medicare,Skin Rash,2,0,18,2,0
+P00277,38,Male,Oak Brook,Radiology,Medicare,Routine Screening,24,0,18,3,0
+P00277,38,Male,Oak Brook,Pediatrics,Medicare,Skin Rash,24,0,40,5,0
+P00277,38,Male,Oak Brook,Neurology,Medicare,Minor Injury,13,0,36,7,0
+P00277,38,Male,Oak Brook,Orthopedics,Medicare,Migraine,28,0,28,7,0
+P00277,38,Male,Oak Brook,Radiology,Medicare,Anxiety,2,0,30,7,0
+P00277,38,Male,Oak Brook,Radiology,Medicare,Allergic Reaction,9,0,26,10,0
+P00277,38,Male,Oak Brook,Orthopedics,Medicare,Annual Checkup,4,0,10,2,0
+P00277,38,Male,Oak Brook,General Surgery,Medicare,Type 2 Diabetes,0,0,21,11,1
+P00277,38,Male,Oak Brook,General Surgery,Medicare,Annual Checkup,1,1,39,12,0
+P00278,61,Male,Naperville,General Surgery,Private,Post-Op Follow-up,17,0,34,5,0
+P00278,61,Male,Naperville,Primary Care,Private,Allergic Reaction,30,0,17,1,0
+P00278,61,Male,Naperville,Pediatrics,Private,Back Pain,0,0,25,8,0
+P00278,61,Male,Naperville,General Surgery,Private,Chest Pain,4,0,20,9,0
+P00279,24,Female,Downers Grove,Pediatrics,Medicaid,Routine Screening,0,0,59,7,0
+P00279,24,Female,Downers Grove,Primary Care,Medicaid,Anxiety,22,0,3,10,0
+P00279,24,Female,Downers Grove,General Surgery,Medicaid,Allergic Reaction,6,0,37,4,0
+P00279,24,Female,Downers Grove,Primary Care,Medicaid,Asthma,10,0,6,8,1
+P00280,59,Male,Chicago,Oncology,Private,Anxiety,13,0,2,2,0
+P00280,59,Male,Chicago,Orthopedics,Private,Back Pain,12,0,25,3,0
+P00280,59,Male,Chicago,General Surgery,Private,Post-Op Follow-up,1,0,6,8,0
+P00280,59,Male,Chicago,Dermatology,Private,Skin Rash,10,0,33,8,1
+P00281,55,Male,Joliet,Oncology,PPO,Minor Injury,8,0,31,4,0
+P00281,55,Male,Joliet,Cardiology,PPO,Chest Pain,4,0,47,7,0
+P00281,55,Male,Joliet,Cardiology,PPO,Type 2 Diabetes,7,0,55,11,0
+P00281,55,Male,Joliet,Orthopedics,PPO,Routine Screening,1,0,15,11,0
+P00281,55,Male,Joliet,Orthopedics,PPO,Routine Screening,4,0,35,12,0
+P00282,1,Female,Oak Brook,Pediatrics,Medicare,Influenza,0,0,27,2,0
+P00282,1,Female,Oak Brook,Radiology,Medicare,Skin Rash,6,0,23,8,0
+P00282,1,Female,Oak Brook,Emergency,Medicare,Chest Pain,12,0,55,11,0
+P00282,1,Female,Oak Brook,General Surgery,Medicare,Asthma,90,0,20,11,1
+P00282,1,Female,Oak Brook,Orthopedics,Medicare,Allergic Reaction,16,1,45,5,1
+P00282,1,Female,Oak Brook,Neurology,Medicare,Annual Checkup,15,2,35,8,0
+P00283,67,Female,Lombard,Pediatrics,Medicare,Asthma,17,0,15,2,0
+P00283,67,Female,Lombard,Neurology,Medicare,Migraine,1,0,27,5,0
+P00283,67,Female,Lombard,Orthopedics,Medicare,Hypertension,5,0,27,5,0
+P00283,67,Female,Lombard,Primary Care,Medicare,Skin Rash,1,0,12,7,0
+P00284,71,Female,Chicago,Oncology,Private,Chest Pain,1,0,18,6,0
+P00284,71,Female,Chicago,Dermatology,Private,Fracture,12,0,14,12,0
+P00284,71,Female,Chicago,Neurology,Private,Fracture,49,0,17,1,0
+P00284,71,Female,Chicago,Radiology,Private,Minor Injury,13,0,27,4,0
+P00284,71,Female,Chicago,Dermatology,Private,Asthma,2,0,7,4,0
+P00284,71,Female,Chicago,Neurology,Private,Minor Injury,23,0,26,9,0
+P00284,71,Female,Chicago,Dermatology,Private,Allergic Reaction,6,0,38,9,0
+P00284,71,Female,Chicago,Primary Care,Private,Allergic Reaction,1,0,46,9,0
+P00284,71,Female,Chicago,Dermatology,Private,Post-Op Follow-up,8,0,29,12,0
+P00285,55,Male,Downers Grove,Orthopedics,PPO,Post-Op Follow-up,3,0,42,6,0
+P00285,55,Male,Downers Grove,Primary Care,PPO,Migraine,35,0,28,8,1
+P00286,39,Female,Joliet,Pediatrics,Private,Hypertension,7,0,40,6,1
+P00286,39,Female,Joliet,Neurology,Private,Routine Screening,18,1,39,7,0
+P00286,39,Female,Joliet,General Surgery,Private,Post-Op Follow-up,14,1,31,11,0
+P00286,39,Female,Joliet,Neurology,Private,Post-Op Follow-up,19,1,18,11,0
+P00287,49,Male,Downers Grove,Emergency,Private,Type 2 Diabetes,0,0,48,3,0
+P00287,49,Male,Downers Grove,Orthopedics,Private,Chest Pain,27,0,39,4,0
+P00287,49,Male,Downers Grove,Cardiology,Private,Back Pain,10,0,23,10,0
+P00288,85,Male,Downers Grove,Pediatrics,Medicare,Influenza,2,0,11,5,1
+P00288,85,Male,Downers Grove,Neurology,Medicare,Allergic Reaction,4,1,16,5,0
+P00288,85,Male,Downers Grove,Dermatology,Medicare,Fracture,8,1,25,8,0
+P00288,85,Male,Downers Grove,Dermatology,Medicare,Migraine,5,1,25,6,0
+P00288,85,Male,Downers Grove,Cardiology,Medicare,Post-Op Follow-up,14,1,20,7,0
+P00289,85,Female,Downers Grove,Primary Care,Medicare,Allergic Reaction,5,0,31,10,0
+P00289,85,Female,Downers Grove,Radiology,Medicare,Annual Checkup,27,0,50,3,0
+P00289,85,Female,Downers Grove,Oncology,Medicare,Routine Screening,1,0,13,3,0
+P00289,85,Female,Downers Grove,Dermatology,Medicare,Asthma,26,0,51,11,0
+P00290,41,Female,Downers Grove,Primary Care,Medicaid,Allergic Reaction,9,0,35,5,0
+P00290,41,Female,Downers Grove,General Surgery,Medicaid,Fracture,15,0,13,10,0
+P00290,41,Female,Downers Grove,Radiology,Medicaid,Asthma,6,0,28,8,0
+P00291,59,Female,Elmhurst,General Surgery,Private,Routine Screening,1,0,27,5,0
+P00291,59,Female,Elmhurst,Pediatrics,Private,Anxiety,4,0,12,6,0
+P00291,59,Female,Elmhurst,Oncology,Private,Fracture,15,0,39,10,0
+P00292,28,Female,Lombard,Cardiology,Medicare,Skin Rash,1,0,35,3,0
+P00292,28,Female,Lombard,Pediatrics,Medicare,Allergic Reaction,1,0,10,9,0
+P00292,28,Female,Lombard,Dermatology,Medicare,Hypertension,20,0,44,12,0
+P00293,37,Other,Woodridge,Neurology,Medicare,Chest Pain,22,0,22,3,0
+P00293,37,Other,Woodridge,Orthopedics,Medicare,Allergic Reaction,22,0,10,10,0
+P00293,37,Other,Woodridge,Cardiology,Medicare,Allergic Reaction,11,0,40,3,0
+P00294,51,Male,Naperville,Orthopedics,Medicaid,Allergic Reaction,4,0,21,5,0
+P00294,51,Male,Naperville,Radiology,Medicaid,Fracture,10,0,2,6,0
+P00294,51,Male,Naperville,Primary Care,Medicaid,Routine Screening,4,0,8,5,0
+P00294,51,Male,Naperville,Orthopedics,Medicaid,Asthma,6,0,17,5,0
+P00294,51,Male,Naperville,Dermatology,Medicaid,Minor Injury,1,0,2,6,0
+P00295,86,Female,Aurora,Primary Care,Medicare,Hypertension,12,0,33,6,0
+P00295,86,Female,Aurora,Emergency,Medicare,Hypertension,0,0,44,3,1
+P00295,86,Female,Aurora,General Surgery,Medicare,Chest Pain,23,1,6,4,0
+P00295,86,Female,Aurora,Cardiology,Medicare,Migraine,1,1,14,5,1
+P00295,86,Female,Aurora,Dermatology,Medicare,Fracture,8,2,12,7,0
+P00296,54,Male,Elmhurst,Orthopedics,Medicare,Anxiety,12,0,17,8,0
+P00296,54,Male,Elmhurst,Oncology,Medicare,Annual Checkup,29,0,60,8,0
+P00296,54,Male,Elmhurst,Radiology,Medicare,Annual Checkup,3,0,28,9,0
+P00296,54,Male,Elmhurst,Radiology,Medicare,Fracture,8,0,19,3,0
+P00296,54,Male,Elmhurst,Neurology,Medicare,Routine Screening,19,0,24,6,0
+P00296,54,Male,Elmhurst,Orthopedics,Medicare,Type 2 Diabetes,22,0,35,7,0
+P00296,54,Male,Elmhurst,Cardiology,Medicare,Minor Injury,14,0,11,8,0
+P00297,86,Male,Chicago,Primary Care,Medicaid,Routine Screening,12,0,23,11,1
+P00297,86,Male,Chicago,Cardiology,Medicaid,Allergic Reaction,6,1,22,3,0
+P00298,31,Female,Lombard,Oncology,Self-Pay,Routine Screening,15,0,23,3,0
+P00298,31,Female,Lombard,Oncology,Self-Pay,Migraine,0,0,2,4,0
+P00298,31,Female,Lombard,Emergency,Self-Pay,Post-Op Follow-up,6,0,15,7,0
+P00298,31,Female,Lombard,Neurology,Self-Pay,Minor Injury,19,0,24,10,0
+P00298,31,Female,Lombard,Cardiology,Self-Pay,Fracture,21,0,43,11,1
+P00298,31,Female,Lombard,General Surgery,Self-Pay,Post-Op Follow-up,11,1,21,2,1
+P00298,31,Female,Lombard,Dermatology,Self-Pay,Asthma,3,2,49,4,1
+P00298,31,Female,Lombard,Radiology,Self-Pay,Skin Rash,4,3,36,9,1
+P00298,31,Female,Lombard,General Surgery,Self-Pay,Migraine,8,4,20,9,0
+P00298,31,Female,Lombard,General Surgery,Self-Pay,Routine Screening,0,4,41,11,1
+P00298,31,Female,Lombard,Orthopedics,Self-Pay,Skin Rash,8,5,40,12,1
+P00299,21,Female,Lombard,Pediatrics,Self-Pay,Influenza,21,0,48,7,1
+P00299,21,Female,Lombard,Pediatrics,Self-Pay,Back Pain,0,1,17,7,0
+P00299,21,Female,Lombard,Primary Care,Self-Pay,Anxiety,15,1,21,8,0
+P00299,21,Female,Lombard,Orthopedics,Self-Pay,Type 2 Diabetes,22,1,42,12,0
+P00300,65,Male,Bolingbrook,Oncology,HMO,Annual Checkup,16,0,34,5,0
+P00300,65,Male,Bolingbrook,Primary Care,HMO,Back Pain,6,0,40,5,0
+P00300,65,Male,Bolingbrook,Orthopedics,HMO,Influenza,19,0,27,8,0
+P00300,65,Male,Bolingbrook,General Surgery,HMO,Migraine,8,0,18,11,0
+P00300,65,Male,Bolingbrook,Emergency,HMO,Post-Op Follow-up,34,0,56,1,0
+P00300,65,Male,Bolingbrook,Pediatrics,HMO,Allergic Reaction,3,0,42,2,0
+P00301,82,Male,Oak Brook,Primary Care,Private,Back Pain,4,0,17,3,0
+P00301,82,Male,Oak Brook,Cardiology,Private,Anxiety,4,0,30,9,0
+P00301,82,Male,Oak Brook,Pediatrics,Private,Annual Checkup,29,0,52,10,1
+P00302,55,Male,Elmhurst,Neurology,Medicaid,Type 2 Diabetes,21,0,39,2,0
+P00302,55,Male,Elmhurst,Orthopedics,Medicaid,Migraine,1,0,32,5,0
+P00302,55,Male,Elmhurst,Neurology,Medicaid,Post-Op Follow-up,14,0,11,5,0
+P00302,55,Male,Elmhurst,Neurology,Medicaid,Migraine,0,0,54,8,0
+P00302,55,Male,Elmhurst,Primary Care,Medicaid,Anxiety,5,0,34,12,1
+P00303,60,Female,Oak Brook,Pediatrics,Private,Anxiety,17,0,25,9,1
+P00303,60,Female,Oak Brook,Oncology,Private,Asthma,21,1,23,9,0
+P00303,60,Female,Oak Brook,Primary Care,Private,Chest Pain,12,1,42,10,1
+P00303,60,Female,Oak Brook,Orthopedics,Private,Skin Rash,32,2,26,12,0
+P00303,60,Female,Oak Brook,Emergency,Private,Influenza,2,2,11,4,1
+P00303,60,Female,Oak Brook,Emergency,Private,Migraine,0,3,47,7,0
+P00303,60,Female,Oak Brook,Primary Care,Private,Chest Pain,9,3,31,8,0
+P00303,60,Female,Oak Brook,Cardiology,Private,Chest Pain,18,3,41,10,0
+P00303,60,Female,Oak Brook,General Surgery,Private,Asthma,23,3,50,10,1
+P00304,44,Male,Oak Brook,Orthopedics,Private,Chest Pain,1,0,4,1,0
+P00304,44,Male,Oak Brook,General Surgery,Private,Hypertension,6,0,35,5,0
+P00304,44,Male,Oak Brook,General Surgery,Private,Skin Rash,0,0,32,5,0
+P00305,50,Male,Bolingbrook,General Surgery,Medicare,Fracture,32,0,32,1,0
+P00305,50,Male,Bolingbrook,Primary Care,Medicare,Anxiety,15,0,38,1,1
+P00305,50,Male,Bolingbrook,Orthopedics,Medicare,Anxiety,0,1,46,11,0
+P00305,50,Male,Bolingbrook,Oncology,Medicare,Back Pain,64,1,25,12,1
+P00305,50,Male,Bolingbrook,Oncology,Medicare,Skin Rash,12,2,34,3,1
+P00305,50,Male,Bolingbrook,Dermatology,Medicare,Annual Checkup,13,3,33,6,1
+P00305,50,Male,Bolingbrook,Primary Care,Medicare,Annual Checkup,8,4,9,7,0
+P00305,50,Male,Bolingbrook,Oncology,Medicare,Anxiety,5,4,39,7,1
+P00305,50,Male,Bolingbrook,Cardiology,Medicare,Skin Rash,27,5,35,8,1
+P00305,50,Male,Bolingbrook,Cardiology,Medicare,Hypertension,24,6,20,11,1
+P00305,50,Male,Bolingbrook,Oncology,Medicare,Hypertension,4,7,34,12,0
+P00306,33,Female,Bolingbrook,Neurology,Medicare,Allergic Reaction,2,0,39,7,0
+P00306,33,Female,Bolingbrook,Cardiology,Medicare,Annual Checkup,17,0,13,11,0
+P00306,33,Female,Bolingbrook,Orthopedics,Medicare,Chest Pain,3,0,17,1,0
+P00306,33,Female,Bolingbrook,General Surgery,Medicare,Skin Rash,2,0,31,9,0
+P00306,33,Female,Bolingbrook,Neurology,Medicare,Type 2 Diabetes,1,0,8,12,0
+P00307,7,Male,Bolingbrook,Neurology,Private,Hypertension,5,0,40,5,0
+P00307,7,Male,Bolingbrook,Orthopedics,Private,Chest Pain,12,0,20,3,0
+P00307,7,Male,Bolingbrook,Emergency,Private,Chest Pain,3,0,10,10,0
+P00308,54,Female,Oak Brook,Neurology,Private,Annual Checkup,8,0,15,4,0
+P00308,54,Female,Oak Brook,Orthopedics,Private,Asthma,14,0,14,11,0
+P00309,32,Female,Downers Grove,Oncology,HMO,Type 2 Diabetes,21,0,19,8,0
+P00309,32,Female,Downers Grove,Dermatology,HMO,Anxiety,9,0,16,2,0
+P00310,1,Male,Oak Brook,Dermatology,Self-Pay,Routine Screening,9,0,28,7,0
+P00310,1,Male,Oak Brook,General Surgery,Self-Pay,Type 2 Diabetes,7,0,32,4,0
+P00310,1,Male,Oak Brook,Dermatology,Self-Pay,Back Pain,15,0,36,7,0
+P00311,66,Female,Lombard,Dermatology,Medicare,Fracture,29,0,24,2,0
+P00311,66,Female,Lombard,Dermatology,Medicare,Anxiety,7,0,41,7,0
+P00311,66,Female,Lombard,Orthopedics,Medicare,Influenza,2,0,25,10,0
+P00311,66,Female,Lombard,Cardiology,Medicare,Asthma,34,0,19,11,0
+P00311,66,Female,Lombard,Pediatrics,Medicare,Back Pain,13,0,34,5,0
+P00311,66,Female,Lombard,Orthopedics,Medicare,Back Pain,6,0,13,5,0
+P00311,66,Female,Lombard,Dermatology,Medicare,Migraine,15,0,26,11,0
+P00311,66,Female,Lombard,Primary Care,Medicare,Type 2 Diabetes,18,0,39,12,1
+P00312,50,Male,Downers Grove,Pediatrics,Private,Influenza,1,0,28,2,0
+P00312,50,Male,Downers Grove,Neurology,Private,Skin Rash,0,0,14,5,1
+P00312,50,Male,Downers Grove,Radiology,Private,Post-Op Follow-up,1,1,18,7,1
+P00312,50,Male,Downers Grove,Oncology,Private,Anxiety,40,2,11,9,0
+P00312,50,Male,Downers Grove,Orthopedics,Private,Asthma,20,2,34,10,1
+P00312,50,Male,Downers Grove,Orthopedics,Private,Fracture,32,3,2,12,0
+P00312,50,Male,Downers Grove,Neurology,Private,Minor Injury,5,3,32,6,1
+P00312,50,Male,Downers Grove,Pediatrics,Private,Fracture,31,4,39,10,1
+P00312,50,Male,Downers Grove,Emergency,Private,Routine Screening,2,5,21,10,0
+P00313,58,Male,Elmhurst,Oncology,HMO,Type 2 Diabetes,64,0,32,3,1
+P00313,58,Male,Elmhurst,Oncology,HMO,Influenza,1,1,23,5,1
+P00313,58,Male,Elmhurst,Cardiology,HMO,Skin Rash,7,2,36,10,0
+P00313,58,Male,Elmhurst,Pediatrics,HMO,Asthma,15,2,26,9,0
+P00314,60,Female,Elmhurst,Neurology,Medicaid,Chest Pain,29,0,13,3,0
+P00314,60,Female,Elmhurst,Radiology,Medicaid,Hypertension,19,0,40,4,0
+P00314,60,Female,Elmhurst,Pediatrics,Medicaid,Hypertension,2,0,57,3,0
+P00314,60,Female,Elmhurst,Neurology,Medicaid,Anxiety,5,0,2,5,0
+P00314,60,Female,Elmhurst,Pediatrics,Medicaid,Migraine,6,0,31,7,0
+P00314,60,Female,Elmhurst,Dermatology,Medicaid,Anxiety,16,0,18,7,0
+P00314,60,Female,Elmhurst,Neurology,Medicaid,Post-Op Follow-up,0,0,16,8,0
+P00315,12,Male,Downers Grove,Radiology,Private,Hypertension,24,0,22,5,0
+P00315,12,Male,Downers Grove,Neurology,Private,Post-Op Follow-up,10,0,40,6,1
+P00315,12,Male,Downers Grove,Orthopedics,Private,Routine Screening,12,1,2,7,0
+P00315,12,Male,Downers Grove,Orthopedics,Private,Annual Checkup,1,1,44,12,0
+P00316,31,Male,Elmhurst,Emergency,Self-Pay,Post-Op Follow-up,18,0,37,11,0
+P00317,31,Female,Naperville,General Surgery,Private,Post-Op Follow-up,0,0,27,2,0
+P00317,31,Female,Naperville,Oncology,Private,Anxiety,13,0,30,3,0
+P00317,31,Female,Naperville,Primary Care,Private,Minor Injury,9,0,37,5,0
+P00317,31,Female,Naperville,Oncology,Private,Hypertension,20,0,16,7,0
+P00317,31,Female,Naperville,Cardiology,Private,Type 2 Diabetes,13,0,28,10,0
+P00318,47,Male,Joliet,General Surgery,Private,Anxiety,3,0,8,6,0
+P00318,47,Male,Joliet,Oncology,Private,Type 2 Diabetes,5,0,32,10,0
+P00318,47,Male,Joliet,Orthopedics,Private,Skin Rash,16,0,53,11,0
+P00318,47,Male,Joliet,Neurology,Private,Migraine,10,0,20,11,0
+P00318,47,Male,Joliet,Oncology,Private,Chest Pain,0,0,30,1,0
+P00318,47,Male,Joliet,General Surgery,Private,Influenza,36,0,38,1,1
+P00318,47,Male,Joliet,Pediatrics,Private,Type 2 Diabetes,8,1,40,3,0
+P00318,47,Male,Joliet,Neurology,Private,Chest Pain,0,1,29,8,0
+P00318,47,Male,Joliet,Neurology,Private,Influenza,2,1,60,10,0
+P00319,24,Female,Woodridge,General Surgery,Medicare,Migraine,9,0,25,11,1
+P00319,24,Female,Woodridge,Neurology,Medicare,Minor Injury,4,1,55,1,0
+P00319,24,Female,Woodridge,Pediatrics,Medicare,Skin Rash,12,1,23,4,0
+P00319,24,Female,Woodridge,Orthopedics,Medicare,Type 2 Diabetes,5,1,6,9,0
+P00319,24,Female,Woodridge,General Surgery,Medicare,Type 2 Diabetes,0,1,52,10,1
+P00320,41,Male,Lombard,Primary Care,Self-Pay,Influenza,5,0,31,1,1
+P00320,41,Male,Lombard,Emergency,Self-Pay,Allergic Reaction,16,1,45,3,0
+P00320,41,Male,Lombard,Orthopedics,Self-Pay,Fracture,23,1,3,8,1
+P00320,41,Male,Lombard,Radiology,Self-Pay,Type 2 Diabetes,1,2,33,4,0
+P00320,41,Male,Lombard,Emergency,Self-Pay,Influenza,12,2,32,6,0
+P00320,41,Male,Lombard,Pediatrics,Self-Pay,Fracture,21,2,36,10,1
+P00321,45,Male,Chicago,Emergency,Private,Routine Screening,36,0,48,3,0
+P00321,45,Male,Chicago,Primary Care,Private,Annual Checkup,2,0,47,6,0
+P00321,45,Male,Chicago,Neurology,Private,Asthma,28,0,38,3,1
+P00321,45,Male,Chicago,Dermatology,Private,Type 2 Diabetes,40,1,32,3,0
+P00321,45,Male,Chicago,Pediatrics,Private,Skin Rash,3,1,37,12,1
+P00322,42,Male,Elmhurst,Dermatology,Medicare,Hypertension,1,0,14,7,0
+P00322,42,Male,Elmhurst,Cardiology,Medicare,Hypertension,6,0,47,12,1
+P00322,42,Male,Elmhurst,Orthopedics,Medicare,Skin Rash,0,1,33,4,0
+P00322,42,Male,Elmhurst,Orthopedics,Medicare,Type 2 Diabetes,24,1,26,7,0
+P00322,42,Male,Elmhurst,Dermatology,Medicare,Allergic Reaction,13,1,21,9,0
+P00322,42,Male,Elmhurst,Cardiology,Medicare,Annual Checkup,18,1,6,9,1
+P00323,2,Female,Bolingbrook,Oncology,Medicare,Hypertension,0,0,27,2,0
+P00323,2,Female,Bolingbrook,Cardiology,Medicare,Post-Op Follow-up,5,0,40,3,0
+P00323,2,Female,Bolingbrook,General Surgery,Medicare,Anxiety,2,0,21,4,0
+P00323,2,Female,Bolingbrook,Pediatrics,Medicare,Skin Rash,4,0,13,5,0
+P00323,2,Female,Bolingbrook,Oncology,Medicare,Allergic Reaction,4,0,35,3,0
+P00323,2,Female,Bolingbrook,Oncology,Medicare,Migraine,10,0,29,8,1
+P00323,2,Female,Bolingbrook,General Surgery,Medicare,Chest Pain,18,1,31,9,1
+P00323,2,Female,Bolingbrook,General Surgery,Medicare,Routine Screening,33,2,55,12,1
+P00324,19,Male,Elmhurst,General Surgery,PPO,Fracture,8,0,17,8,1
+P00324,19,Male,Elmhurst,Dermatology,PPO,Minor Injury,47,1,26,11,0
+P00324,19,Male,Elmhurst,Orthopedics,PPO,Annual Checkup,1,1,58,11,1
+P00324,19,Male,Elmhurst,Oncology,PPO,Routine Screening,23,2,13,12,0
+P00324,19,Male,Elmhurst,Emergency,PPO,Post-Op Follow-up,10,2,37,2,0
+P00324,19,Male,Elmhurst,Pediatrics,PPO,Asthma,3,2,26,5,1
+P00324,19,Male,Elmhurst,Orthopedics,PPO,Minor Injury,2,3,24,5,0
+P00324,19,Male,Elmhurst,Dermatology,PPO,Anxiety,6,3,62,6,1
+P00324,19,Male,Elmhurst,Cardiology,PPO,Skin Rash,32,4,36,10,1
+P00325,50,Male,Woodridge,Primary Care,Medicaid,Annual Checkup,8,0,40,3,0
+P00325,50,Male,Woodridge,Oncology,Medicaid,Routine Screening,3,0,32,8,0
+P00325,50,Male,Woodridge,Primary Care,Medicaid,Migraine,6,0,13,11,0
+P00325,50,Male,Woodridge,Orthopedics,Medicaid,Annual Checkup,13,0,27,8,0
+P00326,65,Female,Bolingbrook,Neurology,Private,Asthma,14,0,32,4,0
+P00326,65,Female,Bolingbrook,Oncology,Private,Migraine,11,0,25,8,0
+P00326,65,Female,Bolingbrook,Pediatrics,Private,Post-Op Follow-up,23,0,22,3,0
+P00326,65,Female,Bolingbrook,Neurology,Private,Type 2 Diabetes,1,0,2,3,0
+P00326,65,Female,Bolingbrook,General Surgery,Private,Anxiety,9,0,18,4,0
+P00327,54,Male,Naperville,Primary Care,Self-Pay,Chest Pain,1,0,34,9,0
+P00327,54,Male,Naperville,Emergency,Self-Pay,Influenza,2,0,19,10,1
+P00327,54,Male,Naperville,Emergency,Self-Pay,Routine Screening,7,1,27,9,0
+P00328,40,Female,Naperville,Pediatrics,PPO,Asthma,15,0,24,1,0
+P00328,40,Female,Naperville,Radiology,PPO,Asthma,34,0,4,3,0
+P00328,40,Female,Naperville,Neurology,PPO,Fracture,15,0,48,5,1
+P00328,40,Female,Naperville,General Surgery,PPO,Type 2 Diabetes,33,1,2,5,0
+P00328,40,Female,Naperville,Primary Care,PPO,Annual Checkup,0,1,24,6,1
+P00328,40,Female,Naperville,General Surgery,PPO,Back Pain,0,2,53,6,0
+P00328,40,Female,Naperville,Neurology,PPO,Post-Op Follow-up,7,2,37,9,0
+P00328,40,Female,Naperville,Dermatology,PPO,Hypertension,0,2,21,12,0
+P00328,40,Female,Naperville,Cardiology,PPO,Post-Op Follow-up,13,2,47,3,0
+P00329,95,Male,Downers Grove,Orthopedics,Private,Type 2 Diabetes,6,0,26,2,0
+P00329,95,Male,Downers Grove,Oncology,Private,Back Pain,9,0,22,8,0
+P00329,95,Male,Downers Grove,General Surgery,Private,Post-Op Follow-up,28,0,21,7,0
+P00330,45,Male,Bolingbrook,Primary Care,HMO,Anxiety,6,0,26,2,1
+P00330,45,Male,Bolingbrook,Primary Care,HMO,Anxiety,1,1,24,1,0
+P00330,45,Male,Bolingbrook,Cardiology,HMO,Post-Op Follow-up,44,1,43,8,0
+P00330,45,Male,Bolingbrook,Primary Care,HMO,Asthma,0,1,42,11,0
+P00330,45,Male,Bolingbrook,Emergency,HMO,Allergic Reaction,5,1,35,12,0
+P00331,2,Female,Lombard,Orthopedics,HMO,Hypertension,0,0,34,2,1
+P00331,2,Female,Lombard,Primary Care,HMO,Chest Pain,33,1,28,5,0
+P00331,2,Female,Lombard,Cardiology,HMO,Asthma,2,1,33,1,0
+P00331,2,Female,Lombard,Neurology,HMO,Allergic Reaction,14,1,2,5,0
+P00332,30,Male,Downers Grove,Radiology,Self-Pay,Migraine,17,0,30,1,0
+P00333,13,Female,Woodridge,Radiology,Medicare,Fracture,2,0,2,8,0
+P00333,13,Female,Woodridge,Primary Care,Medicare,Post-Op Follow-up,1,0,24,8,1
+P00333,13,Female,Woodridge,Radiology,Medicare,Hypertension,6,1,9,1,0
+P00334,54,Male,Downers Grove,Primary Care,Private,Routine Screening,12,0,35,3,0
+P00334,54,Male,Downers Grove,General Surgery,Private,Hypertension,0,0,8,5,0
+P00334,54,Male,Downers Grove,General Surgery,Private,Fracture,3,0,24,6,0
+P00334,54,Male,Downers Grove,Pediatrics,Private,Post-Op Follow-up,8,0,41,8,0
+P00334,54,Male,Downers Grove,Primary Care,Private,Annual Checkup,11,0,34,5,0
+P00334,54,Male,Downers Grove,Primary Care,Private,Post-Op Follow-up,31,0,52,6,0
+P00334,54,Male,Downers Grove,Primary Care,Private,Skin Rash,5,0,13,7,0
+P00335,45,Female,Lombard,Dermatology,Medicare,Annual Checkup,8,0,42,7,0
+P00335,45,Female,Lombard,General Surgery,Medicare,Migraine,16,0,10,7,0
+P00335,45,Female,Lombard,Dermatology,Medicare,Routine Screening,2,0,44,9,0
+P00335,45,Female,Lombard,Orthopedics,Medicare,Allergic Reaction,3,0,4,10,0
+P00335,45,Female,Lombard,Neurology,Medicare,Post-Op Follow-up,5,0,23,12,0
+P00335,45,Female,Lombard,Pediatrics,Medicare,Asthma,20,0,57,4,0
+P00335,45,Female,Lombard,Neurology,Medicare,Influenza,0,0,44,11,0
+P00336,35,Female,Elmhurst,Pediatrics,Medicaid,Anxiety,9,0,34,8,0
+P00336,35,Female,Elmhurst,Oncology,Medicaid,Hypertension,1,0,29,9,0
+P00336,35,Female,Elmhurst,Radiology,Medicaid,Back Pain,24,0,28,1,0
+P00337,16,Male,Aurora,Oncology,Medicaid,Post-Op Follow-up,18,0,39,4,1
+P00337,16,Male,Aurora,Oncology,Medicaid,Skin Rash,13,1,27,3,1
+P00338,87,Female,Chicago,Dermatology,Medicare,Fracture,82,0,46,6,0
+P00338,87,Female,Chicago,Dermatology,Medicare,Chest Pain,0,0,25,8,0
+P00338,87,Female,Chicago,Emergency,Medicare,Anxiety,7,0,31,11,0
+P00338,87,Female,Chicago,Oncology,Medicare,Hypertension,2,0,34,1,1
+P00338,87,Female,Chicago,Cardiology,Medicare,Anxiety,29,1,20,4,0
+P00338,87,Female,Chicago,Oncology,Medicare,Anxiety,41,1,50,8,0
+P00338,87,Female,Chicago,Pediatrics,Medicare,Asthma,1,1,37,10,0
+P00339,32,Female,Downers Grove,Emergency,Private,Allergic Reaction,16,0,64,6,0
+P00339,32,Female,Downers Grove,Primary Care,Private,Anxiety,3,0,42,8,0
+P00339,32,Female,Downers Grove,Radiology,Private,Influenza,6,0,20,11,0
+P00339,32,Female,Downers Grove,Neurology,Private,Asthma,21,0,48,8,0
+P00339,32,Female,Downers Grove,Cardiology,Private,Influenza,22,0,39,10,0
+P00339,32,Female,Downers Grove,Cardiology,Private,Asthma,1,0,11,10,0
+P00340,43,Male,Aurora,Emergency,Private,Asthma,16,0,34,7,0
+P00340,43,Male,Aurora,Orthopedics,Private,Allergic Reaction,37,0,4,8,0
+P00340,43,Male,Aurora,Radiology,Private,Type 2 Diabetes,4,0,23,9,0
+P00341,15,Male,Naperville,Dermatology,Self-Pay,Allergic Reaction,8,0,13,2,0
+P00341,15,Male,Naperville,Primary Care,Self-Pay,Back Pain,43,0,33,10,1
+P00341,15,Male,Naperville,Dermatology,Self-Pay,Allergic Reaction,13,1,48,11,0
+P00342,17,Male,Chicago,Pediatrics,Medicare,Annual Checkup,9,0,32,5,0
+P00342,17,Male,Chicago,Pediatrics,Medicare,Hypertension,4,0,25,6,0
+P00342,17,Male,Chicago,Oncology,Medicare,Migraine,1,0,55,9,0
+P00342,17,Male,Chicago,Emergency,Medicare,Allergic Reaction,21,0,29,6,0
+P00342,17,Male,Chicago,Pediatrics,Medicare,Hypertension,18,0,45,8,0
+P00342,17,Male,Chicago,Emergency,Medicare,Back Pain,27,0,21,11,0
+P00343,56,Male,Elmhurst,Primary Care,Medicare,Fracture,11,0,51,6,0
+P00343,56,Male,Elmhurst,Neurology,Medicare,Hypertension,41,0,22,8,0
+P00343,56,Male,Elmhurst,Neurology,Medicare,Routine Screening,1,0,18,2,0
+P00343,56,Male,Elmhurst,Emergency,Medicare,Anxiety,9,0,43,5,0
+P00343,56,Male,Elmhurst,Orthopedics,Medicare,Influenza,17,0,27,6,0
+P00343,56,Male,Elmhurst,Orthopedics,Medicare,Allergic Reaction,9,0,37,9,0
+P00344,35,Male,Lombard,General Surgery,HMO,Allergic Reaction,35,0,22,1,0
+P00344,35,Male,Lombard,General Surgery,HMO,Anxiety,3,0,11,2,0
+P00344,35,Male,Lombard,Oncology,HMO,Post-Op Follow-up,6,0,11,1,0
+P00344,35,Male,Lombard,Cardiology,HMO,Anxiety,19,0,22,2,1
+P00344,35,Male,Lombard,Emergency,HMO,Allergic Reaction,50,1,45,4,0
+P00346,13,Female,Chicago,Pediatrics,Medicaid,Annual Checkup,1,0,44,7,0
+P00346,13,Female,Chicago,Radiology,Medicaid,Minor Injury,21,0,9,11,0
+P00346,13,Female,Chicago,Orthopedics,Medicaid,Asthma,2,0,26,12,0
+P00347,3,Male,Bolingbrook,Dermatology,Medicare,Chest Pain,15,0,45,4,0
+P00347,3,Male,Bolingbrook,Primary Care,Medicare,Type 2 Diabetes,4,0,52,9,0
+P00347,3,Male,Bolingbrook,Primary Care,Medicare,Annual Checkup,4,0,23,5,0
+P00347,3,Male,Bolingbrook,Cardiology,Medicare,Chest Pain,5,0,35,7,1
+P00347,3,Male,Bolingbrook,General Surgery,Medicare,Annual Checkup,8,1,24,7,0
+P00347,3,Male,Bolingbrook,Primary Care,Medicare,Routine Screening,2,1,27,8,0
+P00347,3,Male,Bolingbrook,Dermatology,Medicare,Anxiety,3,1,25,12,1
+P00348,63,Male,Oak Brook,Emergency,Medicare,Post-Op Follow-up,1,0,27,2,0
+P00348,63,Male,Oak Brook,Dermatology,Medicare,Anxiety,27,0,24,5,0
+P00348,63,Male,Oak Brook,Oncology,Medicare,Hypertension,2,0,2,11,0
+P00348,63,Male,Oak Brook,Orthopedics,Medicare,Anxiety,58,0,37,5,0
+P00348,63,Male,Oak Brook,Neurology,Medicare,Fracture,1,0,40,11,0
+P00349,42,Male,Bolingbrook,Dermatology,HMO,Migraine,10,0,14,3,0
+P00350,55,Female,Bolingbrook,General Surgery,Private,Type 2 Diabetes,9,0,15,6,0
+P00350,55,Female,Bolingbrook,Neurology,Private,Type 2 Diabetes,8,0,24,3,0
+P00350,55,Female,Bolingbrook,Cardiology,Private,Migraine,6,0,52,4,0
+P00351,79,Female,Woodridge,Oncology,Self-Pay,Back Pain,0,0,6,1,0
+P00351,79,Female,Woodridge,General Surgery,Self-Pay,Post-Op Follow-up,0,0,35,5,0
+P00351,79,Female,Woodridge,Cardiology,Self-Pay,Chest Pain,6,0,18,9,0
+P00351,79,Female,Woodridge,Neurology,Self-Pay,Skin Rash,8,0,15,11,0
+P00352,46,Male,Aurora,Primary Care,Medicaid,Post-Op Follow-up,2,0,24,10,0
+P00352,46,Male,Aurora,Radiology,Medicaid,Fracture,18,0,36,10,0
+P00353,19,Female,Elmhurst,Dermatology,Medicare,Back Pain,20,0,9,2,0
+P00353,19,Female,Elmhurst,Orthopedics,Medicare,Hypertension,3,0,17,5,0
+P00353,19,Female,Elmhurst,Primary Care,Medicare,Allergic Reaction,21,0,51,5,1
+P00353,19,Female,Elmhurst,Radiology,Medicare,Anxiety,5,1,18,4,0
+P00353,19,Female,Elmhurst,Radiology,Medicare,Chest Pain,12,1,20,8,0
+P00353,19,Female,Elmhurst,Radiology,Medicare,Back Pain,3,1,42,11,0
+P00353,19,Female,Elmhurst,Primary Care,Medicare,Routine Screening,10,1,35,12,0
+P00354,30,Female,Aurora,Orthopedics,Private,Minor Injury,9,0,42,4,1
+P00354,30,Female,Aurora,Neurology,Private,Migraine,17,1,11,3,0
+P00354,30,Female,Aurora,Neurology,Private,Influenza,25,1,10,4,0
+P00354,30,Female,Aurora,General Surgery,Private,Allergic Reaction,4,1,8,8,0
+P00354,30,Female,Aurora,Radiology,Private,Influenza,5,1,40,10,1
+P00355,21,Male,Downers Grove,Radiology,Private,Back Pain,3,0,16,1,0
+P00355,21,Male,Downers Grove,Orthopedics,Private,Back Pain,19,0,42,5,1
+P00355,21,Male,Downers Grove,Neurology,Private,Influenza,1,1,8,10,1
+P00355,21,Male,Downers Grove,Orthopedics,Private,Back Pain,14,2,34,10,0
+P00355,21,Male,Downers Grove,Cardiology,Private,Chest Pain,5,2,38,12,0
+P00355,21,Male,Downers Grove,Emergency,Private,Back Pain,21,2,16,1,1
+P00355,21,Male,Downers Grove,Neurology,Private,Anxiety,6,3,47,11,1
+P00356,36,Female,Aurora,Neurology,HMO,Post-Op Follow-up,3,0,35,4,0
+P00356,36,Female,Aurora,Oncology,HMO,Asthma,5,0,21,8,1
+P00356,36,Female,Aurora,Emergency,HMO,Post-Op Follow-up,2,1,12,2,0
+P00357,34,Female,Chicago,Dermatology,Medicaid,Asthma,0,0,29,2,0
+P00357,34,Female,Chicago,Emergency,Medicaid,Allergic Reaction,4,0,27,5,0
+P00357,34,Female,Chicago,Neurology,Medicaid,Routine Screening,23,0,32,12,0
+P00357,34,Female,Chicago,Cardiology,Medicaid,Influenza,13,0,38,8,0
+P00358,26,Female,Chicago,Dermatology,Medicaid,Post-Op Follow-up,1,0,15,5,1
+P00358,26,Female,Chicago,Primary Care,Medicaid,Minor Injury,27,1,59,9,0
+P00358,26,Female,Chicago,Pediatrics,Medicaid,Influenza,13,1,28,12,0
+P00359,25,Female,Woodridge,Pediatrics,Private,Migraine,6,0,45,2,0
+P00359,25,Female,Woodridge,Primary Care,Private,Hypertension,7,0,25,3,0
+P00359,25,Female,Woodridge,Orthopedics,Private,Allergic Reaction,12,0,36,6,0
+P00359,25,Female,Woodridge,Primary Care,Private,Hypertension,0,0,23,7,0
+P00359,25,Female,Woodridge,Emergency,Private,Annual Checkup,1,0,2,10,0
+P00359,25,Female,Woodridge,Oncology,Private,Asthma,1,0,43,2,0
+P00359,25,Female,Woodridge,Emergency,Private,Back Pain,0,0,18,10,0
+P00359,25,Female,Woodridge,Orthopedics,Private,Type 2 Diabetes,34,0,10,12,0
+P00360,28,Male,Elmhurst,Emergency,Self-Pay,Influenza,6,0,18,4,0
+P00360,28,Male,Elmhurst,Radiology,Self-Pay,Minor Injury,12,0,7,5,0
+P00360,28,Male,Elmhurst,Emergency,Self-Pay,Hypertension,41,0,40,6,0
+P00360,28,Male,Elmhurst,Radiology,Self-Pay,Migraine,17,0,18,7,0
+P00360,28,Male,Elmhurst,Radiology,Self-Pay,Fracture,10,0,39,12,0
+P00361,46,Female,Lombard,Oncology,Medicaid,Anxiety,3,0,15,1,0
+P00361,46,Female,Lombard,General Surgery,Medicaid,Minor Injury,15,0,35,3,0
+P00361,46,Female,Lombard,Orthopedics,Medicaid,Hypertension,23,0,5,4,0
+P00361,46,Female,Lombard,Dermatology,Medicaid,Fracture,5,0,32,6,1
+P00361,46,Female,Lombard,Primary Care,Medicaid,Minor Injury,8,1,38,6,1
+P00361,46,Female,Lombard,Primary Care,Medicaid,Minor Injury,7,2,8,7,1
+P00361,46,Female,Lombard,Oncology,Medicaid,Minor Injury,23,3,27,11,0
+P00361,46,Female,Lombard,Orthopedics,Medicaid,Routine Screening,63,3,23,12,1
+P00362,20,Male,Downers Grove,Pediatrics,Medicaid,Chest Pain,2,0,9,1,0
+P00362,20,Male,Downers Grove,Primary Care,Medicaid,Post-Op Follow-up,0,0,34,1,0
+P00362,20,Male,Downers Grove,Primary Care,Medicaid,Anxiety,43,0,40,4,0
+P00362,20,Male,Downers Grove,Neurology,Medicaid,Minor Injury,30,0,25,5,0
+P00362,20,Male,Downers Grove,Oncology,Medicaid,Chest Pain,1,0,25,6,0
+P00362,20,Male,Downers Grove,Orthopedics,Medicaid,Fracture,2,0,39,7,0
+P00362,20,Male,Downers Grove,Orthopedics,Medicaid,Hypertension,9,0,49,12,0
+P00363,46,Female,Lombard,Cardiology,Medicare,Asthma,25,0,21,4,0
+P00363,46,Female,Lombard,Primary Care,Medicare,Post-Op Follow-up,0,0,22,9,0
+P00363,46,Female,Lombard,Primary Care,Medicare,Allergic Reaction,16,0,22,12,0
+P00363,46,Female,Lombard,Neurology,Medicare,Asthma,20,0,32,4,0
+P00363,46,Female,Lombard,Radiology,Medicare,Routine Screening,22,0,22,12,0
+P00364,64,Female,Lombard,Pediatrics,Private,Anxiety,26,0,11,3,0
+P00364,64,Female,Lombard,Radiology,Private,Skin Rash,5,0,34,3,0
+P00364,64,Female,Lombard,Emergency,Private,Fracture,13,0,31,4,0
+P00364,64,Female,Lombard,Primary Care,Private,Type 2 Diabetes,4,0,14,5,0
+P00364,64,Female,Lombard,Oncology,Private,Anxiety,1,0,13,6,0
+P00364,64,Female,Lombard,Neurology,Private,Routine Screening,23,0,42,12,0
+P00364,64,Female,Lombard,Emergency,Private,Post-Op Follow-up,49,0,38,4,0
+P00364,64,Female,Lombard,General Surgery,Private,Allergic Reaction,9,0,31,11,0
+P00365,44,Female,Chicago,Orthopedics,Medicaid,Minor Injury,7,0,38,5,0
+P00365,44,Female,Chicago,Oncology,Medicaid,Hypertension,15,0,33,6,0
+P00365,44,Female,Chicago,Primary Care,Medicaid,Asthma,1,0,33,3,0
+P00365,44,Female,Chicago,Cardiology,Medicaid,Annual Checkup,2,0,24,5,0
+P00365,44,Female,Chicago,Dermatology,Medicaid,Back Pain,8,0,33,5,1
+P00366,39,Female,Bolingbrook,Neurology,Private,Hypertension,31,0,19,7,0
+P00366,39,Female,Bolingbrook,General Surgery,Private,Asthma,0,0,14,1,0
+P00366,39,Female,Bolingbrook,Oncology,Private,Chest Pain,12,0,23,6,0
+P00366,39,Female,Bolingbrook,Neurology,Private,Chest Pain,1,0,20,8,0
+P00366,39,Female,Bolingbrook,General Surgery,Private,Anxiety,35,0,28,8,0
+P00367,52,Male,Chicago,General Surgery,Self-Pay,Back Pain,2,0,36,3,0
+P00367,52,Male,Chicago,Primary Care,Self-Pay,Anxiety,16,0,21,8,0
+P00367,52,Male,Chicago,General Surgery,Self-Pay,Influenza,13,0,35,11,0
+P00367,52,Male,Chicago,General Surgery,Self-Pay,Post-Op Follow-up,12,0,19,1,1
+P00367,52,Male,Chicago,Orthopedics,Self-Pay,Type 2 Diabetes,9,1,45,2,1
+P00367,52,Male,Chicago,Oncology,Self-Pay,Back Pain,1,2,49,11,1
+P00367,52,Male,Chicago,Neurology,Self-Pay,Anxiety,3,3,30,11,0
+P00368,53,Female,Bolingbrook,Pediatrics,HMO,Back Pain,15,0,25,10,0
+P00368,53,Female,Bolingbrook,Primary Care,HMO,Back Pain,3,0,3,2,0
+P00368,53,Female,Bolingbrook,Orthopedics,HMO,Type 2 Diabetes,8,0,30,7,1
+P00369,9,Female,Chicago,Dermatology,Private,Fracture,17,0,53,8,1
+P00369,9,Female,Chicago,General Surgery,Private,Minor Injury,2,1,31,10,0
+P00369,9,Female,Chicago,Cardiology,Private,Hypertension,7,1,44,12,0
+P00369,9,Female,Chicago,Cardiology,Private,Fracture,36,1,9,9,1
+P00370,56,Other,Bolingbrook,General Surgery,Medicaid,Allergic Reaction,28,0,12,7,0
+P00371,58,Female,Chicago,Dermatology,Self-Pay,Chest Pain,45,0,23,2,1
+P00371,58,Female,Chicago,Pediatrics,Self-Pay,Anxiety,1,1,36,4,0
+P00371,58,Female,Chicago,Emergency,Self-Pay,Asthma,10,1,22,6,0
+P00372,60,Other,Aurora,Oncology,HMO,Asthma,46,0,40,5,0
+P00372,60,Other,Aurora,Primary Care,HMO,Chest Pain,1,0,39,5,1
+P00372,60,Other,Aurora,Primary Care,HMO,Post-Op Follow-up,2,1,39,7,1
+P00372,60,Other,Aurora,Oncology,HMO,Allergic Reaction,23,2,20,7,1
+P00372,60,Other,Aurora,Dermatology,HMO,Minor Injury,5,3,34,8,1
+P00372,60,Other,Aurora,Radiology,HMO,Skin Rash,8,4,33,10,1
+P00372,60,Other,Aurora,Primary Care,HMO,Type 2 Diabetes,8,5,12,6,1
+P00372,60,Other,Aurora,Oncology,HMO,Chest Pain,13,6,30,6,0
+P00372,60,Other,Aurora,Oncology,HMO,Anxiety,5,6,17,12,0
+P00373,46,Female,Downers Grove,Oncology,Medicaid,Hypertension,0,0,22,3,1
+P00373,46,Female,Downers Grove,Oncology,Medicaid,Fracture,1,1,12,4,0
+P00373,46,Female,Downers Grove,Pediatrics,Medicaid,Hypertension,0,1,28,4,1
+P00373,46,Female,Downers Grove,General Surgery,Medicaid,Chest Pain,9,2,16,10,0
+P00373,46,Female,Downers Grove,Dermatology,Medicaid,Allergic Reaction,17,2,37,10,0
+P00373,46,Female,Downers Grove,Emergency,Medicaid,Allergic Reaction,2,2,17,11,0
+P00373,46,Female,Downers Grove,General Surgery,Medicaid,Skin Rash,0,2,27,5,1
+P00373,46,Female,Downers Grove,Oncology,Medicaid,Hypertension,14,3,20,5,1
+P00373,46,Female,Downers Grove,Emergency,Medicaid,Annual Checkup,12,4,49,11,1
+P00374,48,Female,Downers Grove,Oncology,Medicare,Asthma,3,0,41,6,1
+P00374,48,Female,Downers Grove,Neurology,Medicare,Chest Pain,5,1,24,10,1
+P00374,48,Female,Downers Grove,Primary Care,Medicare,Type 2 Diabetes,20,2,32,10,0
+P00374,48,Female,Downers Grove,Primary Care,Medicare,Routine Screening,0,2,15,1,1
+P00374,48,Female,Downers Grove,Emergency,Medicare,Skin Rash,12,3,16,1,0
+P00374,48,Female,Downers Grove,Dermatology,Medicare,Allergic Reaction,35,3,42,4,1
+P00375,45,Female,Lombard,Emergency,Medicare,Chest Pain,10,0,28,1,1
+P00375,45,Female,Lombard,Oncology,Medicare,Asthma,26,1,17,7,0
+P00375,45,Female,Lombard,Orthopedics,Medicare,Annual Checkup,0,1,35,12,0
+P00376,45,Male,Bolingbrook,Neurology,Private,Annual Checkup,10,0,36,4,0
+P00376,45,Male,Bolingbrook,Orthopedics,Private,Influenza,3,0,34,7,0
+P00376,45,Male,Bolingbrook,Cardiology,Private,Migraine,7,0,24,8,0
+P00376,45,Male,Bolingbrook,Orthopedics,Private,Hypertension,19,0,36,11,0
+P00377,49,Female,Downers Grove,Orthopedics,Private,Asthma,6,0,38,3,0
+P00377,49,Female,Downers Grove,Neurology,Private,Hypertension,6,0,27,9,0
+P00377,49,Female,Downers Grove,Pediatrics,Private,Minor Injury,1,0,22,3,1
+P00378,41,Male,Bolingbrook,Dermatology,Medicaid,Type 2 Diabetes,4,0,11,4,0
+P00378,41,Male,Bolingbrook,Pediatrics,Medicaid,Asthma,2,0,22,4,0
+P00378,41,Male,Bolingbrook,Radiology,Medicaid,Post-Op Follow-up,1,0,18,10,0
+P00378,41,Male,Bolingbrook,Pediatrics,Medicaid,Post-Op Follow-up,11,0,11,11,0
+P00378,41,Male,Bolingbrook,Emergency,Medicaid,Chest Pain,16,0,30,2,0
+P00378,41,Male,Bolingbrook,Pediatrics,Medicaid,Influenza,5,0,33,8,0
+P00378,41,Male,Bolingbrook,Primary Care,Medicaid,Fracture,21,0,38,9,1
+P00379,25,Female,Aurora,Pediatrics,HMO,Annual Checkup,2,0,38,8,1
+P00379,25,Female,Aurora,Neurology,HMO,Back Pain,5,1,38,5,0
+P00380,41,Male,Chicago,Radiology,Private,Migraine,2,0,30,7,0
+P00380,41,Male,Chicago,Oncology,Private,Routine Screening,9,0,25,7,1
+P00380,41,Male,Chicago,Primary Care,Private,Type 2 Diabetes,3,1,15,5,0
+P00380,41,Male,Chicago,Emergency,Private,Back Pain,16,1,38,5,0
+P00380,41,Male,Chicago,Emergency,Private,Hypertension,34,1,42,6,0
+P00380,41,Male,Chicago,Neurology,Private,Allergic Reaction,37,1,20,8,0
+P00380,41,Male,Chicago,Dermatology,Private,Anxiety,33,1,38,10,1
+P00380,41,Male,Chicago,Neurology,Private,Influenza,1,2,26,12,1
+P00381,34,Male,Bolingbrook,Primary Care,PPO,Post-Op Follow-up,13,0,42,4,0
+P00381,34,Male,Bolingbrook,Emergency,PPO,Minor Injury,41,0,19,11,0
+P00382,58,Female,Elmhurst,Radiology,Private,Back Pain,12,0,26,3,0
+P00382,58,Female,Elmhurst,Radiology,Private,Type 2 Diabetes,6,0,33,7,0
+P00382,58,Female,Elmhurst,Primary Care,Private,Chest Pain,9,0,25,9,0
+P00382,58,Female,Elmhurst,General Surgery,Private,Skin Rash,6,0,25,10,0
+P00382,58,Female,Elmhurst,Pediatrics,Private,Type 2 Diabetes,1,0,59,3,0
+P00382,58,Female,Elmhurst,Oncology,Private,Migraine,1,0,37,6,0
+P00382,58,Female,Elmhurst,Pediatrics,Private,Routine Screening,1,0,26,7,0
+P00382,58,Female,Elmhurst,Primary Care,Private,Allergic Reaction,7,0,17,11,0
+P00382,58,Female,Elmhurst,Emergency,Private,Asthma,8,0,32,12,0
+P00383,70,Male,Chicago,Radiology,Medicare,Skin Rash,4,0,2,3,0
+P00383,70,Male,Chicago,Dermatology,Medicare,Minor Injury,4,0,28,3,1
+P00383,70,Male,Chicago,Primary Care,Medicare,Annual Checkup,0,1,47,4,0
+P00383,70,Male,Chicago,Orthopedics,Medicare,Migraine,2,1,59,5,0
+P00383,70,Male,Chicago,Primary Care,Medicare,Chest Pain,1,1,47,6,0
+P00383,70,Male,Chicago,Cardiology,Medicare,Skin Rash,9,1,20,1,0
+P00384,25,Male,Lombard,Oncology,Medicaid,Allergic Reaction,20,0,20,1,0
+P00384,25,Male,Lombard,Pediatrics,Medicaid,Influenza,3,0,33,4,0
+P00384,25,Male,Lombard,General Surgery,Medicaid,Type 2 Diabetes,4,0,40,9,1
+P00385,30,Male,Downers Grove,Pediatrics,Private,Migraine,12,0,8,9,0
+P00385,30,Male,Downers Grove,General Surgery,Private,Routine Screening,8,0,22,3,1
+P00385,30,Male,Downers Grove,Radiology,Private,Hypertension,90,1,32,9,0
+P00385,30,Male,Downers Grove,Primary Care,Private,Post-Op Follow-up,14,1,43,9,0
+P00386,17,Female,Woodridge,Pediatrics,Self-Pay,Migraine,28,0,37,5,0
+P00386,17,Female,Woodridge,Emergency,Self-Pay,Back Pain,3,0,3,11,0
+P00386,17,Female,Woodridge,Dermatology,Self-Pay,Hypertension,34,0,4,12,0
+P00386,17,Female,Woodridge,Dermatology,Self-Pay,Migraine,8,0,26,7,0
+P00387,64,Male,Lombard,Oncology,HMO,Influenza,25,0,27,6,0
+P00387,64,Male,Lombard,Primary Care,HMO,Routine Screening,5,0,39,11,1
+P00387,64,Male,Lombard,Emergency,HMO,Influenza,26,1,38,2,0
+P00387,64,Male,Lombard,Dermatology,HMO,Fracture,9,1,34,11,0
+P00388,45,Male,Elmhurst,Radiology,HMO,Allergic Reaction,50,0,26,7,0
+P00389,54,Female,Woodridge,Emergency,Medicaid,Fracture,4,0,30,5,0
+P00389,54,Female,Woodridge,Orthopedics,Medicaid,Chest Pain,37,0,54,11,0
+P00389,54,Female,Woodridge,Oncology,Medicaid,Back Pain,22,0,41,12,0
+P00389,54,Female,Woodridge,Cardiology,Medicaid,Allergic Reaction,4,0,31,5,0
+P00389,54,Female,Woodridge,Pediatrics,Medicaid,Influenza,2,0,31,8,0
+P00389,54,Female,Woodridge,Emergency,Medicaid,Chest Pain,20,0,27,9,1
+P00390,33,Male,Lombard,Cardiology,Medicaid,Skin Rash,15,0,13,3,0
+P00390,33,Male,Lombard,Cardiology,Medicaid,Post-Op Follow-up,16,0,19,6,0
+P00390,33,Male,Lombard,Radiology,Medicaid,Minor Injury,6,0,31,8,0
+P00390,33,Male,Lombard,Orthopedics,Medicaid,Minor Injury,6,0,16,10,0
+P00390,33,Male,Lombard,Primary Care,Medicaid,Migraine,2,0,17,3,0
+P00391,63,Male,Lombard,Oncology,Medicare,Influenza,34,0,53,10,0
+P00391,63,Male,Lombard,General Surgery,Medicare,Type 2 Diabetes,15,0,23,5,0
+P00392,34,Male,Woodridge,Cardiology,Private,Anxiety,8,0,31,1,0
+P00392,34,Male,Woodridge,Cardiology,Private,Allergic Reaction,0,0,18,2,0
+P00392,34,Male,Woodridge,General Surgery,Private,Back Pain,6,0,41,8,0
+P00392,34,Male,Woodridge,Emergency,Private,Type 2 Diabetes,19,0,50,11,0
+P00392,34,Male,Woodridge,Dermatology,Private,Routine Screening,10,0,7,11,1
+P00392,34,Male,Woodridge,Neurology,Private,Fracture,13,1,14,12,0
+P00393,37,Male,Lombard,Emergency,Private,Migraine,1,0,12,1,0
+P00393,37,Male,Lombard,Oncology,Private,Fracture,6,0,11,5,0
+P00393,37,Male,Lombard,Oncology,Private,Anxiety,5,0,26,6,0
+P00393,37,Male,Lombard,Radiology,Private,Asthma,13,0,32,10,0
+P00393,37,Male,Lombard,Oncology,Private,Back Pain,32,0,52,11,0
+P00394,44,Male,Elmhurst,Dermatology,Medicaid,Hypertension,2,0,21,3,0
+P00394,44,Male,Elmhurst,Pediatrics,Medicaid,Migraine,21,0,37,3,0
+P00394,44,Male,Elmhurst,Emergency,Medicaid,Chest Pain,0,0,38,9,0
+P00394,44,Male,Elmhurst,Dermatology,Medicaid,Post-Op Follow-up,3,0,11,7,0
+P00394,44,Male,Elmhurst,Radiology,Medicaid,Post-Op Follow-up,10,0,11,11,0
+P00395,46,Male,Downers Grove,Orthopedics,Private,Skin Rash,4,0,24,3,0
+P00395,46,Male,Downers Grove,Dermatology,Private,Fracture,12,0,31,6,0
+P00395,46,Male,Downers Grove,Cardiology,Private,Allergic Reaction,19,0,22,11,0
+P00396,31,Female,Chicago,Orthopedics,Medicare,Annual Checkup,39,0,49,7,0
+P00396,31,Female,Chicago,Oncology,Medicare,Fracture,10,0,32,11,0
+P00396,31,Female,Chicago,Cardiology,Medicare,Skin Rash,33,0,14,3,0
+P00396,31,Female,Chicago,Radiology,Medicare,Skin Rash,9,0,25,4,0
+P00397,49,Female,Woodridge,General Surgery,Medicare,Asthma,41,0,39,10,0
+P00397,49,Female,Woodridge,Dermatology,Medicare,Type 2 Diabetes,9,0,29,11,0
+P00397,49,Female,Woodridge,Oncology,Medicare,Routine Screening,24,0,34,1,0
+P00398,61,Male,Naperville,Oncology,Private,Influenza,67,0,38,7,1
+P00398,61,Male,Naperville,Oncology,Private,Fracture,21,1,38,5,0
+P00399,33,Female,Naperville,Orthopedics,Medicaid,Skin Rash,0,0,38,4,1
+P00399,33,Female,Naperville,Oncology,Medicaid,Hypertension,1,1,40,8,0
+P00399,33,Female,Naperville,General Surgery,Medicaid,Chest Pain,8,1,20,10,1
+P00399,33,Female,Naperville,Radiology,Medicaid,Asthma,4,2,24,1,0
+P00399,33,Female,Naperville,Dermatology,Medicaid,Chest Pain,60,2,44,6,0
+P00399,33,Female,Naperville,Pediatrics,Medicaid,Asthma,15,2,19,8,0
+P00399,33,Female,Naperville,Radiology,Medicaid,Minor Injury,24,2,2,9,0
+P00399,33,Female,Naperville,Dermatology,Medicaid,Annual Checkup,11,2,25,11,0
+P00400,49,Female,Naperville,Primary Care,Medicare,Allergic Reaction,2,0,24,3,0
+P00400,49,Female,Naperville,General Surgery,Medicare,Anxiety,3,0,50,5,0
+P00400,49,Female,Naperville,Primary Care,Medicare,Annual Checkup,2,0,22,9,1
+P00400,49,Female,Naperville,Neurology,Medicare,Minor Injury,2,1,17,12,1
+P00400,49,Female,Naperville,Radiology,Medicare,Routine Screening,17,2,25,1,0
+P00401,39,Female,Downers Grove,Primary Care,Medicare,Fracture,40,0,27,6,0
+P00401,39,Female,Downers Grove,Orthopedics,Medicare,Back Pain,4,0,36,1,0
+P00401,39,Female,Downers Grove,Cardiology,Medicare,Routine Screening,29,0,36,4,1
+P00402,10,Female,Aurora,Orthopedics,Medicare,Influenza,5,0,46,10,0
+P00402,10,Female,Aurora,Primary Care,Medicare,Skin Rash,0,0,34,10,0
+P00402,10,Female,Aurora,Oncology,Medicare,Routine Screening,2,0,53,4,0
+P00403,34,Female,Oak Brook,Primary Care,Medicaid,Annual Checkup,2,0,34,1,0
+P00403,34,Female,Oak Brook,Radiology,Medicaid,Post-Op Follow-up,0,0,9,7,0
+P00403,34,Female,Oak Brook,Pediatrics,Medicaid,Fracture,6,0,24,7,0
+P00403,34,Female,Oak Brook,Emergency,Medicaid,Migraine,2,0,40,8,0
+P00403,34,Female,Oak Brook,Pediatrics,Medicaid,Anxiety,2,0,46,10,0
+P00404,48,Female,Oak Brook,Neurology,Private,Minor Injury,20,0,37,5,1
+P00404,48,Female,Oak Brook,Pediatrics,Private,Routine Screening,3,1,31,8,1
+P00404,48,Female,Oak Brook,Radiology,Private,Back Pain,2,2,7,2,0
+P00405,54,Female,Joliet,General Surgery,Self-Pay,Hypertension,2,0,27,7,0
+P00405,54,Female,Joliet,Pediatrics,Self-Pay,Skin Rash,8,0,30,11,0
+P00405,54,Female,Joliet,Cardiology,Self-Pay,Type 2 Diabetes,11,0,19,8,0
+P00405,54,Female,Joliet,Dermatology,Self-Pay,Anxiety,2,0,4,8,0
+P00405,54,Female,Joliet,Neurology,Self-Pay,Annual Checkup,2,0,20,11,0
+P00406,50,Male,Naperville,Dermatology,PPO,Annual Checkup,21,0,23,11,0
+P00407,33,Male,Lombard,Primary Care,Medicare,Anxiety,2,0,36,1,0
+P00407,33,Male,Lombard,Cardiology,Medicare,Fracture,19,0,27,7,0
+P00407,33,Male,Lombard,Orthopedics,Medicare,Migraine,37,0,45,7,0
+P00408,43,Female,Bolingbrook,Oncology,Medicare,Routine Screening,0,0,17,1,0
+P00408,43,Female,Bolingbrook,Oncology,Medicare,Type 2 Diabetes,35,0,24,6,0
+P00408,43,Female,Bolingbrook,Primary Care,Medicare,Skin Rash,32,0,14,9,0
+P00408,43,Female,Bolingbrook,Neurology,Medicare,Skin Rash,4,0,31,11,0
+P00408,43,Female,Bolingbrook,General Surgery,Medicare,Anxiety,3,0,15,1,0
+P00408,43,Female,Bolingbrook,Oncology,Medicare,Hypertension,5,0,45,5,1
+P00408,43,Female,Bolingbrook,General Surgery,Medicare,Hypertension,13,1,33,9,0
+P00408,43,Female,Bolingbrook,Orthopedics,Medicare,Hypertension,19,1,50,10,0
+P00409,76,Female,Woodridge,Orthopedics,Private,Type 2 Diabetes,8,0,31,7,0
+P00409,76,Female,Woodridge,Oncology,Private,Allergic Reaction,27,0,37,7,0
+P00409,76,Female,Woodridge,Primary Care,Private,Skin Rash,4,0,33,8,0
+P00409,76,Female,Woodridge,Pediatrics,Private,Hypertension,1,0,39,8,0
+P00409,76,Female,Woodridge,General Surgery,Private,Post-Op Follow-up,9,0,26,11,0
+P00409,76,Female,Woodridge,Emergency,Private,Hypertension,13,0,49,6,1
+P00409,76,Female,Woodridge,Cardiology,Private,Hypertension,56,1,8,10,1
+P00409,76,Female,Woodridge,Neurology,Private,Anxiety,34,2,14,12,0
+P00409,76,Female,Woodridge,Pediatrics,Private,Type 2 Diabetes,4,2,45,12,0
+P00410,47,Female,Woodridge,Pediatrics,Medicare,Asthma,0,0,54,1,0
+P00410,47,Female,Woodridge,Oncology,Medicare,Type 2 Diabetes,7,0,37,3,0
+P00410,47,Female,Woodridge,Orthopedics,Medicare,Anxiety,12,0,27,4,1
+P00410,47,Female,Woodridge,Radiology,Medicare,Type 2 Diabetes,13,1,49,5,0
+P00410,47,Female,Woodridge,Emergency,Medicare,Anxiety,5,1,32,12,0
+P00410,47,Female,Woodridge,Neurology,Medicare,Type 2 Diabetes,14,1,23,12,0
+P00410,47,Female,Woodridge,Radiology,Medicare,Back Pain,10,1,27,5,0
+P00410,47,Female,Woodridge,Oncology,Medicare,Routine Screening,18,1,30,10,0
+P00411,45,Male,Joliet,Pediatrics,Medicare,Type 2 Diabetes,7,0,39,3,0
+P00411,45,Male,Joliet,Oncology,Medicare,Influenza,17,0,47,6,1
+P00412,18,Female,Aurora,Dermatology,Medicare,Migraine,11,0,21,3,0
+P00412,18,Female,Aurora,Cardiology,Medicare,Type 2 Diabetes,19,0,29,7,0
+P00412,18,Female,Aurora,Primary Care,Medicare,Migraine,2,0,20,12,0
+P00412,18,Female,Aurora,Dermatology,Medicare,Skin Rash,0,0,36,4,0
+P00412,18,Female,Aurora,General Surgery,Medicare,Allergic Reaction,6,0,8,9,0
+P00412,18,Female,Aurora,Pediatrics,Medicare,Allergic Reaction,12,0,16,9,0
+P00413,68,Female,Elmhurst,General Surgery,Private,Minor Injury,11,0,41,8,0
+P00413,68,Female,Elmhurst,Radiology,Private,Chest Pain,1,0,25,9,0
+P00413,68,Female,Elmhurst,Orthopedics,Private,Hypertension,10,0,17,5,1
+P00413,68,Female,Elmhurst,Cardiology,Private,Hypertension,8,1,33,5,0
+P00413,68,Female,Elmhurst,Radiology,Private,Anxiety,17,1,9,11,0
+P00414,58,Male,Aurora,Cardiology,Medicaid,Hypertension,4,0,25,11,1
+P00414,58,Male,Aurora,Primary Care,Medicaid,Migraine,5,1,17,6,0
+P00415,61,Female,Chicago,Neurology,Medicare,Routine Screening,23,0,26,4,0
+P00415,61,Female,Chicago,Dermatology,Medicare,Chest Pain,0,0,28,6,0
+P00415,61,Female,Chicago,General Surgery,Medicare,Allergic Reaction,1,0,38,7,0
+P00415,61,Female,Chicago,Primary Care,Medicare,Allergic Reaction,90,0,43,10,1
+P00415,61,Female,Chicago,Neurology,Medicare,Routine Screening,27,1,25,3,0
+P00415,61,Female,Chicago,Neurology,Medicare,Anxiety,11,1,20,6,0
+P00416,27,Male,Naperville,Primary Care,HMO,Annual Checkup,13,0,23,3,1
+P00416,27,Male,Naperville,Pediatrics,HMO,Skin Rash,21,1,8,10,1
+P00416,27,Male,Naperville,Neurology,HMO,Annual Checkup,6,2,14,10,0
+P00416,27,Male,Naperville,Orthopedics,HMO,Chest Pain,6,2,13,12,1
+P00417,58,Female,Lombard,Primary Care,Private,Anxiety,57,0,6,12,0
+P00417,58,Female,Lombard,Orthopedics,Private,Influenza,17,0,25,10,0
+P00418,45,Male,Joliet,Pediatrics,Medicaid,Type 2 Diabetes,6,0,45,1,0
+P00418,45,Male,Joliet,Neurology,Medicaid,Migraine,9,0,27,2,0
+P00418,45,Male,Joliet,Pediatrics,Medicaid,Anxiety,5,0,18,5,0
+P00418,45,Male,Joliet,Radiology,Medicaid,Post-Op Follow-up,46,0,5,7,0
+P00419,25,Other,Aurora,Cardiology,Private,Annual Checkup,4,0,16,1,0
+P00419,25,Other,Aurora,Oncology,Private,Routine Screening,27,0,54,8,0
+P00420,39,Female,Aurora,Dermatology,Private,Minor Injury,29,0,13,2,0
+P00420,39,Female,Aurora,Radiology,Private,Migraine,16,0,11,5,0
+P00420,39,Female,Aurora,Dermatology,Private,Fracture,0,0,28,5,0
+P00420,39,Female,Aurora,Orthopedics,Private,Fracture,2,0,34,10,1
+P00420,39,Female,Aurora,Radiology,Private,Annual Checkup,0,1,14,5,0
+P00420,39,Female,Aurora,Neurology,Private,Routine Screening,0,1,33,7,0
+P00420,39,Female,Aurora,Orthopedics,Private,Minor Injury,2,1,29,12,0
+P00421,41,Female,Joliet,Cardiology,Private,Allergic Reaction,2,0,34,10,0
+P00421,41,Female,Joliet,Cardiology,Private,Influenza,12,0,41,2,0
+P00421,41,Female,Joliet,Primary Care,Private,Routine Screening,6,0,20,10,0
+P00421,41,Female,Joliet,Oncology,Private,Back Pain,14,0,27,10,0
+P00422,46,Female,Joliet,Pediatrics,Medicare,Annual Checkup,4,0,47,7,0
+P00422,46,Female,Joliet,Oncology,Medicare,Allergic Reaction,8,0,29,2,0
+P00422,46,Female,Joliet,Primary Care,Medicare,Minor Injury,18,0,35,5,0
+P00422,46,Female,Joliet,Pediatrics,Medicare,Fracture,28,0,23,6,0
+P00422,46,Female,Joliet,General Surgery,Medicare,Skin Rash,28,0,36,7,0
+P00423,28,Female,Downers Grove,Emergency,Private,Minor Injury,2,0,50,2,1
+P00423,28,Female,Downers Grove,Oncology,Private,Post-Op Follow-up,17,1,22,8,0
+P00423,28,Female,Downers Grove,Cardiology,Private,Asthma,14,1,29,12,0
+P00423,28,Female,Downers Grove,Neurology,Private,Allergic Reaction,44,1,2,1,1
+P00423,28,Female,Downers Grove,Primary Care,Private,Type 2 Diabetes,9,2,30,8,0
+P00423,28,Female,Downers Grove,General Surgery,Private,Influenza,19,2,45,8,0
+P00424,63,Male,Woodridge,Radiology,Medicare,Skin Rash,19,0,23,1,0
+P00424,63,Male,Woodridge,Cardiology,Medicare,Migraine,18,0,23,2,1
+P00424,63,Male,Woodridge,Emergency,Medicare,Routine Screening,64,1,17,10,0
+P00424,63,Male,Woodridge,Orthopedics,Medicare,Type 2 Diabetes,9,1,43,5,0
+P00424,63,Male,Woodridge,Orthopedics,Medicare,Fracture,15,1,37,8,0
+P00425,53,Male,Elmhurst,Dermatology,HMO,Anxiety,9,0,32,1,0
+P00425,53,Male,Elmhurst,Radiology,HMO,Minor Injury,8,0,48,2,0
+P00425,53,Male,Elmhurst,Pediatrics,HMO,Skin Rash,7,0,22,3,0
+P00425,53,Male,Elmhurst,Orthopedics,HMO,Post-Op Follow-up,28,0,13,11,0
+P00425,53,Male,Elmhurst,Dermatology,HMO,Chest Pain,3,0,25,12,0
+P00425,53,Male,Elmhurst,Primary Care,HMO,Influenza,1,0,38,1,0
+P00425,53,Male,Elmhurst,General Surgery,HMO,Chest Pain,24,0,35,8,0
+P00425,53,Male,Elmhurst,Primary Care,HMO,Anxiety,14,0,32,9,0
+P00425,53,Male,Elmhurst,General Surgery,HMO,Type 2 Diabetes,1,0,35,12,0
+P00426,46,Male,Elmhurst,Primary Care,HMO,Chest Pain,2,0,23,2,0
+P00426,46,Male,Elmhurst,Primary Care,HMO,Migraine,0,0,18,9,0
+P00426,46,Male,Elmhurst,Radiology,HMO,Allergic Reaction,3,0,19,12,0
+P00426,46,Male,Elmhurst,Pediatrics,HMO,Back Pain,2,0,33,2,0
+P00426,46,Male,Elmhurst,Neurology,HMO,Minor Injury,23,0,26,6,0
+P00426,46,Male,Elmhurst,General Surgery,HMO,Allergic Reaction,7,0,5,7,0
+P00427,72,Male,Woodridge,Orthopedics,Medicaid,Back Pain,4,0,13,5,0
+P00427,72,Male,Woodridge,Emergency,Medicaid,Allergic Reaction,8,0,20,7,0
+P00427,72,Male,Woodridge,Pediatrics,Medicaid,Influenza,5,0,19,9,1
+P00428,39,Male,Oak Brook,Neurology,HMO,Anxiety,3,0,35,2,0
+P00428,39,Male,Oak Brook,Orthopedics,HMO,Fracture,15,0,34,7,1
+P00428,39,Male,Oak Brook,Oncology,HMO,Post-Op Follow-up,8,1,27,7,0
+P00428,39,Male,Oak Brook,Emergency,HMO,Hypertension,10,1,42,1,0
+P00428,39,Male,Oak Brook,Emergency,HMO,Chest Pain,24,1,8,4,0
+P00428,39,Male,Oak Brook,General Surgery,HMO,Minor Injury,14,1,30,7,0
+P00428,39,Male,Oak Brook,Pediatrics,HMO,Post-Op Follow-up,3,1,28,9,1
+P00429,48,Female,Oak Brook,Oncology,Medicare,Asthma,13,0,7,6,0
+P00429,48,Female,Oak Brook,Pediatrics,Medicare,Skin Rash,7,0,2,4,0
+P00429,48,Female,Oak Brook,Oncology,Medicare,Skin Rash,17,0,36,10,0
+P00430,53,Female,Woodridge,Dermatology,Private,Allergic Reaction,5,0,30,5,1
+P00430,53,Female,Woodridge,Emergency,Private,Chest Pain,51,1,4,4,1
+P00430,53,Female,Woodridge,Primary Care,Private,Routine Screening,0,2,44,11,0
+P00431,58,Female,Elmhurst,Dermatology,Medicare,Routine Screening,35,0,16,3,0
+P00431,58,Female,Elmhurst,Emergency,Medicare,Post-Op Follow-up,0,0,53,3,0
+P00431,58,Female,Elmhurst,Cardiology,Medicare,Fracture,15,0,31,7,0
+P00431,58,Female,Elmhurst,Radiology,Medicare,Allergic Reaction,25,0,29,7,0
+P00432,44,Female,Elmhurst,Primary Care,Medicaid,Chest Pain,18,0,9,1,0
+P00432,44,Female,Elmhurst,Emergency,Medicaid,Type 2 Diabetes,6,0,39,1,0
+P00432,44,Female,Elmhurst,Radiology,Medicaid,Allergic Reaction,22,0,16,11,0
+P00432,44,Female,Elmhurst,Primary Care,Medicaid,Post-Op Follow-up,14,0,44,11,0
+P00433,64,Female,Downers Grove,Neurology,Self-Pay,Skin Rash,15,0,31,2,0
+P00433,64,Female,Downers Grove,Orthopedics,Self-Pay,Routine Screening,13,0,2,4,0
+P00433,64,Female,Downers Grove,Neurology,Self-Pay,Allergic Reaction,4,0,10,2,0
+P00433,64,Female,Downers Grove,Oncology,Self-Pay,Anxiety,12,0,43,3,0
+P00433,64,Female,Downers Grove,Cardiology,Self-Pay,Type 2 Diabetes,58,0,25,5,0
+P00433,64,Female,Downers Grove,Pediatrics,Self-Pay,Fracture,30,0,38,5,0
+P00433,64,Female,Downers Grove,Primary Care,Self-Pay,Type 2 Diabetes,3,0,68,12,0
+P00434,30,Female,Joliet,Dermatology,Private,Fracture,3,0,21,1,0
+P00434,30,Female,Joliet,Dermatology,Private,Migraine,17,0,17,4,0
+P00434,30,Female,Joliet,Cardiology,Private,Asthma,11,0,43,11,1
+P00434,30,Female,Joliet,Radiology,Private,Migraine,0,1,18,2,0
+P00434,30,Female,Joliet,Orthopedics,Private,Annual Checkup,1,1,15,4,0
+P00434,30,Female,Joliet,Oncology,Private,Migraine,1,1,2,4,0
+P00434,30,Female,Joliet,Radiology,Private,Fracture,3,1,50,12,1
+P00435,67,Female,Bolingbrook,Orthopedics,Private,Post-Op Follow-up,30,0,31,5,1
+P00435,67,Female,Bolingbrook,Pediatrics,Private,Back Pain,5,1,26,10,0
+P00435,67,Female,Bolingbrook,Orthopedics,Private,Allergic Reaction,8,1,31,11,0
+P00435,67,Female,Bolingbrook,Cardiology,Private,Asthma,14,1,20,9,0
+P00435,67,Female,Bolingbrook,Pediatrics,Private,Chest Pain,2,1,2,12,0
+P00436,32,Female,Chicago,Oncology,Self-Pay,Post-Op Follow-up,0,0,29,1,0
+P00436,32,Female,Chicago,General Surgery,Self-Pay,Asthma,2,0,20,4,1
+P00436,32,Female,Chicago,Pediatrics,Self-Pay,Routine Screening,12,1,23,1,0
+P00436,32,Female,Chicago,Cardiology,Self-Pay,Fracture,2,1,10,3,0
+P00436,32,Female,Chicago,Dermatology,Self-Pay,Post-Op Follow-up,14,1,10,4,0
+P00436,32,Female,Chicago,Cardiology,Self-Pay,Post-Op Follow-up,24,1,48,6,1
+P00436,32,Female,Chicago,Radiology,Self-Pay,Skin Rash,6,2,21,6,0
+P00436,32,Female,Chicago,Radiology,Self-Pay,Back Pain,26,2,18,10,1
+P00437,47,Female,Woodridge,Orthopedics,Private,Minor Injury,3,0,32,1,0
+P00437,47,Female,Woodridge,Neurology,Private,Asthma,6,0,33,8,0
+P00437,47,Female,Woodridge,Oncology,Private,Asthma,22,0,39,1,0
+P00437,47,Female,Woodridge,Oncology,Private,Asthma,3,0,35,5,0
+P00437,47,Female,Woodridge,Cardiology,Private,Type 2 Diabetes,25,0,35,10,0
+P00438,49,Female,Naperville,Radiology,Medicaid,Post-Op Follow-up,6,0,17,1,0
+P00438,49,Female,Naperville,Primary Care,Medicaid,Routine Screening,8,0,28,4,0
+P00438,49,Female,Naperville,Pediatrics,Medicaid,Routine Screening,24,0,7,7,0
+P00438,49,Female,Naperville,Emergency,Medicaid,Routine Screening,14,0,35,10,0
+P00438,49,Female,Naperville,General Surgery,Medicaid,Post-Op Follow-up,0,0,18,4,0
+P00438,49,Female,Naperville,Primary Care,Medicaid,Minor Injury,0,0,39,11,0
+P00439,31,Female,Elmhurst,Cardiology,PPO,Hypertension,13,0,40,11,1
+P00439,31,Female,Elmhurst,Dermatology,PPO,Routine Screening,15,1,14,11,0
+P00439,31,Female,Elmhurst,Emergency,PPO,Anxiety,22,1,24,11,1
+P00440,68,Female,Elmhurst,Primary Care,Private,Minor Injury,0,0,31,2,0
+P00440,68,Female,Elmhurst,Emergency,Private,Asthma,11,0,2,4,0
+P00440,68,Female,Elmhurst,Radiology,Private,Influenza,43,0,26,4,0
+P00440,68,Female,Elmhurst,Oncology,Private,Minor Injury,3,0,51,4,0
+P00440,68,Female,Elmhurst,Neurology,Private,Skin Rash,3,0,27,7,0
+P00440,68,Female,Elmhurst,Neurology,Private,Fracture,6,0,40,7,0
+P00440,68,Female,Elmhurst,Emergency,Private,Migraine,21,0,44,11,0
+P00440,68,Female,Elmhurst,Dermatology,Private,Allergic Reaction,1,0,20,11,0
+P00440,68,Female,Elmhurst,Radiology,Private,Type 2 Diabetes,4,0,3,1,0
+P00440,68,Female,Elmhurst,General Surgery,Private,Back Pain,1,0,44,3,0
+P00440,68,Female,Elmhurst,Orthopedics,Private,Asthma,2,0,25,5,0
+P00440,68,Female,Elmhurst,Neurology,Private,Type 2 Diabetes,4,0,32,9,0
+P00440,68,Female,Elmhurst,Oncology,Private,Type 2 Diabetes,1,0,4,12,0
+P00441,14,Male,Chicago,Emergency,Medicare,Influenza,3,0,28,6,0
+P00441,14,Male,Chicago,Radiology,Medicare,Type 2 Diabetes,14,0,35,8,0
+P00441,14,Male,Chicago,Radiology,Medicare,Back Pain,8,0,23,9,0
+P00441,14,Male,Chicago,Pediatrics,Medicare,Annual Checkup,10,0,39,3,0
+P00441,14,Male,Chicago,Emergency,Medicare,Allergic Reaction,3,0,32,4,0
+P00441,14,Male,Chicago,Neurology,Medicare,Type 2 Diabetes,31,0,29,6,1
+P00441,14,Male,Chicago,Neurology,Medicare,Back Pain,7,1,56,9,0
+P00441,14,Male,Chicago,Dermatology,Medicare,Annual Checkup,13,1,33,10,0
+P00441,14,Male,Chicago,General Surgery,Medicare,Post-Op Follow-up,13,1,25,11,0
+P00441,14,Male,Chicago,Primary Care,Medicare,Fracture,2,1,35,11,1
+P00441,14,Male,Chicago,Dermatology,Medicare,Skin Rash,20,2,48,12,1
+P00442,39,Female,Lombard,Dermatology,Private,Migraine,0,0,23,8,0
+P00442,39,Female,Lombard,Orthopedics,Private,Post-Op Follow-up,6,0,2,6,0
+P00442,39,Female,Lombard,Emergency,Private,Chest Pain,0,0,8,7,0
+P00442,39,Female,Lombard,Oncology,Private,Annual Checkup,8,0,43,12,0
+P00443,54,Female,Bolingbrook,Radiology,Medicare,Type 2 Diabetes,9,0,3,1,0
+P00443,54,Female,Bolingbrook,General Surgery,Medicare,Back Pain,1,0,24,7,0
+P00443,54,Female,Bolingbrook,Neurology,Medicare,Type 2 Diabetes,1,0,24,4,0
+P00443,54,Female,Bolingbrook,Emergency,Medicare,Influenza,3,0,27,4,0
+P00443,54,Female,Bolingbrook,General Surgery,Medicare,Minor Injury,13,0,41,4,0
+P00444,11,Male,Oak Brook,Primary Care,HMO,Asthma,16,0,30,8,0
+P00444,11,Male,Oak Brook,Emergency,HMO,Routine Screening,8,0,9,9,0
+P00444,11,Male,Oak Brook,General Surgery,HMO,Anxiety,7,0,24,2,1
+P00445,36,Female,Oak Brook,Orthopedics,Private,Anxiety,23,0,32,6,0
+P00445,36,Female,Oak Brook,Orthopedics,Private,Minor Injury,2,0,19,2,0
+P00445,36,Female,Oak Brook,Orthopedics,Private,Chest Pain,4,0,36,10,1
+P00445,36,Female,Oak Brook,Neurology,Private,Hypertension,5,1,30,11,0
+P00445,36,Female,Oak Brook,Neurology,Private,Allergic Reaction,0,1,6,12,0
+P00446,27,Female,Downers Grove,Emergency,Private,Minor Injury,25,0,25,1,0
+P00446,27,Female,Downers Grove,Dermatology,Private,Minor Injury,14,0,38,5,1
+P00446,27,Female,Downers Grove,Neurology,Private,Post-Op Follow-up,1,1,18,3,0
+P00446,27,Female,Downers Grove,Pediatrics,Private,Chest Pain,12,1,28,6,1
+P00446,27,Female,Downers Grove,Cardiology,Private,Annual Checkup,41,2,29,8,0
+P00447,45,Female,Naperville,Orthopedics,Medicare,Migraine,18,0,40,12,0
+P00447,45,Female,Naperville,Cardiology,Medicare,Type 2 Diabetes,4,0,26,1,0
+P00447,45,Female,Naperville,Radiology,Medicare,Type 2 Diabetes,10,0,26,6,1
+P00447,45,Female,Naperville,Pediatrics,Medicare,Allergic Reaction,0,1,12,12,1
+P00448,46,Male,Naperville,Orthopedics,Medicare,Back Pain,7,0,16,3,0
+P00448,46,Male,Naperville,General Surgery,Medicare,Asthma,9,0,39,4,0
+P00448,46,Male,Naperville,Orthopedics,Medicare,Allergic Reaction,3,0,32,2,0
+P00448,46,Male,Naperville,Emergency,Medicare,Influenza,27,0,22,3,0
+P00448,46,Male,Naperville,Dermatology,Medicare,Asthma,18,0,7,8,0
+P00449,52,Female,Elmhurst,Dermatology,Medicaid,Type 2 Diabetes,33,0,43,6,0
+P00449,52,Female,Elmhurst,Neurology,Medicaid,Skin Rash,51,0,2,7,0
+P00449,52,Female,Elmhurst,Emergency,Medicaid,Hypertension,7,0,36,10,0
+P00450,68,Female,Aurora,Pediatrics,Private,Anxiety,19,0,43,3,0
+P00451,43,Male,Oak Brook,Neurology,Medicaid,Back Pain,9,0,23,1,1
+P00451,43,Male,Oak Brook,General Surgery,Medicaid,Chest Pain,0,1,39,4,0
+P00451,43,Male,Oak Brook,Radiology,Medicaid,Asthma,16,1,44,6,0
+P00451,43,Male,Oak Brook,General Surgery,Medicaid,Routine Screening,21,1,32,9,1
+P00451,43,Male,Oak Brook,Radiology,Medicaid,Minor Injury,3,2,27,10,1
+P00452,46,Male,Lombard,General Surgery,Private,Allergic Reaction,7,0,68,3,0
+P00452,46,Male,Lombard,Neurology,Private,Anxiety,1,0,31,5,0
+P00452,46,Male,Lombard,Cardiology,Private,Allergic Reaction,12,0,33,2,0
+P00453,55,Male,Elmhurst,General Surgery,Medicare,Routine Screening,1,0,40,3,1
+P00453,55,Male,Elmhurst,Pediatrics,Medicare,Type 2 Diabetes,0,1,5,6,0
+P00453,55,Male,Elmhurst,General Surgery,Medicare,Chest Pain,13,1,27,5,0
+P00453,55,Male,Elmhurst,Dermatology,Medicare,Anxiety,14,1,24,7,0
+P00453,55,Male,Elmhurst,Radiology,Medicare,Post-Op Follow-up,90,1,38,7,1
+P00453,55,Male,Elmhurst,Pediatrics,Medicare,Annual Checkup,11,2,44,12,1
+P00453,55,Male,Elmhurst,Emergency,Medicare,Asthma,13,3,33,12,1
+P00454,21,Male,Chicago,Radiology,Private,Skin Rash,24,0,22,8,1
+P00454,21,Male,Chicago,Cardiology,Private,Routine Screening,34,1,49,3,1
+P00454,21,Male,Chicago,Neurology,Private,Influenza,0,2,26,5,0
+P00455,43,Female,Naperville,Cardiology,PPO,Chest Pain,8,0,25,4,0
+P00455,43,Female,Naperville,Radiology,PPO,Allergic Reaction,42,0,11,4,1
+P00455,43,Female,Naperville,Primary Care,PPO,Anxiety,0,1,36,10,1
+P00456,19,Female,Downers Grove,Radiology,Private,Back Pain,0,0,31,3,0
+P00456,19,Female,Downers Grove,Primary Care,Private,Post-Op Follow-up,10,0,30,5,0
+P00456,19,Female,Downers Grove,Emergency,Private,Chest Pain,90,0,33,12,1
+P00456,19,Female,Downers Grove,Emergency,Private,Fracture,7,1,15,8,0
+P00457,31,Female,Joliet,Oncology,PPO,Migraine,6,0,39,5,0
+P00457,31,Female,Joliet,Dermatology,PPO,Hypertension,7,0,13,6,0
+P00457,31,Female,Joliet,Orthopedics,PPO,Fracture,12,0,25,4,0
+P00457,31,Female,Joliet,Dermatology,PPO,Hypertension,6,0,48,4,0
+P00457,31,Female,Joliet,Cardiology,PPO,Routine Screening,2,0,21,6,0
+P00458,57,Female,Oak Brook,Orthopedics,Medicare,Migraine,8,0,35,1,0
+P00458,57,Female,Oak Brook,Dermatology,Medicare,Type 2 Diabetes,3,0,16,2,0
+P00458,57,Female,Oak Brook,Orthopedics,Medicare,Post-Op Follow-up,23,0,35,8,0
+P00458,57,Female,Oak Brook,Neurology,Medicare,Anxiety,10,0,51,3,0
+P00458,57,Female,Oak Brook,Cardiology,Medicare,Allergic Reaction,0,0,38,9,0
+P00458,57,Female,Oak Brook,Primary Care,Medicare,Chest Pain,13,0,23,12,1
+P00459,49,Male,Downers Grove,Pediatrics,PPO,Skin Rash,13,0,53,3,0
+P00459,49,Male,Downers Grove,General Surgery,PPO,Allergic Reaction,1,0,10,8,0
+P00459,49,Male,Downers Grove,Orthopedics,PPO,Fracture,5,0,11,8,0
+P00459,49,Male,Downers Grove,Dermatology,PPO,Back Pain,10,0,39,5,0
+P00459,49,Male,Downers Grove,Dermatology,PPO,Allergic Reaction,2,0,35,6,0
+P00459,49,Male,Downers Grove,Primary Care,PPO,Allergic Reaction,0,0,18,6,0
+P00459,49,Male,Downers Grove,Radiology,PPO,Minor Injury,8,0,38,8,0
+P00459,49,Male,Downers Grove,Orthopedics,PPO,Fracture,24,0,45,11,0
+P00460,47,Female,Elmhurst,Cardiology,Private,Influenza,17,0,50,2,0
+P00460,47,Female,Elmhurst,Oncology,Private,Chest Pain,19,0,23,2,0
+P00460,47,Female,Elmhurst,Cardiology,Private,Allergic Reaction,21,0,3,2,0
+P00460,47,Female,Elmhurst,General Surgery,Private,Migraine,31,0,11,2,0
+P00460,47,Female,Elmhurst,Cardiology,Private,Minor Injury,14,0,25,3,0
+P00460,47,Female,Elmhurst,Dermatology,Private,Annual Checkup,13,0,25,6,0
+P00460,47,Female,Elmhurst,Neurology,Private,Chest Pain,12,0,17,10,0
+P00460,47,Female,Elmhurst,Cardiology,Private,Annual Checkup,5,0,13,12,1
+P00462,56,Female,Naperville,Emergency,PPO,Chest Pain,2,0,43,5,0
+P00462,56,Female,Naperville,Primary Care,PPO,Back Pain,4,0,8,3,0
+P00462,56,Female,Naperville,Dermatology,PPO,Hypertension,11,0,31,7,0
+P00462,56,Female,Naperville,Neurology,PPO,Back Pain,14,0,4,11,0
+P00462,56,Female,Naperville,Primary Care,PPO,Back Pain,19,0,37,12,0
+P00463,78,Male,Aurora,Pediatrics,Medicaid,Chest Pain,3,0,26,7,0
+P00463,78,Male,Aurora,Pediatrics,Medicaid,Type 2 Diabetes,7,0,28,8,0
+P00464,64,Female,Elmhurst,General Surgery,Medicaid,Fracture,0,0,24,3,1
+P00464,64,Female,Elmhurst,General Surgery,Medicaid,Fracture,7,1,42,4,0
+P00464,64,Female,Elmhurst,Orthopedics,Medicaid,Asthma,27,1,23,5,0
+P00464,64,Female,Elmhurst,Neurology,Medicaid,Post-Op Follow-up,10,1,28,6,0
+P00464,64,Female,Elmhurst,Radiology,Medicaid,Type 2 Diabetes,3,1,52,9,1
+P00464,64,Female,Elmhurst,Radiology,Medicaid,Back Pain,4,2,2,10,1
+P00465,85,Male,Downers Grove,Orthopedics,Private,Minor Injury,9,0,18,1,0
+P00465,85,Male,Downers Grove,Emergency,Private,Back Pain,5,0,23,3,0
+P00465,85,Male,Downers Grove,Neurology,Private,Skin Rash,6,0,5,5,0
+P00465,85,Male,Downers Grove,Neurology,Private,Asthma,4,0,23,4,0
+P00465,85,Male,Downers Grove,Pediatrics,Private,Migraine,3,0,6,7,0
+P00466,66,Female,Woodridge,Dermatology,Private,Skin Rash,12,0,24,1,1
+P00466,66,Female,Woodridge,Orthopedics,Private,Fracture,0,1,13,2,1
+P00466,66,Female,Woodridge,Primary Care,Private,Post-Op Follow-up,2,2,54,1,0
+P00466,66,Female,Woodridge,General Surgery,Private,Allergic Reaction,16,2,55,4,1
+P00466,66,Female,Woodridge,Primary Care,Private,Skin Rash,4,3,46,9,0
+P00467,31,Female,Chicago,Primary Care,Private,Anxiety,29,0,18,3,1
+P00467,31,Female,Chicago,Emergency,Private,Post-Op Follow-up,7,1,33,4,1
+P00467,31,Female,Chicago,Orthopedics,Private,Allergic Reaction,22,2,37,7,0
+P00467,31,Female,Chicago,General Surgery,Private,Post-Op Follow-up,4,2,44,8,0
+P00467,31,Female,Chicago,Pediatrics,Private,Post-Op Follow-up,4,2,38,9,0
+P00467,31,Female,Chicago,Emergency,Private,Hypertension,14,2,13,9,1
+P00467,31,Female,Chicago,Primary Care,Private,Skin Rash,5,3,17,12,0
+P00468,1,Male,Elmhurst,Orthopedics,Self-Pay,Migraine,14,0,24,4,0
+P00468,1,Male,Elmhurst,Dermatology,Self-Pay,Minor Injury,18,0,61,4,0
+P00468,1,Male,Elmhurst,Pediatrics,Self-Pay,Type 2 Diabetes,23,0,34,6,1
+P00468,1,Male,Elmhurst,Cardiology,Self-Pay,Allergic Reaction,2,1,27,8,1
+P00469,45,Other,Aurora,Radiology,Self-Pay,Fracture,8,0,11,6,0
+P00469,45,Other,Aurora,Primary Care,Self-Pay,Hypertension,5,0,18,11,0
+P00469,45,Other,Aurora,General Surgery,Self-Pay,Chest Pain,3,0,27,1,1
+P00469,45,Other,Aurora,Emergency,Self-Pay,Annual Checkup,6,1,32,5,0
+P00469,45,Other,Aurora,Radiology,Self-Pay,Anxiety,10,1,22,11,0
+P00470,69,Male,Bolingbrook,Radiology,Medicaid,Type 2 Diabetes,0,0,34,7,0
+P00470,69,Male,Bolingbrook,Dermatology,Medicaid,Allergic Reaction,4,0,40,5,0
+P00471,52,Female,Chicago,General Surgery,Medicare,Hypertension,4,0,39,1,0
+P00472,65,Female,Oak Brook,General Surgery,Private,Hypertension,5,0,12,8,0
+P00473,71,Female,Aurora,Radiology,HMO,Type 2 Diabetes,3,0,16,1,0
+P00473,71,Female,Aurora,Pediatrics,HMO,Hypertension,4,0,31,7,0
+P00473,71,Female,Aurora,Cardiology,HMO,Asthma,2,0,41,11,0
+P00474,49,Female,Bolingbrook,Radiology,Self-Pay,Chest Pain,2,0,30,12,0
+P00474,49,Female,Bolingbrook,Oncology,Self-Pay,Chest Pain,17,0,43,3,1
+P00474,49,Female,Bolingbrook,Pediatrics,Self-Pay,Type 2 Diabetes,28,1,17,5,0
+P00474,49,Female,Bolingbrook,Emergency,Self-Pay,Allergic Reaction,5,1,54,7,0
+P00475,60,Male,Bolingbrook,General Surgery,Medicaid,Annual Checkup,7,0,17,12,0
+P00475,60,Male,Bolingbrook,Dermatology,Medicaid,Skin Rash,6,0,34,1,1
+P00475,60,Male,Bolingbrook,Primary Care,Medicaid,Routine Screening,5,1,16,2,0
+P00475,60,Male,Bolingbrook,Primary Care,Medicaid,Routine Screening,27,1,31,3,0
+P00475,60,Male,Bolingbrook,Orthopedics,Medicaid,Hypertension,0,1,37,7,0
+P00476,8,Female,Chicago,Neurology,PPO,Routine Screening,23,0,31,7,0
+P00476,8,Female,Chicago,Pediatrics,PPO,Skin Rash,1,0,43,4,1
+P00476,8,Female,Chicago,Primary Care,PPO,Allergic Reaction,30,1,23,5,0
+P00476,8,Female,Chicago,Emergency,PPO,Post-Op Follow-up,25,1,49,6,0
+P00476,8,Female,Chicago,General Surgery,PPO,Type 2 Diabetes,8,1,9,7,0
+P00477,32,Female,Chicago,Dermatology,Medicaid,Chest Pain,3,0,9,1,0
+P00477,32,Female,Chicago,Neurology,Medicaid,Routine Screening,2,0,31,1,0
+P00477,32,Female,Chicago,Emergency,Medicaid,Allergic Reaction,4,0,22,4,0
+P00477,32,Female,Chicago,Primary Care,Medicaid,Migraine,17,0,33,9,0
+P00478,44,Male,Chicago,Radiology,Private,Back Pain,22,0,51,8,1
+P00478,44,Male,Chicago,Radiology,Private,Type 2 Diabetes,16,1,10,3,0
+P00478,44,Male,Chicago,Pediatrics,Private,Influenza,9,1,30,4,0
+P00478,44,Male,Chicago,Dermatology,Private,Asthma,38,1,48,5,0
+P00478,44,Male,Chicago,Cardiology,Private,Type 2 Diabetes,75,1,25,10,1
+P00479,50,Female,Lombard,Cardiology,Medicaid,Fracture,11,0,40,9,0
+P00479,50,Female,Lombard,General Surgery,Medicaid,Post-Op Follow-up,1,0,26,4,0
+P00479,50,Female,Lombard,Dermatology,Medicaid,Back Pain,13,0,39,6,0
+P00479,50,Female,Lombard,Orthopedics,Medicaid,Fracture,8,0,30,11,0
+P00480,38,Male,Joliet,Orthopedics,Private,Back Pain,2,0,33,2,0
+P00480,38,Male,Joliet,Radiology,Private,Allergic Reaction,20,0,2,6,0
+P00480,38,Male,Joliet,Pediatrics,Private,Migraine,22,0,17,5,1
+P00480,38,Male,Joliet,Neurology,Private,Minor Injury,6,1,17,8,0
+P00480,38,Male,Joliet,Pediatrics,Private,Hypertension,3,1,10,8,0
+P00481,38,Female,Oak Brook,Pediatrics,Private,Anxiety,4,0,32,2,0
+P00481,38,Female,Oak Brook,Radiology,Private,Asthma,25,0,23,4,0
+P00481,38,Female,Oak Brook,Cardiology,Private,Fracture,3,0,31,7,1
+P00481,38,Female,Oak Brook,General Surgery,Private,Hypertension,19,1,37,9,0
+P00482,42,Female,Bolingbrook,Primary Care,Medicaid,Allergic Reaction,10,0,18,6,0
+P00482,42,Female,Bolingbrook,Emergency,Medicaid,Influenza,20,0,9,8,0
+P00482,42,Female,Bolingbrook,Dermatology,Medicaid,Chest Pain,7,0,23,3,0
+P00482,42,Female,Bolingbrook,Radiology,Medicaid,Influenza,5,0,24,4,0
+P00482,42,Female,Bolingbrook,Oncology,Medicaid,Annual Checkup,7,0,25,7,0
+P00483,32,Male,Naperville,Orthopedics,Self-Pay,Chest Pain,11,0,32,1,0
+P00483,32,Male,Naperville,Oncology,Self-Pay,Migraine,0,0,24,3,0
+P00483,32,Male,Naperville,Emergency,Self-Pay,Fracture,0,0,20,5,0
+P00483,32,Male,Naperville,Orthopedics,Self-Pay,Chest Pain,0,0,9,6,0
+P00483,32,Male,Naperville,Emergency,Self-Pay,Asthma,18,0,12,7,0
+P00483,32,Male,Naperville,Dermatology,Self-Pay,Post-Op Follow-up,20,0,16,1,0
+P00483,32,Male,Naperville,Dermatology,Self-Pay,Type 2 Diabetes,26,0,34,11,0
+P00484,17,Female,Joliet,Dermatology,PPO,Allergic Reaction,5,0,5,1,0
+P00484,17,Female,Joliet,Neurology,PPO,Asthma,9,0,42,2,1
+P00484,17,Female,Joliet,General Surgery,PPO,Fracture,33,1,36,4,0
+P00484,17,Female,Joliet,Emergency,PPO,Asthma,18,1,13,7,0
+P00484,17,Female,Joliet,Radiology,PPO,Allergic Reaction,0,1,9,1,0
+P00484,17,Female,Joliet,Orthopedics,PPO,Allergic Reaction,12,1,26,3,0
+P00484,17,Female,Joliet,Pediatrics,PPO,Migraine,12,1,27,9,1
+P00484,17,Female,Joliet,Orthopedics,PPO,Migraine,18,2,20,12,0
+P00485,57,Female,Downers Grove,Cardiology,PPO,Fracture,9,0,34,2,0
+P00485,57,Female,Downers Grove,Oncology,PPO,Skin Rash,30,0,50,8,0
+P00485,57,Female,Downers Grove,Radiology,PPO,Hypertension,0,0,42,8,0
+P00485,57,Female,Downers Grove,General Surgery,PPO,Back Pain,1,0,26,2,1
+P00485,57,Female,Downers Grove,Radiology,PPO,Allergic Reaction,1,1,13,2,0
+P00485,57,Female,Downers Grove,Primary Care,PPO,Routine Screening,2,1,25,10,0
+P00485,57,Female,Downers Grove,Dermatology,PPO,Migraine,17,1,2,11,0
+P00486,15,Male,Chicago,Emergency,Medicaid,Back Pain,1,0,17,2,0
+P00486,15,Male,Chicago,Radiology,Medicaid,Chest Pain,12,0,51,5,1
+P00486,15,Male,Chicago,Orthopedics,Medicaid,Influenza,11,1,36,7,0
+P00486,15,Male,Chicago,Orthopedics,Medicaid,Minor Injury,14,1,19,12,0
+P00487,41,Male,Elmhurst,Orthopedics,Medicaid,Minor Injury,4,0,12,1,1
+P00487,41,Male,Elmhurst,Primary Care,Medicaid,Fracture,2,1,29,5,0
+P00488,50,Male,Elmhurst,Radiology,Medicare,Influenza,5,0,20,2,0
+P00488,50,Male,Elmhurst,General Surgery,Medicare,Anxiety,7,0,33,3,0
+P00488,50,Male,Elmhurst,General Surgery,Medicare,Skin Rash,3,0,53,8,0
+P00488,50,Male,Elmhurst,Primary Care,Medicare,Anxiety,10,0,25,11,0
+P00488,50,Male,Elmhurst,Emergency,Medicare,Skin Rash,14,0,17,9,0
+P00488,50,Male,Elmhurst,Primary Care,Medicare,Back Pain,16,0,2,11,0
+P00489,15,Female,Oak Brook,Pediatrics,HMO,Fracture,3,0,19,6,0
+P00489,15,Female,Oak Brook,Emergency,HMO,Annual Checkup,6,0,36,8,0
+P00489,15,Female,Oak Brook,Cardiology,HMO,Back Pain,0,0,38,3,0
+P00489,15,Female,Oak Brook,Cardiology,HMO,Type 2 Diabetes,17,0,31,4,0
+P00489,15,Female,Oak Brook,Radiology,HMO,Type 2 Diabetes,1,0,25,5,0
+P00489,15,Female,Oak Brook,Neurology,HMO,Minor Injury,29,0,23,8,1
+P00490,28,Male,Bolingbrook,General Surgery,Medicaid,Type 2 Diabetes,26,0,4,1,0
+P00490,28,Male,Bolingbrook,Radiology,Medicaid,Fracture,5,0,13,4,0
+P00490,28,Male,Bolingbrook,Primary Care,Medicaid,Hypertension,1,0,22,12,0
+P00491,69,Male,Naperville,Pediatrics,Medicare,Chest Pain,0,0,23,4,0
+P00491,69,Male,Naperville,Dermatology,Medicare,Back Pain,17,0,52,11,0
+P00491,69,Male,Naperville,General Surgery,Medicare,Influenza,3,0,58,8,0
+P00492,11,Male,Naperville,Emergency,Private,Asthma,20,0,44,5,1
+P00492,11,Male,Naperville,Dermatology,Private,Migraine,16,1,17,9,1
+P00492,11,Male,Naperville,Oncology,Private,Skin Rash,26,2,46,11,1
+P00492,11,Male,Naperville,Radiology,Private,Routine Screening,3,3,21,12,0
+P00492,11,Male,Naperville,Primary Care,Private,Allergic Reaction,4,3,48,6,1
+P00492,11,Male,Naperville,Pediatrics,Private,Asthma,12,4,26,8,1
+P00492,11,Male,Naperville,Pediatrics,Private,Hypertension,11,5,40,11,1
+P00493,65,Female,Joliet,Dermatology,Medicare,Skin Rash,6,0,14,4,0
+P00493,65,Female,Joliet,Neurology,Medicare,Minor Injury,6,0,28,7,0
+P00493,65,Female,Joliet,Neurology,Medicare,Routine Screening,8,0,14,5,0
+P00493,65,Female,Joliet,Primary Care,Medicare,Anxiety,27,0,37,6,0
+P00493,65,Female,Joliet,Orthopedics,Medicare,Post-Op Follow-up,40,0,14,9,0
+P00494,17,Female,Woodridge,Cardiology,Medicare,Allergic Reaction,21,0,11,8,1
+P00494,17,Female,Woodridge,General Surgery,Medicare,Routine Screening,1,1,30,9,0
+P00494,17,Female,Woodridge,Emergency,Medicare,Asthma,2,1,13,2,0
+P00494,17,Female,Woodridge,Oncology,Medicare,Migraine,23,1,20,5,0
+P00494,17,Female,Woodridge,Emergency,Medicare,Minor Injury,10,1,10,6,0
+P00494,17,Female,Woodridge,Oncology,Medicare,Anxiety,13,1,26,9,0
+P00494,17,Female,Woodridge,Pediatrics,Medicare,Asthma,2,1,23,11,0
+P00495,27,Female,Joliet,Cardiology,PPO,Anxiety,0,0,36,3,0
+P00496,62,Male,Joliet,General Surgery,Medicare,Asthma,23,0,27,3,0
+P00496,62,Male,Joliet,Primary Care,Medicare,Routine Screening,25,0,51,4,0
+P00496,62,Male,Joliet,Primary Care,Medicare,Routine Screening,9,0,45,5,1
+P00496,62,Male,Joliet,Emergency,Medicare,Anxiety,38,1,41,3,1
+P00496,62,Male,Joliet,Orthopedics,Medicare,Fracture,10,2,11,3,0
+P00496,62,Male,Joliet,Neurology,Medicare,Annual Checkup,7,2,31,8,0
+P00496,62,Male,Joliet,General Surgery,Medicare,Skin Rash,6,2,19,12,0
+P00497,58,Male,Downers Grove,Primary Care,Private,Skin Rash,38,0,33,4,1
+P00497,58,Male,Downers Grove,Dermatology,Private,Migraine,2,1,20,12,0
+P00497,58,Male,Downers Grove,Cardiology,Private,Influenza,9,1,23,1,0
+P00497,58,Male,Downers Grove,General Surgery,Private,Post-Op Follow-up,25,1,14,11,0
+P00498,58,Male,Elmhurst,Neurology,Private,Chest Pain,15,0,44,2,0
+P00498,58,Male,Elmhurst,Primary Care,Private,Allergic Reaction,4,0,35,3,0
+P00498,58,Male,Elmhurst,Neurology,Private,Skin Rash,4,0,18,3,1
+P00498,58,Male,Elmhurst,Oncology,Private,Fracture,4,1,39,8,0
+P00498,58,Male,Elmhurst,Orthopedics,Private,Allergic Reaction,29,1,24,1,1
+P00498,58,Male,Elmhurst,Cardiology,Private,Chest Pain,0,2,25,7,0
+P00498,58,Male,Elmhurst,Orthopedics,Private,Asthma,5,2,12,11,0
+P00498,58,Male,Elmhurst,Orthopedics,Private,Hypertension,4,2,33,11,1
+P00499,30,Male,Elmhurst,General Surgery,Medicare,Back Pain,0,0,31,9,0
+P00499,30,Male,Elmhurst,Emergency,Medicare,Post-Op Follow-up,7,0,54,10,0
+P00499,30,Male,Elmhurst,Primary Care,Medicare,Minor Injury,3,0,24,5,0
+P00499,30,Male,Elmhurst,General Surgery,Medicare,Annual Checkup,8,0,44,5,0
+P00499,30,Male,Elmhurst,Emergency,Medicare,Asthma,0,0,24,8,1
+P00499,30,Male,Elmhurst,Neurology,Medicare,Migraine,16,1,24,9,0
+P00499,30,Male,Elmhurst,Primary Care,Medicare,Hypertension,17,1,50,9,0
+P00500,11,Female,Elmhurst,Radiology,Self-Pay,Chest Pain,2,0,24,4,0
+P00500,11,Female,Elmhurst,Neurology,Self-Pay,Skin Rash,25,0,24,4,1
+P00500,11,Female,Elmhurst,Orthopedics,Self-Pay,Hypertension,15,1,49,4,1
+P00500,11,Female,Elmhurst,Orthopedics,Self-Pay,Back Pain,15,2,24,8,0
+P00500,11,Female,Elmhurst,Primary Care,Self-Pay,Chest Pain,13,2,12,9,0
+P00500,11,Female,Elmhurst,General Surgery,Self-Pay,Skin Rash,0,2,38,10,0
+P00500,11,Female,Elmhurst,Orthopedics,Self-Pay,Hypertension,5,2,36,3,1
+P00500,11,Female,Elmhurst,Pediatrics,Self-Pay,Skin Rash,27,3,9,4,0
+P00500,11,Female,Elmhurst,Oncology,Self-Pay,Fracture,9,3,25,8,0
+P00500,11,Female,Elmhurst,Radiology,Self-Pay,Migraine,9,3,27,8,0
